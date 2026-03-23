@@ -19,6 +19,16 @@
       "name": "Cascade Financial Services",
       "type": "greenhouse",
       "board_token": "cascadeloans"
+    },
+    {
+      "name": "Skechers Data Search",
+      "type": "html_search",
+      "url": "https://careers.skechers.com/us/en/search-results?keywords=data",
+      "link_prefix": "https://careers.skechers.com",
+      "match_contains": [
+        "/job/",
+        "/jobs/"
+      ]
     }
   ]
 }

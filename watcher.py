@@ -2,9 +2,11 @@ import json
 import os
 import sys
 import time
-from typing import Dict, List, Optional
+from typing import List, Optional
+from urllib.parse import urljoin
 
 import requests
+from bs4 import BeautifulSoup
 
 CONFIG_PATH = "config.json"
 STATE_PATH = "state_seen.json"
@@ -32,8 +34,15 @@ def matches_filters(job: dict, filters: dict) -> bool:
     department = normalize_text(job.get("department"))
     combined = " | ".join([title, location, department])
 
-    title_keywords_any = [normalize_text(x) for x in filters.get("title_keywords_any", []) if x.strip()]
-    locations_any = [normalize_text(x) for x in filters.get("locations_any", []) if x.strip()]
+    title_keywords_any = [
+        normalize_text(x) for x in filters.get("title_keywords_any", []) if str(x).strip()
+    ]
+    locations_any = [
+        normalize_text(x) for x in filters.get("locations_any", []) if str(x).strip()
+    ]
+    excluded_keywords_any = [
+        normalize_text(x) for x in filters.get("excluded_keywords_any", []) if str(x).strip()
+    ]
 
     title_ok = True
     if title_keywords_any:
@@ -43,16 +52,24 @@ def matches_filters(job: dict, filters: dict) -> bool:
     if locations_any:
         location_ok = any(k in combined for k in locations_any)
 
-    return title_ok and location_ok
+    excluded_ok = True
+    if excluded_keywords_any:
+        excluded_ok = not any(k in combined for k in excluded_keywords_any)
+
+    return title_ok and location_ok and excluded_ok
 
 
 def safe_get(url: str, params: Optional[dict] = None, headers: Optional[dict] = None):
     resp = requests.get(url, params=params, headers=headers, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
-    return resp.json()
+    return resp
 
 
-def safe_post(url: str, json_body: dict, headers: Optional[dict] = None):
+def safe_get_json(url: str, params: Optional[dict] = None, headers: Optional[dict] = None):
+    return safe_get(url, params=params, headers=headers).json()
+
+
+def safe_post_json(url: str, json_body: dict, headers: Optional[dict] = None):
     resp = requests.post(url, json=json_body, headers=headers, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
     return resp.json()
@@ -61,7 +78,7 @@ def safe_post(url: str, json_body: dict, headers: Optional[dict] = None):
 def fetch_greenhouse(source: dict) -> List[dict]:
     token = source["board_token"]
     url = f"https://boards-api.greenhouse.io/v1/boards/{token}/jobs"
-    data = safe_get(url)
+    data = safe_get_json(url)
 
     jobs = []
     for item in data.get("jobs", []):
@@ -72,14 +89,18 @@ def fetch_greenhouse(source: dict) -> List[dict]:
         departments = item.get("departments") or []
         department = ", ".join(d.get("name", "") for d in departments if d.get("name"))
 
+        offices = item.get("offices") or []
+        office = ", ".join(o.get("name", "") for o in offices if o.get("name"))
+
         jobs.append({
             "source_name": source["name"],
             "source_type": "greenhouse",
             "external_id": str(item.get("id")),
             "title": item.get("title", ""),
-            "location": location,
+            "location": location or office,
             "department": department,
             "url": item.get("absolute_url", ""),
+            "posted_at": "",
         })
     return jobs
 
@@ -87,7 +108,7 @@ def fetch_greenhouse(source: dict) -> List[dict]:
 def fetch_lever(source: dict) -> List[dict]:
     company = source["company"]
     url = f"https://api.lever.co/v0/postings/{company}"
-    data = safe_get(url, params={"mode": "json"})
+    data = safe_get_json(url, params={"mode": "json"})
 
     jobs = []
     for item in data:
@@ -100,6 +121,7 @@ def fetch_lever(source: dict) -> List[dict]:
             "location": categories.get("location", ""),
             "department": categories.get("team", ""),
             "url": item.get("hostedUrl") or item.get("applyUrl") or "",
+            "posted_at": str(item.get("createdAt", "")),
         })
     return jobs
 
@@ -108,9 +130,9 @@ def fetch_ashby(source: dict) -> List[dict]:
     url = source.get("api_url", "https://api.ashbyhq.com/jobPosting.list")
     body = {
         "organizationHostedJobsPageName": source["organization_key"],
-        "listedOnly": True
+        "listedOnly": True,
     }
-    data = safe_post(url, body)
+    data = safe_post_json(url, body)
 
     jobs = []
     for item in data.get("results", []):
@@ -125,15 +147,74 @@ def fetch_ashby(source: dict) -> List[dict]:
                 or ""
             )
 
+        department = ""
+        departments = item.get("department") or item.get("departments") or []
+        if isinstance(departments, list):
+            if departments and isinstance(departments[0], dict):
+                department = ", ".join(d.get("name", "") for d in departments if d.get("name"))
+            else:
+                department = ", ".join(str(x) for x in departments if x)
+        elif isinstance(departments, dict):
+            department = departments.get("name", "")
+
         jobs.append({
             "source_name": source["name"],
             "source_type": "ashby",
             "external_id": str(item.get("id") or item.get("jobPostingId") or item.get("title", "")),
             "title": item.get("title", ""),
             "location": location,
-            "department": "",
+            "department": department,
             "url": item.get("jobUrl") or item.get("applicationUrl") or "",
+            "posted_at": item.get("publishedAt", ""),
         })
+    return jobs
+
+
+def fetch_html_search(source: dict) -> List[dict]:
+    url = source["url"]
+    resp = safe_get(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0 Safari/537.36"
+        },
+    )
+
+    soup = BeautifulSoup(resp.text, "html.parser")
+    jobs = []
+
+    link_prefix = source.get("link_prefix", "")
+    match_contains = [x.lower() for x in source.get("match_contains", ["/job/", "/jobs/"])]
+    seen_urls = set()
+
+    for a in soup.find_all("a", href=True):
+        href = a["href"].strip()
+        text = " ".join(a.get_text(" ", strip=True).split())
+
+        if not href:
+            continue
+
+        full_url = urljoin(link_prefix or url, href)
+        full_url_lc = full_url.lower()
+
+        if not any(token in full_url_lc for token in match_contains):
+            continue
+
+        if full_url in seen_urls:
+            continue
+        seen_urls.add(full_url)
+
+        title = text or full_url.rstrip("/").rsplit("/", 1)[-1]
+        jobs.append({
+            "source_name": source["name"],
+            "source_type": "html_search",
+            "external_id": full_url,
+            "title": title,
+            "location": "",
+            "department": "",
+            "url": full_url,
+            "posted_at": "",
+        })
+
     return jobs
 
 
@@ -145,6 +226,8 @@ def fetch_jobs_for_source(source: dict) -> List[dict]:
         return fetch_lever(source)
     if stype == "ashby":
         return fetch_ashby(source)
+    if stype == "html_search":
+        return fetch_html_search(source)
     raise ValueError(f"Unsupported source type: {stype}")
 
 
@@ -193,9 +276,12 @@ def main() -> int:
         try:
             jobs = fetch_jobs_for_source(source)
             all_jobs.extend(jobs)
+            print(f"{source.get('name', 'unknown source')}: fetched {len(jobs)} job(s)")
             time.sleep(0.5)
         except Exception as e:
-            errors.append(f"{source.get('name', 'unknown source')}: {e}")
+            err = f"{source.get('name', 'unknown source')}: {e}"
+            errors.append(err)
+            print(f"ERROR - {err}", file=sys.stderr)
 
     matching_jobs = [job for job in all_jobs if matches_filters(job, filters)]
 
@@ -213,17 +299,19 @@ def main() -> int:
     print(f"Matching jobs: {len(matching_jobs)}")
     print(f"New jobs: {len(new_jobs)}")
 
-    if errors:
-        print("Errors:", file=sys.stderr)
-        for err in errors:
-            print(f" - {err}", file=sys.stderr)
-
     webhook = os.getenv("DISCORD_WEBHOOK_URL")
     if new_jobs and webhook:
         send_discord(webhook, format_discord_text(new_jobs))
         print("Discord alert sent.")
     elif new_jobs:
         print("New jobs found, but DISCORD_WEBHOOK_URL is not configured.")
+    else:
+        print("No new matching jobs to send.")
+
+    if errors:
+        print("Completed with source errors:", file=sys.stderr)
+        for err in errors:
+            print(f" - {err}", file=sys.stderr)
 
     return 0
 
