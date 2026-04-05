@@ -63,6 +63,11 @@
     "base_url": "https://secure4.entertimeonline.com",
     "company_id": "6149039",
     "lang": "en-US"
+    },
+    {
+     "name": "GumGum Careers",
+     "type": "greenhouse",
+     "board_token": "gumgum"
     }
   ]
 }
