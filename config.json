@@ -14,7 +14,9 @@
       "new york",
       "seattle",
       "san francisco",
-      "texas"
+      "texas",
+      "philadelphia",
+      "chicago"
     ],
     "excluded_keywords_any": [
       "vp",
