@@ -4,7 +4,8 @@ import sys
 import time
 from typing import List, Optional
 from urllib.parse import urlparse, quote
-
+import re
+from html import unescape
 import requests
 
 CONFIG_PATH = "config.json"
@@ -516,6 +517,113 @@ def fetch_entertime(source: dict) -> List[dict]:
 
     return jobs
 
+def strip_html_tags(value: str) -> str:
+    value = re.sub(r"<script[\s\S]*?</script>", "", value, flags=re.IGNORECASE)
+    value = re.sub(r"<style[\s\S]*?</style>", "", value, flags=re.IGNORECASE)
+    value = re.sub(r"<[^>]+>", " ", value)
+    value = unescape(value)
+    value = re.sub(r"\s+", " ", value)
+    return value.strip()
+
+
+def extract_between(text: str, start_pattern: str, end_pattern: str) -> List[str]:
+    pattern = re.compile(start_pattern + r"([\s\S]*?)" + end_pattern, re.IGNORECASE)
+    return [m.group(1) for m in pattern.finditer(text)]
+
+
+def first_match(text: str, patterns: List[str]) -> str:
+    for pattern in patterns:
+        m = re.search(pattern, text, flags=re.IGNORECASE | re.DOTALL)
+        if m:
+            return strip_html_tags(m.group(1))
+    return ""
+
+
+def fetch_custom_html(source: dict) -> List[dict]:
+    url = source["url"]
+    resp = safe_get(
+        url,
+        headers={
+            "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0 Safari/537.36"
+        },
+    )
+    html = resp.text
+
+    site = source.get("site", "").lower()
+    if site == "petco":
+        return fetch_petco_html(source, html)
+
+    raise ValueError(f"Unsupported custom_html site: {site}")
+
+def fetch_petco_html(source: dict, html: str) -> List[dict]:
+    jobs = []
+
+    blocks = extract_between(
+        html,
+        r'<section[^>]*class="[^"]*jobs-list-item[^"]*"[^>]*>',
+        r'</section>'
+    )
+
+    if not blocks:
+        blocks = extract_between(
+            html,
+            r'<div[^>]*class="[^"]*jobs-list-item[^"]*"[^>]*>',
+            r'</div>\s*</div>'
+        )
+
+    for block in blocks:
+        title = first_match(block, [
+            r'<a[^>]*class="[^"]*job-title[^"]*"[^>]*>(.*?)</a>',
+            r'<h2[^>]*>(.*?)</h2>',
+            r'<h3[^>]*>(.*?)</h3>',
+        ])
+
+        job_url = first_match(block, [
+            r'<a[^>]+href="([^"]+)"[^>]*class="[^"]*job-title[^"]*"',
+            r'<a[^>]+href="([^"]+)"[^>]*>',
+        ])
+
+        location = first_match(block, [
+            r'<span[^>]*class="[^"]*job-location[^"]*"[^>]*>(.*?)</span>',
+            r'<li[^>]*class="[^"]*job-location[^"]*"[^>]*>(.*?)</li>',
+        ])
+
+        department = first_match(block, [
+            r'<span[^>]*class="[^"]*job-category[^"]*"[^>]*>(.*?)</span>',
+            r'<li[^>]*class="[^"]*job-category[^"]*"[^>]*>(.*?)</li>',
+        ])
+
+        req_id = first_match(block, [
+            r'Job\s*ID[:\s#-]*([A-Za-z0-9_-]+)',
+            r'Req(?:uisition)?\s*ID[:\s#-]*([A-Za-z0-9_-]+)',
+        ])
+
+        if not title and not job_url:
+            continue
+
+        if job_url and job_url.startswith("/"):
+            parsed = urlparse(source["url"])
+            job_url = f"{parsed.scheme}://{parsed.netloc}{job_url}"
+
+        external_id = req_id or job_url or title
+
+        jobs.append({
+            "source_name": source["name"],
+            "source_type": "custom_html",
+            "external_id": str(external_id),
+            "title": title,
+            "location": location,
+            "department": department,
+            "url": job_url or source["url"],
+            "posted_at": "",
+        })
+
+    if not jobs:
+        raise ValueError("Could not parse Petco jobs from HTML page")
+
+    return jobs
+
+
 def fetch_jobs_for_source(source: dict) -> List[dict]:
     stype = source["type"].lower()
     if stype == "greenhouse":
@@ -530,6 +638,8 @@ def fetch_jobs_for_source(source: dict) -> List[dict]:
         return fetch_workday(source)
     if stype == "entertime":
         return fetch_entertime(source)
+    if stype == "custom_html":
+        return fetch_custom_html(source)
     raise ValueError(f"Unsupported source type: {stype}")
 
 
