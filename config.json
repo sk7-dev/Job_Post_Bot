@@ -7,17 +7,7 @@
       "analyst",
       "data"
     ],
-    "locations_any": [
-      "remote",
-      "usa",
-      "california",
-      "new york",
-      "seattle",
-      "san francisco",
-      "texas",
-      "philadelphia",
-      "chicago"
-    ],
+    "locations_any": [],
     "excluded_keywords_any": [
       "vp",
       "director",
