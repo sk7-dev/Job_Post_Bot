@@ -65,6 +65,12 @@
      "name": "GumGum Careers",
      "type": "greenhouse",
      "board_token": "gumgum"
+    },
+    {
+      "name": "Petco Careers",
+      "type": "workday",
+      "url": "https://careers.petco.com/search-jobs?acm=8846208,8846288,9016768,9016736,8846224,8846240,8846304,8846192,8846272,8846320,9025840&alrpm=ALL&ascf=[%7B%22key%22:%22ALL%22,%22value%22:%22%22%7D]",
+
     }
   ]
 }
