@@ -654,7 +654,7 @@ def stable_job_key(job: dict) -> str:
 
 def format_discord_text(new_jobs: List[dict]) -> str:
     lines = [f"{len(new_jobs)} new matching job(s) found:"]
-    for job in new_jobs[:10]:
+    for job in new_jobs:
         lines.append(
             f"- {job['title']} | {job['source_name']} | {job.get('location', '')} | {job['url']}"
         )
