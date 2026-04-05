@@ -1,16 +1,11 @@
 {
   "filters": {
     "title_keywords_any": [
-      "software engineer",
-      "backend",
-      "platform",
       "machine learning",
       "data engineer",
       "data scientist",
-      "data architect",
       "analyst",
-      "data",
-      "sales"
+      "data"
     ],
     "locations_any": [
       "remote",
