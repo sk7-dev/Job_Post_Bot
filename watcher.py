@@ -6,6 +6,7 @@ from typing import List, Optional
 from urllib.parse import urlparse, quote
 import re
 from html import unescape
+
 import requests
 
 CONFIG_PATH = "config.json"
@@ -490,7 +491,6 @@ def fetch_entertime(source: dict) -> List[dict]:
             req_id = entertime_pick(item, ["id", "jobId", "requisitionId", "jobReqId", "reqId"])
             external_id = req_id or title
 
-            # Common detail URL pattern on this platform
             if req_id:
                 detail_url = f"{base_url}/ta/rest/ui/recruitment/companies/%7C{company_id}/job-requisitions/{req_id}"
             else:
@@ -516,6 +516,7 @@ def fetch_entertime(source: dict) -> List[dict]:
         time.sleep(0.2)
 
     return jobs
+
 
 def strip_html_tags(value: str) -> str:
     value = re.sub(r"<script[\s\S]*?</script>", "", value, flags=re.IGNORECASE)
@@ -554,6 +555,7 @@ def fetch_custom_html(source: dict) -> List[dict]:
         return fetch_petco_html(source, html)
 
     raise ValueError(f"Unsupported custom_html site: {site}")
+
 
 def fetch_petco_html(source: dict, html: str) -> List[dict]:
     jobs = []
@@ -658,19 +660,57 @@ def format_discord_text(new_jobs: List[dict]) -> str:
         lines.append(
             f"- {job['title']} | {job['source_name']} | {job.get('location', '')} | {job['url']}"
         )
-    if len(new_jobs) > 10:
-        lines.append(f"...and {len(new_jobs) - 10} more.")
-    return "\n".join(lines)
+
+    text = "\n".join(lines)
+    if len(text) <= 1900:
+        return text
+
+    trimmed = [f"{len(new_jobs)} new matching job(s) found:"]
+    count = 0
+
+    for job in new_jobs:
+        line = f"- {job['title']} | {job['source_name']} | {job.get('location', '')} | {job['url']}"
+        candidate = "\n".join(trimmed + [line])
+        if len(candidate) > 1900:
+            break
+        trimmed.append(line)
+        count += 1
+
+    remaining = len(new_jobs) - count
+    if remaining > 0:
+        trimmed.append(f"...and {remaining} more.")
+
+    return "\n".join(trimmed)
 
 
-def send_discord(webhook_url: str, text: str) -> None:
-    resp = requests.post(
-        webhook_url,
-        json={"content": text},
-        timeout=REQUEST_TIMEOUT,
-        headers={"Content-Type": "application/json"},
-    )
-    resp.raise_for_status()
+def send_discord(webhook_url: str, text: str) -> bool:
+    last_error = None
+
+    for attempt in range(3):
+        try:
+            resp = requests.post(
+                webhook_url,
+                json={"content": text},
+                timeout=REQUEST_TIMEOUT,
+                headers={"Content-Type": "application/json"},
+            )
+
+            if 200 <= resp.status_code < 300:
+                return True
+
+            if resp.status_code in (429, 500, 502, 503, 504):
+                last_error = f"{resp.status_code} {resp.text[:200]}"
+                time.sleep(2 * (attempt + 1))
+                continue
+
+            resp.raise_for_status()
+
+        except requests.RequestException as e:
+            last_error = str(e)
+            time.sleep(2 * (attempt + 1))
+
+    print(f"ERROR - Discord webhook failed: {last_error}", file=sys.stderr)
+    return False
 
 
 def main() -> int:
@@ -698,27 +738,37 @@ def main() -> int:
     matching_jobs = [job for job in all_jobs if matches_filters(job, filters)]
 
     new_jobs = []
+    new_keys = []
     for job in matching_jobs:
         key = stable_job_key(job)
         if key not in seen_keys:
             new_jobs.append(job)
-            seen_keys.add(key)
-
-    state["seen_keys"] = sorted(seen_keys)
-    save_json(STATE_PATH, state)
+            new_keys.append(key)
 
     print(f"Fetched total jobs: {len(all_jobs)}")
     print(f"Matching jobs: {len(matching_jobs)}")
     print(f"New jobs: {len(new_jobs)}")
 
     webhook = os.getenv("DISCORD_WEBHOOK_URL")
+    delivered = False
+
     if new_jobs and webhook:
-        send_discord(webhook, format_discord_text(new_jobs))
-        print("Discord alert sent.")
+        delivered = send_discord(webhook, format_discord_text(new_jobs))
+        if delivered:
+            print("Discord alert sent.")
+        else:
+            print("New jobs found, but Discord webhook delivery failed.", file=sys.stderr)
     elif new_jobs:
         print("New jobs found, but DISCORD_WEBHOOK_URL is not configured.")
     else:
         print("No new matching jobs to send.")
+
+    if not new_jobs or delivered or not webhook:
+        for key in new_keys:
+            seen_keys.add(key)
+
+    state["seen_keys"] = sorted(seen_keys)
+    save_json(STATE_PATH, state)
 
     if errors:
         print("Completed with source errors:", file=sys.stderr)
