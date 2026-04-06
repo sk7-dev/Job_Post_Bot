@@ -22,9 +22,9 @@ A lightweight Python bot that watches multiple career sites, filters matching ro
 
 ## Files
 
-* `watcher.py` — main bot logic
-* `config.json` — sources and filters
-* `state_seen.json` — remembered job IDs already seen
+* `watcher.py` - main bot logic
+* `config.json` - sources and filters
+* `state_seen.json` - remembered job IDs already seen
 
 ## Output
 
