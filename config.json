@@ -62,6 +62,11 @@
       "name": "Petco Careers",
       "type": "workday",
       "url": "https://petco.wd1.myworkdayjobs.com/External"
+    },
+    {
+      "name": "Accenture Careers Alt",
+      "type": "workday",
+      "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"
     }
   ]
 }
