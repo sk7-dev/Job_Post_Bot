@@ -72,7 +72,9 @@
     {
       "name": "Wells Fargo Careers",
       "type": "workday",
-      "url": "https://wd1.myworkdaysite.com/en-US/recruiting/wf/WellsFargoJobs"
+      "url": "https://wd1.myworkdaysite.com/en-US/recruiting/wf/WellsFargoJobs",
+      "enrich_details": true,
+      "max_rounds": 100
     }
   ]
 }

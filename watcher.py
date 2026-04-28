@@ -415,13 +415,12 @@ def parse_wells_fargo_job_detail(job_url: str, session: requests.Session) -> Dic
 
 def fetch_wells_fargo_workday(source: dict) -> List[dict]:
     """
-    Wells Fargo-specific Workday fetcher using Playwright because the job list is
-    rendered dynamically and plain requests/BeautifulSoup returns 0 jobs.
+    Wells Fargo-specific Workday fetcher using Playwright.
+    Loads all visible job cards by repeatedly clicking pagination / load-more controls.
     """
     base_url = source["url"].rstrip("/")
-    search_text = (source.get("search_text") or "").strip().lower()
-    max_pages = int(source.get("limit_pages", 5))
     enrich_details = bool(source.get("enrich_details", True))
+    max_rounds = int(source.get("max_rounds", 100))  # safety cap only
 
     session = requests.Session()
     session.headers.update({
@@ -436,16 +435,16 @@ def fetch_wells_fargo_workday(source: dict) -> List[dict]:
         browser = p.chromium.launch(headless=True)
         page = browser.new_page()
         page.goto(base_url, wait_until="networkidle", timeout=90000)
-
-        # Give Workday time to hydrate
         page.wait_for_timeout(5000)
 
-        for _ in range(max_pages):
-            # Wait for some anchors to appear
-            page.wait_for_timeout(3000)
+        rounds = 0
+        previous_seen_count = -1
+
+        while rounds < max_rounds:
+            rounds += 1
+            page.wait_for_timeout(2500)
 
             anchors = page.locator("a").all()
-            found_on_this_page = 0
 
             for a in anchors:
                 try:
@@ -457,10 +456,6 @@ def fetch_wells_fargo_workday(source: dict) -> List[dict]:
                 if not href or "/job/" not in href:
                     continue
                 if not title:
-                    continue
-
-                if search_text and search_text not in title.lower():
-                    # keep title filter lightweight; detail enrichment can fill more fields later
                     continue
 
                 job_url = urljoin(base_url + "/", href)
@@ -491,35 +486,65 @@ def fetch_wells_fargo_workday(source: dict) -> List[dict]:
                     "url": job_url,
                     "posted_at": posted_at,
                 })
-                found_on_this_page += 1
 
-            # Try clicking Next
+            # If no new jobs appeared since last round, try to paginate/load more once more.
+            current_seen_count = len(seen_urls)
+
             next_button = None
-            for selector in [
+            next_selectors = [
                 'button[aria-label*="Next"]',
-                'button:has-text("Next")',
+                'button[aria-label*="next"]',
                 'button[data-automation-id="pagination-next"]',
-            ]:
+                'button:has-text("Next")',
+                'button:has-text("Load More")',
+                'button:has-text("Load more")',
+                'button:has-text("Show More")',
+                'button:has-text("Show more")',
+                'a[aria-label*="Next"]',
+                'a:has-text("Next")',
+                'a:has-text("Load More")',
+                'a:has-text("Load more")',
+            ]
+
+            for selector in next_selectors:
                 loc = page.locator(selector)
                 if loc.count() > 0:
-                    next_button = loc.first
-                    break
+                    candidate = loc.first
+                    try:
+                        if candidate.is_visible():
+                            next_button = candidate
+                            break
+                    except Exception:
+                        continue
 
-            if not next_button or found_on_this_page == 0:
+            if next_button is None:
+                # no way to advance, so we're done
                 break
 
             try:
-                if next_button.is_disabled():
-                    break
-            except Exception:
-                pass
+                disabled = False
+                try:
+                    disabled = next_button.is_disabled()
+                except Exception:
+                    disabled_attr = next_button.get_attribute("disabled")
+                    aria_disabled = next_button.get_attribute("aria-disabled")
+                    disabled = (disabled_attr is not None) or (aria_disabled == "true")
 
-            try:
+                if disabled:
+                    break
+
                 next_button.click()
                 page.wait_for_load_state("networkidle", timeout=60000)
                 page.wait_for_timeout(3000)
+
             except Exception:
                 break
+
+            # If clicking didn't reveal anything new after a full round, stop.
+            if current_seen_count == previous_seen_count:
+                break
+
+            previous_seen_count = current_seen_count
 
         browser.close()
 
