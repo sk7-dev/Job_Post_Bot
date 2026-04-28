@@ -6,6 +6,10 @@ from typing import List, Optional
 from urllib.parse import urlparse, quote
 import re
 from html import unescape
+from urllib.parse import urlparse
+from typing import List, Tuple
+import time
+
 
 import requests
 
@@ -262,26 +266,30 @@ def fetch_phenom_embedded(source: dict) -> List[dict]:
     return out
 
 
-def parse_workday_source(source: dict) -> tuple[str, str, str]:
-    if source.get("tenant") and source.get("site") and source.get("base_url"):
-        return source["base_url"].rstrip("/"), source["tenant"], source["site"]
-
-    url = source["url"]
+def parse_workday_source(source: dict) -> Tuple[str, str, str, str]:
+   
+    url = source["url"].rstrip("/")
     parsed = urlparse(url)
-    host = parsed.netloc
-    path_parts = [p for p in parsed.path.split("/") if p]
 
-    if not path_parts:
-        raise ValueError("Could not determine Workday site from URL")
+    base_url = f"{parsed.scheme}://{parsed.netloc}"
+    tenant = parsed.netloc.split(".")[0]
 
-    if len(path_parts) >= 2 and "-" in path_parts[0]:
-        site = path_parts[1]
-    else:
-        site = path_parts[0]
+    path = parsed.path.strip("/")
+    parts = path.split("/") if path else []
 
-    tenant = host.split(".")[0]
-    base_url = f"{parsed.scheme}://{host}"
-    return base_url, tenant, site
+    if not parts:
+        raise ValueError(f"Invalid Workday URL: {url}")
+ 
+    if "recruiting" in parts:
+        idx = parts.index("recruiting")
+        public_base_path = "/".join(parts)       # en-US/recruiting/wf/WellsFargoJobs
+        api_site_path = "/".join(parts[idx:])    # recruiting/wf/WellsFargoJobs
+        return base_url, tenant, public_base_path, api_site_path
+ 
+    public_base_path = "/".join(parts)
+    api_site_path = parts[-1]
+
+    return base_url, tenant, public_base_path, api_site_path
 
 
 def workday_extract_location(item: dict) -> str:
@@ -319,8 +327,8 @@ def workday_extract_posted(item: dict) -> str:
 
 
 def fetch_workday(source: dict) -> List[dict]:
-    base_url, tenant, site = parse_workday_source(source)
-    endpoint = f"{base_url}/wday/cxs/{tenant}/{site}/jobs"
+    base_url, tenant, public_base_path, api_site_path = parse_workday_source(source)
+    endpoint = f"{base_url}/wday/cxs/{tenant}/{api_site_path}/jobs"
 
     headers = {
         "Content-Type": "application/json",
@@ -354,8 +362,10 @@ def fetch_workday(source: dict) -> List[dict]:
         for item in postings:
             title = item.get("title", "")
             external_path = item.get("externalPath", "")
+
             if external_path:
-                job_url = f"{base_url}/{site}/job/{external_path.lstrip('/')}"
+                external_path = external_path.lstrip("/")
+                job_url = f"{base_url}/{public_base_path}/job/{external_path}"
             else:
                 job_url = source.get("url", "")
 
@@ -365,8 +375,9 @@ def fetch_workday(source: dict) -> List[dict]:
             elif item.get("jobFamilyGroup"):
                 department = str(item.get("jobFamilyGroup"))
 
+            bullet_fields = item.get("bulletFields") or []
             external_id = (
-                item.get("bulletFields", [None, None])[-1]
+                (bullet_fields[-1] if bullet_fields else None)
                 or item.get("jobReqId")
                 or item.get("id")
                 or item.get("title")
