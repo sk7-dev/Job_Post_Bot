@@ -1,4 +1,3 @@
-from __future__ import annotations
 import json
 import os
 import sys
@@ -7,19 +6,6 @@ from typing import List, Optional
 from urllib.parse import urlparse, quote
 import re
 from html import unescape
-from urllib.parse import urlparse
-from typing import List, Tuple
-import time
-
-
-import re
-import time
-from typing import Any, Dict, List, Optional, Tuple
-from urllib.parse import urlencode, urljoin, urlparse
-
-import requests
-from bs4 import BeautifulSoup
-from playwright.sync_api import sync_playwright
 
 import requests
 
@@ -84,19 +70,10 @@ def safe_get_json(url: str, params: Optional[dict] = None, headers: Optional[dic
     return safe_get(url, params=params, headers=headers).json()
 
 
-def safe_post_json(url: str, body: dict, headers: Optional[dict] = None) -> dict:
-    resp = requests.post(url, json=body, headers=headers or {}, timeout=30)
+def safe_post_json(url: str, json_body: dict, headers: Optional[dict] = None):
+    resp = requests.post(url, json=json_body, headers=headers, timeout=REQUEST_TIMEOUT)
     resp.raise_for_status()
-    data = resp.json()
-    if not isinstance(data, dict):
-        raise ValueError(f"Expected JSON object from {url}, got {type(data).__name__}")
-    return data
-
-
-def safe_get_text(url: str, headers: Optional[dict] = None) -> str:
-    resp = requests.get(url, headers=headers or {}, timeout=30)
-    resp.raise_for_status()
-    return resp.text
+    return resp.json()
 
 
 def fetch_greenhouse(source: dict) -> List[dict]:
@@ -284,281 +261,66 @@ def fetch_phenom_embedded(source: dict) -> List[dict]:
 
     return out
 
-def parse_workday_source(source: dict):
-    url = source["url"].rstrip("/")
+
+def parse_workday_source(source: dict) -> tuple[str, str, str]:
+    if source.get("tenant") and source.get("site") and source.get("base_url"):
+        return source["base_url"].rstrip("/"), source["tenant"], source["site"]
+
+    url = source["url"]
     parsed = urlparse(url)
+    host = parsed.netloc
+    path_parts = [p for p in parsed.path.split("/") if p]
 
-    base_url = f"{parsed.scheme}://{parsed.netloc}"
-    tenant = parsed.netloc.split(".")[0]
+    if not path_parts:
+        raise ValueError("Could not determine Workday site from URL")
 
-    path = parsed.path.strip("/")
-    parts = path.split("/") if path else []
+    if len(path_parts) >= 2 and "-" in path_parts[0]:
+        site = path_parts[1]
+    else:
+        site = path_parts[0]
 
-    if not parts:
-        raise ValueError(f"Invalid Workday URL: {url}")
-
-    if "recruiting" in parts:
-        idx = parts.index("recruiting")
-        public_base_path = "/".join(parts)
-        api_site_path = "/".join(parts[idx:])
-        return base_url, tenant, public_base_path, api_site_path
-
-    public_base_path = "/".join(parts)
-    api_site_path = parts[-1]
-    return base_url, tenant, public_base_path, api_site_path
+    tenant = host.split(".")[0]
+    base_url = f"{parsed.scheme}://{host}"
+    return base_url, tenant, site
 
 
 def workday_extract_location(item: dict) -> str:
     locations = item.get("locationsText")
     if locations:
-        return str(locations)
-
-    locations = item.get("locations")
-    if isinstance(locations, list) and locations:
-        values = []
-        for loc in locations:
-            if isinstance(loc, dict):
-                text = loc.get("displayName") or loc.get("name") or loc.get("value")
-                if text:
-                    values.append(str(text))
-            elif loc:
-                values.append(str(loc))
-        if values:
-            return ", ".join(values)
+        return locations
 
     bullet_fields = item.get("bulletFields") or []
-    for field in bullet_fields:
-        if isinstance(field, str) and "," in field:
-            return field
+    if bullet_fields:
+        return " | ".join(str(x) for x in bullet_fields if x)
+
+    locations = item.get("locations") or []
+    if isinstance(locations, list) and locations:
+        vals = []
+        for loc in locations:
+            if isinstance(loc, dict):
+                text = loc.get("displayName") or loc.get("name")
+                if text:
+                    vals.append(text)
+            elif loc:
+                vals.append(str(loc))
+        if vals:
+            return " | ".join(vals)
 
     return ""
 
 
 def workday_extract_posted(item: dict) -> str:
-    for key in ("postedOn", "postedDate", "startDate", "timePosted", "publicationDate"):
-        value = item.get(key)
-        if value:
-            return str(value)
-
-    bullet_fields = item.get("bulletFields") or []
-    for field in bullet_fields:
-        if isinstance(field, str) and re.search(r"\b(day|days|hour|hours|week|weeks|month|months)\b", field, re.I):
-            return field
-
-    return ""
-
-
-def normalize_text(s: str) -> str:
-    return " ".join((s or "").split()).strip()
-
-
-def extract_wells_fargo_req_id(text: str, url: str) -> str:
-    patterns = [
-        r"\bR[- ]?\d+\b",
-        r"\bReq(?:uisition)?[: ]+([A-Za-z0-9-]+)\b",
-    ]
-    for pattern in patterns:
-        m = re.search(pattern, text, re.I)
-        if m:
-            return m.group(0).strip()
-
-    tail = url.rstrip("/").split("/")[-1]
-    return tail or text[:80]
-
-
-def parse_wells_fargo_job_detail(job_url: str, session: requests.Session) -> Dict[str, str]:
-    details = {
-        "location": "",
-        "department": "",
-        "posted_at": "",
-        "external_id": "",
-    }
-
-    try:
-        resp = session.get(job_url, timeout=30)
-        resp.raise_for_status()
-        soup = BeautifulSoup(resp.text, "html.parser")
-        text = soup.get_text(" ", strip=True)
-
-        details["external_id"] = extract_wells_fargo_req_id(text, job_url)
-
-        for sel in ['[data-automation-id="locations"]', '[data-automation-id="location"]']:
-            node = soup.select_one(sel)
-            if node:
-                details["location"] = normalize_text(node.get_text(" ", strip=True))
-                break
-
-        for sel in [
-            '[data-automation-id="postedOn"]',
-            '[data-automation-id="timePosted"]',
-            '[data-automation-id="jobPostingHeader"]',
-        ]:
-            node = soup.select_one(sel)
-            if node:
-                txt = normalize_text(node.get_text(" ", strip=True))
-                if re.search(r"\b(day|days|hour|hours|week|weeks|month|months|posted)\b", txt, re.I):
-                    details["posted_at"] = txt
-                    break
-
-        dept_labels = ["job family", "job category", "department", "business division"]
-        for label in dept_labels:
-            m = re.search(rf"{re.escape(label)}\s*[:\-]?\s*([A-Za-z0-9 ,&/\-]+)", text, re.I)
-            if m:
-                details["department"] = normalize_text(m.group(1))
-                break
-
-    except Exception:
-        pass
-
-    return details
-
-
-def fetch_wells_fargo_workday(source: dict) -> List[dict]:
-    """
-    Wells Fargo-specific Workday fetcher using Playwright.
-    Loads all visible job cards by repeatedly clicking pagination / load-more controls.
-    """
-    base_url = source["url"].rstrip("/")
-    enrich_details = bool(source.get("enrich_details", True))
-    max_rounds = int(source.get("max_rounds", 100))  # safety cap only
-
-    session = requests.Session()
-    session.headers.update({
-        "User-Agent": "Mozilla/5.0",
-        "Accept-Language": "en-US,en;q=0.9",
-    })
-
-    jobs: List[dict] = []
-    seen_urls = set()
-
-    with sync_playwright() as p:
-        browser = p.chromium.launch(headless=True)
-        page = browser.new_page()
-        page.goto(base_url, wait_until="networkidle", timeout=90000)
-        page.wait_for_timeout(5000)
-
-        rounds = 0
-        previous_seen_count = -1
-
-        while rounds < max_rounds:
-            rounds += 1
-            page.wait_for_timeout(2500)
-
-            anchors = page.locator("a").all()
-
-            for a in anchors:
-                try:
-                    href = (a.get_attribute("href") or "").strip()
-                    title = normalize_text(a.inner_text())
-                except Exception:
-                    continue
-
-                if not href or "/job/" not in href:
-                    continue
-                if not title:
-                    continue
-
-                job_url = urljoin(base_url + "/", href)
-
-                if job_url in seen_urls:
-                    continue
-                seen_urls.add(job_url)
-
-                location = ""
-                department = ""
-                posted_at = ""
-                external_id = job_url.rstrip("/").split("/")[-1]
-
-                if enrich_details:
-                    details = parse_wells_fargo_job_detail(job_url, session)
-                    location = details.get("location", "")
-                    department = details.get("department", "")
-                    posted_at = details.get("posted_at", "")
-                    external_id = details.get("external_id") or external_id
-
-                jobs.append({
-                    "source_name": source["name"],
-                    "source_type": "workday",
-                    "external_id": str(external_id),
-                    "title": title,
-                    "location": location,
-                    "department": department,
-                    "url": job_url,
-                    "posted_at": posted_at,
-                })
-
-            # If no new jobs appeared since last round, try to paginate/load more once more.
-            current_seen_count = len(seen_urls)
-
-            next_button = None
-            next_selectors = [
-                'button[aria-label*="Next"]',
-                'button[aria-label*="next"]',
-                'button[data-automation-id="pagination-next"]',
-                'button:has-text("Next")',
-                'button:has-text("Load More")',
-                'button:has-text("Load more")',
-                'button:has-text("Show More")',
-                'button:has-text("Show more")',
-                'a[aria-label*="Next"]',
-                'a:has-text("Next")',
-                'a:has-text("Load More")',
-                'a:has-text("Load more")',
-            ]
-
-            for selector in next_selectors:
-                loc = page.locator(selector)
-                if loc.count() > 0:
-                    candidate = loc.first
-                    try:
-                        if candidate.is_visible():
-                            next_button = candidate
-                            break
-                    except Exception:
-                        continue
-
-            if next_button is None:
-                # no way to advance, so we're done
-                break
-
-            try:
-                disabled = False
-                try:
-                    disabled = next_button.is_disabled()
-                except Exception:
-                    disabled_attr = next_button.get_attribute("disabled")
-                    aria_disabled = next_button.get_attribute("aria-disabled")
-                    disabled = (disabled_attr is not None) or (aria_disabled == "true")
-
-                if disabled:
-                    break
-
-                next_button.click()
-                page.wait_for_load_state("networkidle", timeout=60000)
-                page.wait_for_timeout(3000)
-
-            except Exception:
-                break
-
-            # If clicking didn't reveal anything new after a full round, stop.
-            if current_seen_count == previous_seen_count:
-                break
-
-            previous_seen_count = current_seen_count
-
-        browser.close()
-
-    return jobs
+    return (
+        item.get("postedOn")
+        or item.get("postedDate")
+        or item.get("startDate")
+        or ""
+    )
 
 
 def fetch_workday(source: dict) -> List[dict]:
-    url = (source.get("url") or "").lower()
-
-    if "wd1.myworkdaysite.com" in url and "wellsfargojobs" in url:
-        return fetch_wells_fargo_workday(source)
-
-    base_url, tenant, public_base_path, api_site_path = parse_workday_source(source)
-    endpoint = f"{base_url}/wday/cxs/{tenant}/{api_site_path}/jobs"
+    base_url, tenant, site = parse_workday_source(source)
+    endpoint = f"{base_url}/wday/cxs/{tenant}/{site}/jobs"
 
     headers = {
         "Content-Type": "application/json",
@@ -568,7 +330,7 @@ def fetch_workday(source: dict) -> List[dict]:
 
     limit = int(source.get("limit", 20))
     offset = 0
-    jobs: List[dict] = []
+    jobs = []
 
     while True:
         body = {
@@ -591,11 +353,9 @@ def fetch_workday(source: dict) -> List[dict]:
 
         for item in postings:
             title = item.get("title", "")
-            external_path = (item.get("externalPath") or "").strip()
-
+            external_path = item.get("externalPath", "")
             if external_path:
-                external_path = external_path.lstrip("/")
-                job_url = f"{base_url}/{public_base_path}/job/{external_path}"
+                job_url = f"{base_url}/{site}/job/{external_path.lstrip('/')}"
             else:
                 job_url = source.get("url", "")
 
@@ -605,9 +365,8 @@ def fetch_workday(source: dict) -> List[dict]:
             elif item.get("jobFamilyGroup"):
                 department = str(item.get("jobFamilyGroup"))
 
-            bullet_fields = item.get("bulletFields") or []
             external_id = (
-                (bullet_fields[-1] if bullet_fields else None)
+                item.get("bulletFields", [None, None])[-1]
                 or item.get("jobReqId")
                 or item.get("id")
                 or item.get("title")
