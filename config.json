@@ -68,13 +68,6 @@
       "name": "Accenture Careers Alt",
       "type": "workday",
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"
-    },
-    {
-      "name": "Wells Fargo Careers",
-      "type": "workday",
-      "url": "https://wd1.myworkdaysite.com/en-US/recruiting/wf/WellsFargoJobs",
-      "enrich_details": true,
-      "max_rounds": 100
     }
   ]
 }
