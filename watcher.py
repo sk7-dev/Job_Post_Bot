@@ -9,7 +9,15 @@ from html import unescape
 from urllib.parse import urlparse
 from typing import List, Tuple
 import time
+from __future__ import annotations
 
+import re
+import time
+from typing import Any, Dict, List, Optional, Tuple
+from urllib.parse import urlencode, urljoin, urlparse
+
+import requests
+from bs4 import BeautifulSoup
 
 import requests
 
@@ -74,10 +82,19 @@ def safe_get_json(url: str, params: Optional[dict] = None, headers: Optional[dic
     return safe_get(url, params=params, headers=headers).json()
 
 
-def safe_post_json(url: str, json_body: dict, headers: Optional[dict] = None):
-    resp = requests.post(url, json=json_body, headers=headers, timeout=REQUEST_TIMEOUT)
+def safe_post_json(url: str, body: dict, headers: Optional[dict] = None) -> dict:
+    resp = requests.post(url, json=body, headers=headers or {}, timeout=30)
     resp.raise_for_status()
-    return resp.json()
+    data = resp.json()
+    if not isinstance(data, dict):
+        raise ValueError(f"Expected JSON object from {url}, got {type(data).__name__}")
+    return data
+
+
+def safe_get_text(url: str, headers: Optional[dict] = None) -> str:
+    resp = requests.get(url, headers=headers or {}, timeout=30)
+    resp.raise_for_status()
+    return resp.text
 
 
 def fetch_greenhouse(source: dict) -> List[dict]:
@@ -265,9 +282,19 @@ def fetch_phenom_embedded(source: dict) -> List[dict]:
 
     return out
 
-
 def parse_workday_source(source: dict) -> Tuple[str, str, str, str]:
-   
+    """
+    Returns:
+      base_url: e.g. https://wd1.myworkdaysite.com
+      tenant: e.g. wd1
+      public_base_path: e.g. en-US/recruiting/wf/WellsFargoJobs
+      api_site_path: e.g. recruiting/wf/WellsFargoJobs
+
+    Examples:
+      https://scanhealthplan.wd108.myworkdayjobs.com/scancareers
+      https://santander.wd3.myworkdayjobs.com/en-US/SantanderCareers
+      https://wd1.myworkdaysite.com/en-US/recruiting/wf/WellsFargoJobs
+    """
     url = source["url"].rstrip("/")
     parsed = urlparse(url)
 
@@ -279,54 +306,64 @@ def parse_workday_source(source: dict) -> Tuple[str, str, str, str]:
 
     if not parts:
         raise ValueError(f"Invalid Workday URL: {url}")
- 
+
     if "recruiting" in parts:
         idx = parts.index("recruiting")
-        public_base_path = "/".join(parts)       # en-US/recruiting/wf/WellsFargoJobs
-        api_site_path = "/".join(parts[idx:])    # recruiting/wf/WellsFargoJobs
+        public_base_path = "/".join(parts)
+        api_site_path = "/".join(parts[idx:])
         return base_url, tenant, public_base_path, api_site_path
- 
+
     public_base_path = "/".join(parts)
     api_site_path = parts[-1]
-
     return base_url, tenant, public_base_path, api_site_path
 
 
 def workday_extract_location(item: dict) -> str:
     locations = item.get("locationsText")
     if locations:
-        return locations
+        return str(locations)
 
-    bullet_fields = item.get("bulletFields") or []
-    if bullet_fields:
-        return " | ".join(str(x) for x in bullet_fields if x)
-
-    locations = item.get("locations") or []
+    locations = item.get("locations")
     if isinstance(locations, list) and locations:
-        vals = []
+        values = []
         for loc in locations:
             if isinstance(loc, dict):
-                text = loc.get("displayName") or loc.get("name")
+                text = loc.get("displayName") or loc.get("name") or loc.get("value")
                 if text:
-                    vals.append(text)
+                    values.append(str(text))
             elif loc:
-                vals.append(str(loc))
-        if vals:
-            return " | ".join(vals)
+                values.append(str(loc))
+        if values:
+            return ", ".join(values)
+
+    bullet_fields = item.get("bulletFields") or []
+    for field in bullet_fields:
+        if isinstance(field, str) and "," in field:
+            return field
 
     return ""
 
 
 def workday_extract_posted(item: dict) -> str:
-    return (
-        item.get("postedOn")
-        or item.get("postedDate")
-        or item.get("startDate")
-        or ""
-    )
+    for key in ("postedOn", "postedDate", "startDate", "timePosted", "publicationDate"):
+        value = item.get(key)
+        if value:
+            return str(value)
+
+    bullet_fields = item.get("bulletFields") or []
+    for field in bullet_fields:
+        if isinstance(field, str) and re.search(r"\b(day|days|hour|hours|week|weeks|month|months)\b", field, re.I):
+            return field
+
+    return ""
 
 
 def fetch_workday(source: dict) -> List[dict]:
+    """
+    Standard Workday CXS POST-based fetcher.
+    Works for tenants that support:
+      POST {base_url}/wday/cxs/{tenant}/{api_site_path}/jobs
+    """
     base_url, tenant, public_base_path, api_site_path = parse_workday_source(source)
     endpoint = f"{base_url}/wday/cxs/{tenant}/{api_site_path}/jobs"
 
@@ -338,7 +375,7 @@ def fetch_workday(source: dict) -> List[dict]:
 
     limit = int(source.get("limit", 20))
     offset = 0
-    jobs = []
+    jobs: List[dict] = []
 
     while True:
         body = {
@@ -361,7 +398,7 @@ def fetch_workday(source: dict) -> List[dict]:
 
         for item in postings:
             title = item.get("title", "")
-            external_path = item.get("externalPath", "")
+            external_path = (item.get("externalPath") or "").strip()
 
             if external_path:
                 external_path = external_path.lstrip("/")
@@ -405,6 +442,176 @@ def fetch_workday(source: dict) -> List[dict]:
         time.sleep(0.2)
 
     return jobs
+
+
+def extract_wells_fargo_req_id(text: str, url: str) -> str:
+    patterns = [
+        r"\bR[- ]?\d+\b",
+        r"\bReq(?:uisition)?[: ]+([A-Za-z0-9-]+)\b",
+    ]
+    for pattern in patterns:
+        m = re.search(pattern, text, re.I)
+        if m:
+            return m.group(0).strip()
+
+    tail = url.rstrip("/").split("/")[-1]
+    return tail or text[:80]
+
+
+def normalize_text(s: str) -> str:
+    return " ".join((s or "").split()).strip()
+
+
+def parse_wells_fargo_job_detail(job_url: str, session: requests.Session) -> Dict[str, str]:
+    """
+    Best-effort parser for Wells Fargo public job detail pages.
+    Returns structured fields when present.
+    """
+    details = {
+        "location": "",
+        "department": "",
+        "posted_at": "",
+        "external_id": "",
+    }
+
+    try:
+        html = session.get(job_url, timeout=30).text
+        soup = BeautifulSoup(html, "html.parser")
+        text = soup.get_text(" ", strip=True)
+
+        details["external_id"] = extract_wells_fargo_req_id(text, job_url)
+
+        location_selectors = [
+            '[data-automation-id="locations"]',
+            '[data-automation-id="location"]',
+        ]
+        for sel in location_selectors:
+            node = soup.select_one(sel)
+            if node:
+                details["location"] = normalize_text(node.get_text(" ", strip=True))
+                break
+
+        date_selectors = [
+            '[data-automation-id="postedOn"]',
+            '[data-automation-id="timePosted"]',
+            '[data-automation-id="jobPostingHeader"]',
+        ]
+        for sel in date_selectors:
+            node = soup.select_one(sel)
+            if node:
+                txt = normalize_text(node.get_text(" ", strip=True))
+                if re.search(r"\b(day|days|hour|hours|week|weeks|month|months|posted)\b", txt, re.I):
+                    details["posted_at"] = txt
+                    break
+
+        dept_labels = ["job family", "job category", "department", "business division"]
+        for label in dept_labels:
+            m = re.search(rf"{re.escape(label)}\s*[:\-]?\s*([A-Za-z0-9 ,&/\-]+)", text, re.I)
+            if m:
+                details["department"] = normalize_text(m.group(1))
+                break
+
+    except Exception:
+        pass
+
+    return details
+
+
+def fetch_wells_fargo_workday(source: dict) -> List[dict]:
+    """
+    Wells Fargo special-case scraper.
+
+    This does not use the POST /wday/cxs/.../jobs endpoint.
+    It scrapes the public search results pages and then optionally enriches
+    each job from its detail page.
+    """
+    base_url = source["url"].rstrip("/")
+    search_text = (source.get("search_text") or "").strip()
+    limit_pages = int(source.get("limit_pages", 5))
+    enrich_details = bool(source.get("enrich_details", True))
+
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+
+    session = requests.Session()
+    session.headers.update(headers)
+
+    jobs: List[dict] = []
+    seen_urls = set()
+
+    for page in range(1, limit_pages + 1):
+        params = {}
+        if search_text:
+            params["q"] = search_text
+        if page > 1:
+            params["page"] = page
+
+        page_url = base_url if not params else f"{base_url}?{urlencode(params)}"
+
+        html = session.get(page_url, timeout=30).text
+        soup = BeautifulSoup(html, "html.parser")
+
+        found_this_page = 0
+
+        for a in soup.select("a[href]"):
+            href = (a.get("href") or "").strip()
+            title = normalize_text(a.get_text(" ", strip=True))
+
+            if not href or "/job/" not in href:
+                continue
+            if not title:
+                continue
+
+            job_url = urljoin(base_url + "/", href)
+
+            if job_url in seen_urls:
+                continue
+            seen_urls.add(job_url)
+
+            location = ""
+            department = ""
+            posted_at = ""
+            external_id = job_url.rstrip("/").split("/")[-1]
+
+            if enrich_details:
+                details = parse_wells_fargo_job_detail(job_url, session)
+                location = details.get("location", "")
+                department = details.get("department", "")
+                posted_at = details.get("posted_at", "")
+                external_id = details.get("external_id") or external_id
+
+            jobs.append({
+                "source_name": source["name"],
+                "source_type": "workday",
+                "external_id": str(external_id),
+                "title": title,
+                "location": location,
+                "department": department,
+                "url": job_url,
+                "posted_at": posted_at,
+            })
+            found_this_page += 1
+
+        if found_this_page == 0:
+            break
+
+        time.sleep(0.2)
+
+    return jobs
+
+
+def fetch_jobs_for_source(source: dict) -> List[dict]:
+    source_type = source.get("type", "").strip().lower()
+    url = (source.get("url") or "").lower()
+
+    if source_type == "workday":
+        if "wd1.myworkdaysite.com" in url and "wellsfargojobs" in url:
+            return fetch_wells_fargo_workday(source)
+        return fetch_workday(source)
+
+    raise ValueError(f"Unsupported source type: {source_type}")
 
 
 def entertime_extract_list(data: dict) -> List[dict]:
