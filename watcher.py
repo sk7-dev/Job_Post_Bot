@@ -347,6 +347,7 @@ def workday_extract_posted(item: dict) -> str:
     return ""
 
 
+
 def normalize_text(s: str) -> str:
     return " ".join((s or "").split()).strip()
 
@@ -412,6 +413,66 @@ def parse_wells_fargo_job_detail(job_url: str, session: requests.Session) -> Dic
     return details
 
 
+def _walk_for_jobs(obj, out):
+    if isinstance(obj, dict):
+        title = obj.get("title") or obj.get("jobTitle") or obj.get("postedTitle")
+        path = obj.get("externalPath") or obj.get("url") or obj.get("jobUrl")
+        if title and path:
+            out.append(obj)
+
+        for v in obj.values():
+            _walk_for_jobs(v, out)
+
+    elif isinstance(obj, list):
+        for item in obj:
+            _walk_for_jobs(item, out)
+
+
+def _extract_jobs_from_embedded_json(html: str) -> List[dict]:
+    jobs = []
+
+    # Look through all script tags for JSON blobs that may contain job data
+    soup = BeautifulSoup(html, "html.parser")
+    scripts = soup.find_all("script")
+
+    for script in scripts:
+        script_text = script.string or script.get_text(" ", strip=False)
+        if not script_text:
+            continue
+
+        script_text = script_text.strip()
+        if not script_text:
+            continue
+
+        candidates = []
+
+        # Plain JSON script blocks
+        if script.get("type") == "application/json":
+            candidates.append(script_text)
+
+        # Next.js style / hydration-style JSON
+        m = re.search(r"__NEXT_DATA__\s*=\s*({.*?})\s*;?\s*$", script_text, re.S)
+        if m:
+            candidates.append(m.group(1))
+
+        # Generic large object literal in script
+        brace_match = re.search(r"({.*})", script_text, re.S)
+        if brace_match and ("externalPath" in script_text or "jobTitle" in script_text or "title" in script_text):
+            candidates.append(brace_match.group(1))
+
+        for candidate in candidates:
+            try:
+                data = json.loads(candidate)
+            except Exception:
+                continue
+
+            found = []
+            _walk_for_jobs(data, found)
+            jobs.extend(found)
+
+    return jobs
+
+
 def fetch_wells_fargo_workday(source: dict) -> List[dict]:
     base_url = source["url"].rstrip("/")
     search_text = (source.get("search_text") or "").strip()
@@ -440,35 +501,66 @@ def fetch_wells_fargo_workday(source: dict) -> List[dict]:
 
         resp = session.get(page_url, timeout=30)
         resp.raise_for_status()
+        html = resp.text
 
-        soup = BeautifulSoup(resp.text, "html.parser")
         found_this_page = 0
 
-        for a in soup.select("a[href]"):
-            href = (a.get("href") or "").strip()
-            title = normalize_text(a.get_text(" ", strip=True))
+        # First try embedded JSON
+        extracted = _extract_jobs_from_embedded_json(html)
 
-            if not href or "/job/" not in href:
-                continue
-            if not title:
+        for item in extracted:
+            title = normalize_text(
+                item.get("title") or item.get("jobTitle") or item.get("postedTitle") or ""
+            )
+            raw_path = (
+                item.get("externalPath")
+                or item.get("url")
+                or item.get("jobUrl")
+                or ""
+            )
+
+            if not title or not raw_path:
                 continue
 
-            job_url = urljoin(base_url + "/", href)
+            job_url = urljoin(base_url + "/", str(raw_path))
 
             if job_url in seen_urls:
                 continue
             seen_urls.add(job_url)
 
-            location = ""
-            department = ""
-            posted_at = ""
-            external_id = job_url.rstrip("/").split("/")[-1]
+            location = (
+                item.get("locationsText")
+                or item.get("location")
+                or item.get("locations")
+                or ""
+            )
+            if isinstance(location, list):
+                location = ", ".join(str(x) for x in location if x)
+
+            department = (
+                item.get("jobFamily")
+                or item.get("jobFamilyGroup")
+                or item.get("department")
+                or ""
+            )
+            posted_at = (
+                item.get("postedOn")
+                or item.get("postedDate")
+                or item.get("timePosted")
+                or ""
+            )
+            external_id = (
+                item.get("jobReqId")
+                or item.get("id")
+                or item.get("bulletFields", [None])[-1]
+                or job_url.rstrip("/").split("/")[-1]
+            )
 
             if enrich_details:
                 details = parse_wells_fargo_job_detail(job_url, session)
-                location = details.get("location", "")
-                department = details.get("department", "")
-                posted_at = details.get("posted_at", "")
+                location = details.get("location") or location
+                department = details.get("department") or department
+                posted_at = details.get("posted_at") or posted_at
                 external_id = details.get("external_id") or external_id
 
             jobs.append({
@@ -476,12 +568,54 @@ def fetch_wells_fargo_workday(source: dict) -> List[dict]:
                 "source_type": "workday",
                 "external_id": str(external_id),
                 "title": title,
-                "location": location,
-                "department": department,
+                "location": normalize_text(str(location)),
+                "department": normalize_text(str(department)),
                 "url": job_url,
-                "posted_at": posted_at,
+                "posted_at": normalize_text(str(posted_at)),
             })
             found_this_page += 1
+
+        # Fallback to anchor scraping only if JSON extraction found nothing
+        if found_this_page == 0:
+            soup = BeautifulSoup(html, "html.parser")
+            for a in soup.select("a[href]"):
+                href = (a.get("href") or "").strip()
+                title = normalize_text(a.get_text(" ", strip=True))
+
+                if not href or "/job/" not in href:
+                    continue
+                if not title:
+                    continue
+
+                job_url = urljoin(base_url + "/", href)
+
+                if job_url in seen_urls:
+                    continue
+                seen_urls.add(job_url)
+
+                location = ""
+                department = ""
+                posted_at = ""
+                external_id = job_url.rstrip("/").split("/")[-1]
+
+                if enrich_details:
+                    details = parse_wells_fargo_job_detail(job_url, session)
+                    location = details.get("location", "")
+                    department = details.get("department", "")
+                    posted_at = details.get("posted_at", "")
+                    external_id = details.get("external_id") or external_id
+
+                jobs.append({
+                    "source_name": source["name"],
+                    "source_type": "workday",
+                    "external_id": str(external_id),
+                    "title": title,
+                    "location": location,
+                    "department": department,
+                    "url": job_url,
+                    "posted_at": posted_at,
+                })
+                found_this_page += 1
 
         if found_this_page == 0:
             break
