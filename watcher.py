@@ -1,3 +1,4 @@
+from __future__ import annotations
 import json
 import os
 import sys
@@ -9,7 +10,7 @@ from html import unescape
 from urllib.parse import urlparse
 from typing import List, Tuple
 import time
-from __future__ import annotations
+
 
 import re
 import time
