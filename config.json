@@ -68,6 +68,11 @@
       "name": "Accenture Careers Alt",
       "type": "workday",
       "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers"
+    },
+    {
+      "name": "Doximity Careers",
+      "type": "greenhouse",
+      "board_token": "doximity"
     }
   ]
 }
