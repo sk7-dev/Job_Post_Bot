@@ -98,7 +98,8 @@
     {
       "name": "GovernmentJobs US",
       "type": "governmentjobs",
-      "search_text": "data analyst"
+      "search_text": "data analyst",
+      "max_pages": 5
     }
   ]
 }

@@ -605,7 +605,10 @@ def fetch_governmentjobs(source: dict) -> List[dict]:
         if page > 1:
             params["page"] = page
 
-        html = safe_get(search_url, params=params, headers=headers).text
+        try:
+            html = safe_get(search_url, params=params, headers=headers).text
+        except requests.exceptions.RequestException:
+            break
 
         items = re.findall(
             r'<li[^>]*class="[^"]*job-item[^"]*"[^>]*data-job-id="([^"]+)"[^>]*>(.*?)</li>',
@@ -657,7 +660,10 @@ def fetch_governmentjobs(source: dict) -> List[dict]:
         if f"page={page + 1}" not in html:
             break
 
-        time.sleep(0.5)
+        try:
+            time.sleep(2)
+        except Exception:
+            break
 
     return jobs
 
