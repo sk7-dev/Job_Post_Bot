@@ -586,77 +586,78 @@ def first_match(text: str, patterns: List[str]) -> str:
 def fetch_governmentjobs(source: dict) -> List[dict]:
     agency = source.get("agency")
     base = "https://www.governmentjobs.com"
+    search_text = source.get("search_text", "")
+    max_pages = int(source.get("max_pages", 10))
 
-    if agency:
-        url = f"{base}/careers/{agency}/jobs/paginate"
-        referer = f"{base}/careers/{agency}"
-    else:
-        url = f"{base}/jobs/paginate"
-        referer = f"{base}/jobs"
+    search_url = f"{base}/careers/{agency}/jobs" if agency else f"{base}/jobs"
 
     headers = {
-        "Accept": "application/json",
-        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
-        "Referer": referer,
-        "X-Requested-With": "XMLHttpRequest",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
     }
 
-    page = 1
-    page_size = int(source.get("page_size", 25))
-    search_text = source.get("search_text", "")
     jobs = []
 
-    while True:
-        params = {
-            "currentPage": page,
-            "itemsPerPage": page_size,
-            "sort": "5",
-            "sortdir": "0",
-        }
+    for page in range(1, max_pages + 1):
+        params = {}
         if search_text:
             params["keyword"] = search_text
+        if page > 1:
+            params["page"] = page
 
-        data = safe_get_json(url, params=params, headers=headers)
+        html = safe_get(search_url, params=params, headers=headers).text
 
-        items = data.get("value") or []
+        items = re.findall(
+            r'<li[^>]*class="[^"]*job-item[^"]*"[^>]*data-job-id="([^"]+)"[^>]*>(.*?)</li>',
+            html,
+            re.DOTALL | re.IGNORECASE,
+        )
+
         if not items:
             break
 
-        for item in items:
-            job_id = str(item.get("id") or item.get("jobId") or "")
-            title = item.get("title") or item.get("jobTitle") or ""
+        for job_id_raw, block in items:
+            title_match = re.search(
+                r'class="job-details-link"[^>]*href="([^"]+)"[^>]*>([^<]+)<',
+                block, re.IGNORECASE,
+            )
+            if not title_match:
+                continue
 
-            location = item.get("location") or item.get("jobLocation") or ""
-            if isinstance(location, dict):
-                location = location.get("name") or location.get("city") or ""
+            job_path = title_match.group(1)
+            title = unescape(title_match.group(2).strip())
+            job_url = f"{base}{job_path}" if job_path.startswith("/") else job_path
 
-            department = item.get("department") or item.get("jobDepartment") or ""
-            if isinstance(department, dict):
-                department = department.get("name") or ""
+            org_match = re.search(
+                r'class="[^"]*job-organization[^"]*"[^>]*>([^<]+)<',
+                block, re.IGNORECASE,
+            )
+            department = unescape(org_match.group(1).strip()) if org_match else ""
 
-            job_url = item.get("canonicalUrl") or item.get("jobUrl") or ""
-            if job_url and not job_url.startswith("http"):
-                job_url = f"{base}{job_url}"
-            if not job_url and job_id:
-                path = f"/careers/{agency}/jobs/{job_id}" if agency else f"/jobs/{job_id}"
-                job_url = f"{base}{path}"
+            loc_match = re.search(
+                r'class="job-location"[^>]*>([^<]+)<',
+                block, re.IGNORECASE,
+            )
+            location = unescape(loc_match.group(1).strip()) if loc_match else ""
+
+            id_match = re.search(r"jobId:\s*'(\d+)'", block)
+            external_id = id_match.group(1) if id_match else job_id_raw
 
             jobs.append({
                 "source_name": source["name"],
                 "source_type": "governmentjobs",
-                "external_id": job_id or title,
+                "external_id": external_id,
                 "title": title,
                 "location": location,
                 "department": department,
                 "url": job_url,
-                "posted_at": item.get("openDate") or item.get("postedDate") or "",
+                "posted_at": "",
             })
 
-        total = data.get("totalJobCount") or data.get("total") or 0
-        if page * page_size >= total or len(items) < page_size:
+        if f"page={page + 1}" not in html:
             break
-        page += 1
-        time.sleep(0.2)
+
+        time.sleep(0.5)
 
     return jobs
 
