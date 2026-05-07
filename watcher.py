@@ -626,23 +626,23 @@ def fetch_petco_html(source: dict, html: str) -> List[dict]:
     return jobs
 
 
+_FETCHERS = {
+    "greenhouse": fetch_greenhouse,
+    "lever": fetch_lever,
+    "ashby": fetch_ashby,
+    "phenom_embedded": fetch_phenom_embedded,
+    "workday": fetch_workday,
+    "entertime": fetch_entertime,
+    "custom_html": fetch_custom_html,
+}
+
+
 def fetch_jobs_for_source(source: dict) -> List[dict]:
     stype = source["type"].lower()
-    if stype == "greenhouse":
-        return fetch_greenhouse(source)
-    if stype == "lever":
-        return fetch_lever(source)
-    if stype == "ashby":
-        return fetch_ashby(source)
-    if stype == "phenom_embedded":
-        return fetch_phenom_embedded(source)
-    if stype == "workday":
-        return fetch_workday(source)
-    if stype == "entertime":
-        return fetch_entertime(source)
-    if stype == "custom_html":
-        return fetch_custom_html(source)
-    raise ValueError(f"Unsupported source type: {stype}")
+    fetcher = _FETCHERS.get(stype)
+    if not fetcher:
+        raise ValueError(f"Unsupported source type: {stype}")
+    return fetcher(source)
 
 
 def stable_job_key(job: dict) -> str:
