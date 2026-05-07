@@ -94,12 +94,6 @@
       "name": "Whatnot Careers",
       "type": "ashby",
       "organization_key": "whatnot"
-    },
-    {
-      "name": "GovernmentJobs",
-      "type": "governmentjobs",
-      "days_posted": 1,
-      "max_pages": 10
     }
   ]
 }
