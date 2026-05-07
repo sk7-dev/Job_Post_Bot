@@ -671,14 +671,16 @@ def fetch_petco_html(source: dict, html: str) -> List[dict]:
 
 def fetch_governmentjobs(source: dict) -> List[dict]:
     keyword = source.get("keyword", "data analyst")
-    max_pages = int(source.get("max_pages", 3))
+    max_pages = int(source.get("max_pages", 20))
+    days_posted = source.get("days_posted")
     base = "https://www.governmentjobs.com"
     headers = {
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0 Safari/537.36"
     }
+    days_param = f"&daysPosted={days_posted}" if days_posted else ""
     jobs = []
     for page in range(1, max_pages + 1):
-        url = f"{base}/jobs?keyword={quote(keyword)}&location=&page={page}"
+        url = f"{base}/jobs?keyword={quote(keyword)}&location=&page={page}{days_param}"
         html = safe_get(url, headers=headers).text
         blocks = extract_between(html, r'<div[^>]*class="job-item-container"[^>]*>', r'</div>\s*</div>')
         if not blocks:

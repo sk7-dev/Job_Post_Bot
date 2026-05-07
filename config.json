@@ -44,11 +44,6 @@
       "name": "Cascade Financial Services",
       "type": "greenhouse",
       "board_token": "cascadeloans"
-    },
-    {
-      "name": "Qualified Health",
-      "type": "greenhouse",
-      "board_token": "qualifiedhealth"
     },   
     {
       "name": "Skechers Data Search",
@@ -103,7 +98,9 @@
     {
       "name": "GovernmentJobs",
       "type": "governmentjobs",
-      "max_pages": 3
+      "keyword": "data analyst",
+      "days_posted": 1,
+      "max_pages": 10
     }
   ]
 }
