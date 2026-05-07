@@ -670,7 +670,8 @@ def fetch_petco_html(source: dict, html: str) -> List[dict]:
 
 
 def fetch_governmentjobs(source: dict) -> List[dict]:
-    keyword = source.get("keyword", "data analyst")
+    raw = source.get("keywords") or source.get("keyword") or source.get("_title_keywords") or ["data analyst"]
+    keywords = raw if isinstance(raw, list) else [raw]
     max_pages = int(source.get("max_pages", 20))
     days_posted = source.get("days_posted")
     base = "https://www.governmentjobs.com"
@@ -678,37 +679,42 @@ def fetch_governmentjobs(source: dict) -> List[dict]:
         "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0 Safari/537.36"
     }
     days_param = f"&daysPosted={days_posted}" if days_posted else ""
-    jobs = []
-    for page in range(1, max_pages + 1):
-        url = f"{base}/jobs?keyword={quote(keyword)}&location=&page={page}{days_param}"
-        html = safe_get(url, headers=headers).text
-        blocks = extract_between(html, r'<div[^>]*class="job-item-container"[^>]*>', r'</div>\s*</div>')
-        if not blocks:
-            break
-        for block in blocks:
-            title_match = re.search(r'class="job-details-link"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', block, re.S)
-            if not title_match:
-                continue
-            href = title_match.group(1)
-            title = re.sub(r'<[^>]+>', '', title_match.group(2)).strip()
-            job_url = href if href.startswith("http") else base + href
-            id_match = re.search(r'/jobs/(\d+)', href)
-            external_id = id_match.group(1) if id_match else href
-            org_match = re.search(r'class="[^"]*job-organization[^"]*"[^>]*>(.*?)</div>', block, re.S)
-            org = re.sub(r'<[^>]+>', '', org_match.group(1)).strip() if org_match else ""
-            loc_match = re.search(r'class="job-location"[^>]*>(.*?)</span>', block, re.S)
-            location = re.sub(r'<[^>]+>', '', loc_match.group(1)).strip() if loc_match else ""
-            jobs.append({
-                "source_name": source["name"],
-                "source_type": "governmentjobs",
-                "external_id": external_id,
-                "title": title,
-                "location": location,
-                "department": org,
-                "url": job_url,
-                "posted_at": "",
-            })
-    return jobs
+    seen_ids: set = set()
+    all_jobs = []
+    for keyword in keywords:
+        for page in range(1, max_pages + 1):
+            url = f"{base}/jobs?keyword={quote(keyword)}&location=&page={page}{days_param}"
+            html = safe_get(url, headers=headers).text
+            blocks = extract_between(html, r'<div[^>]*class="job-item-container"[^>]*>', r'</div>\s*</div>')
+            if not blocks:
+                break
+            for block in blocks:
+                title_match = re.search(r'class="job-details-link"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', block, re.S)
+                if not title_match:
+                    continue
+                href = title_match.group(1)
+                title = re.sub(r'<[^>]+>', '', title_match.group(2)).strip()
+                job_url = href if href.startswith("http") else base + href
+                id_match = re.search(r'/jobs/(\d+)', href)
+                external_id = id_match.group(1) if id_match else href
+                if external_id in seen_ids:
+                    continue
+                seen_ids.add(external_id)
+                org_match = re.search(r'class="[^"]*job-organization[^"]*"[^>]*>(.*?)</div>', block, re.S)
+                org = re.sub(r'<[^>]+>', '', org_match.group(1)).strip() if org_match else ""
+                loc_match = re.search(r'class="job-location"[^>]*>(.*?)</span>', block, re.S)
+                location = re.sub(r'<[^>]+>', '', loc_match.group(1)).strip() if loc_match else ""
+                all_jobs.append({
+                    "source_name": source["name"],
+                    "source_type": "governmentjobs",
+                    "external_id": external_id,
+                    "title": title,
+                    "location": location,
+                    "department": org,
+                    "url": job_url,
+                    "posted_at": "",
+                })
+    return all_jobs
 
 
 _FETCHERS = {
@@ -833,6 +839,9 @@ def main() -> int:
 
     all_jobs = []
     errors = []
+
+    title_keywords = filters.get("title_keywords_any", [])
+    sources = [{**s, "_title_keywords": title_keywords} for s in sources]
 
     with ThreadPoolExecutor(max_workers=CONCURRENCY) as executor:
         futures = {executor.submit(fetch_jobs_for_source, s): s for s in sources}

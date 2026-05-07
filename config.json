@@ -98,7 +98,6 @@
     {
       "name": "GovernmentJobs",
       "type": "governmentjobs",
-      "keyword": "data analyst",
       "days_posted": 1,
       "max_pages": 10
     }
