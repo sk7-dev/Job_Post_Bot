@@ -2,6 +2,7 @@ import json
 import os
 import sys
 import time
+from datetime import datetime, timedelta, timezone
 from typing import List, Optional
 from urllib.parse import urlparse, quote
 import re
@@ -12,6 +13,7 @@ import requests
 CONFIG_PATH = "config.json"
 STATE_PATH = "state_seen.json"
 REQUEST_TIMEOUT = 30
+SEEN_KEY_TTL_DAYS = 90
 
 
 def load_json(path: str) -> dict:
@@ -713,13 +715,37 @@ def send_discord(webhook_url: str, text: str) -> bool:
     return False
 
 
+def load_seen_keys(state: dict) -> dict:
+    raw = state.get("seen_keys", {})
+    if isinstance(raw, list):
+        now = datetime.now(timezone.utc).isoformat()
+        return {k: now for k in raw}
+    return raw
+
+
+def prune_seen_keys(seen: dict) -> dict:
+    cutoff = datetime.now(timezone.utc) - timedelta(days=SEEN_KEY_TTL_DAYS)
+    pruned = {}
+    for key, ts in seen.items():
+        try:
+            dt = datetime.fromisoformat(ts)
+            if dt.tzinfo is None:
+                dt = dt.replace(tzinfo=timezone.utc)
+            if dt >= cutoff:
+                pruned[key] = ts
+        except (ValueError, TypeError):
+            pruned[key] = ts
+    return pruned
+
+
 def main() -> int:
     config = load_json(CONFIG_PATH)
     state = load_json(STATE_PATH)
 
     filters = config.get("filters", {})
     sources = config.get("sources", [])
-    seen_keys = set(state.get("seen_keys", []))
+    seen_keys_dict = load_seen_keys(state)
+    seen_keys = set(seen_keys_dict)
 
     all_jobs = []
     errors = []
@@ -764,10 +790,12 @@ def main() -> int:
         print("No new matching jobs to send.")
 
     if not new_jobs or delivered or not webhook:
+        now_ts = datetime.now(timezone.utc).isoformat()
         for key in new_keys:
-            seen_keys.add(key)
+            seen_keys_dict[key] = now_ts
 
-    state["seen_keys"] = sorted(seen_keys)
+    seen_keys_dict = prune_seen_keys(seen_keys_dict)
+    state["seen_keys"] = dict(sorted(seen_keys_dict.items()))
     save_json(STATE_PATH, state)
 
     if errors:
