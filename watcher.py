@@ -2,7 +2,6 @@ import json
 import os
 import sys
 import time
-from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime, timedelta, timezone
 from typing import List, Optional
 from urllib.parse import urlparse, quote
@@ -14,7 +13,6 @@ import requests
 CONFIG_PATH = "config.json"
 STATE_PATH = "state_seen.json"
 REQUEST_TIMEOUT = 30
-CONCURRENCY = 5
 SEEN_KEY_TTL_DAYS = 90
 
 
@@ -752,27 +750,16 @@ def main() -> int:
     all_jobs = []
     errors = []
 
-    with ThreadPoolExecutor(max_workers=CONCURRENCY) as executor:
-        futures = {executor.submit(fetch_jobs_for_source, s): s for s in sources}
-        fetch_results = {}
-        for future in as_completed(futures):
-            source = futures[future]
-            name = source.get("name", "unknown source")
-            try:
-                fetch_results[name] = future.result()
-            except Exception as e:
-                fetch_results[name] = e
-
     for source in sources:
-        name = source.get("name", "unknown source")
-        result = fetch_results.get(name)
-        if isinstance(result, Exception):
-            err = f"{name}: {result}"
+        try:
+            jobs = fetch_jobs_for_source(source)
+            all_jobs.extend(jobs)
+            print(f"{source.get('name', 'unknown source')}: fetched {len(jobs)} job(s)")
+            time.sleep(0.5)
+        except Exception as e:
+            err = f"{source.get('name', 'unknown source')}: {e}"
             errors.append(err)
             print(f"ERROR - {err}", file=sys.stderr)
-        elif result is not None:
-            all_jobs.extend(result)
-            print(f"{name}: fetched {len(result)} job(s)")
 
     matching_jobs = [job for job in all_jobs if matches_filters(job, filters)]
 
