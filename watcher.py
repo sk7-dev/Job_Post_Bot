@@ -669,6 +669,46 @@ def fetch_petco_html(source: dict, html: str) -> List[dict]:
     return jobs
 
 
+def fetch_governmentjobs(source: dict) -> List[dict]:
+    keyword = source.get("keyword", "data analyst")
+    max_pages = int(source.get("max_pages", 3))
+    base = "https://www.governmentjobs.com"
+    headers = {
+        "User-Agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0 Safari/537.36"
+    }
+    jobs = []
+    for page in range(1, max_pages + 1):
+        url = f"{base}/jobs?keyword={quote(keyword)}&location=&page={page}"
+        html = safe_get(url, headers=headers).text
+        blocks = extract_between(html, r'<div[^>]*class="job-item-container"[^>]*>', r'</div>\s*</div>')
+        if not blocks:
+            break
+        for block in blocks:
+            title_match = re.search(r'class="job-details-link"[^>]*href="([^"]+)"[^>]*>(.*?)</a>', block, re.S)
+            if not title_match:
+                continue
+            href = title_match.group(1)
+            title = re.sub(r'<[^>]+>', '', title_match.group(2)).strip()
+            job_url = href if href.startswith("http") else base + href
+            id_match = re.search(r'/jobs/(\d+)', href)
+            external_id = id_match.group(1) if id_match else href
+            org_match = re.search(r'class="[^"]*job-organization[^"]*"[^>]*>(.*?)</div>', block, re.S)
+            org = re.sub(r'<[^>]+>', '', org_match.group(1)).strip() if org_match else ""
+            loc_match = re.search(r'class="job-location"[^>]*>(.*?)</span>', block, re.S)
+            location = re.sub(r'<[^>]+>', '', loc_match.group(1)).strip() if loc_match else ""
+            jobs.append({
+                "source_name": source["name"],
+                "source_type": "governmentjobs",
+                "external_id": external_id,
+                "title": title,
+                "location": location,
+                "department": org,
+                "url": job_url,
+                "posted_at": "",
+            })
+    return jobs
+
+
 _FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -677,6 +717,7 @@ _FETCHERS = {
     "workday": fetch_workday,
     "entertime": fetch_entertime,
     "custom_html": fetch_custom_html,
+    "governmentjobs": fetch_governmentjobs,
 }
 
 
