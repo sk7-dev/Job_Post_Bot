@@ -94,6 +94,11 @@
       "name": "Whatnot Careers",
       "type": "ashby",
       "organization_key": "whatnot"
+    },
+    {
+      "name": "GovernmentJobs US",
+      "type": "governmentjobs",
+      "search_text": "data analyst"
     }
   ]
 }

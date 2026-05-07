@@ -583,6 +583,84 @@ def first_match(text: str, patterns: List[str]) -> str:
     return ""
 
 
+def fetch_governmentjobs(source: dict) -> List[dict]:
+    agency = source.get("agency")
+    base = "https://www.governmentjobs.com"
+
+    if agency:
+        url = f"{base}/careers/{agency}/jobs/paginate"
+        referer = f"{base}/careers/{agency}"
+    else:
+        url = f"{base}/jobs/paginate"
+        referer = f"{base}/jobs"
+
+    headers = {
+        "Accept": "application/json",
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36",
+        "Referer": referer,
+        "X-Requested-With": "XMLHttpRequest",
+    }
+
+    page = 1
+    page_size = int(source.get("page_size", 25))
+    search_text = source.get("search_text", "")
+    jobs = []
+
+    while True:
+        params = {
+            "currentPage": page,
+            "itemsPerPage": page_size,
+            "sort": "5",
+            "sortdir": "0",
+        }
+        if search_text:
+            params["keyword"] = search_text
+
+        data = safe_get_json(url, params=params, headers=headers)
+
+        items = data.get("value") or []
+        if not items:
+            break
+
+        for item in items:
+            job_id = str(item.get("id") or item.get("jobId") or "")
+            title = item.get("title") or item.get("jobTitle") or ""
+
+            location = item.get("location") or item.get("jobLocation") or ""
+            if isinstance(location, dict):
+                location = location.get("name") or location.get("city") or ""
+
+            department = item.get("department") or item.get("jobDepartment") or ""
+            if isinstance(department, dict):
+                department = department.get("name") or ""
+
+            job_url = item.get("canonicalUrl") or item.get("jobUrl") or ""
+            if job_url and not job_url.startswith("http"):
+                job_url = f"{base}{job_url}"
+            if not job_url and job_id:
+                path = f"/careers/{agency}/jobs/{job_id}" if agency else f"/jobs/{job_id}"
+                job_url = f"{base}{path}"
+
+            jobs.append({
+                "source_name": source["name"],
+                "source_type": "governmentjobs",
+                "external_id": job_id or title,
+                "title": title,
+                "location": location,
+                "department": department,
+                "url": job_url,
+                "posted_at": item.get("openDate") or item.get("postedDate") or "",
+            })
+
+        total = data.get("totalJobCount") or data.get("total") or 0
+        if page * page_size >= total or len(items) < page_size:
+            break
+        page += 1
+        time.sleep(0.2)
+
+    return jobs
+
+
 def fetch_custom_html(source: dict) -> List[dict]:
     url = source["url"]
     resp = safe_get(
@@ -676,6 +754,7 @@ _FETCHERS = {
     "phenom_embedded": fetch_phenom_embedded,
     "workday": fetch_workday,
     "entertime": fetch_entertime,
+    "governmentjobs": fetch_governmentjobs,
     "custom_html": fetch_custom_html,
 }
 
