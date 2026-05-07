@@ -131,13 +131,52 @@ def fetch_lever(source: dict) -> List[dict]:
     return jobs
 
 
+_ASHBY_GQL_QUERY = (
+    "query ApiJobBoardWithTeams($organizationHostedJobsPageName: String!) {"
+    " jobBoard: jobBoardWithTeams(organizationHostedJobsPageName: $organizationHostedJobsPageName) {"
+    " teams { id name } jobPostings { id title teamId locationName employmentType } } }"
+)
+
+
+def _fetch_ashby_graphql(org_key: str, source_name: str) -> List[dict]:
+    url = "https://jobs.ashbyhq.com/api/non-user-graphql"
+    headers = {"apollographql-client-name": "@ashby/jobs-board-ui"}
+    body = {
+        "operationName": "ApiJobBoardWithTeams",
+        "variables": {"organizationHostedJobsPageName": org_key},
+        "query": _ASHBY_GQL_QUERY,
+    }
+    data = safe_post_json(url, body, headers=headers)
+    board = (data.get("data") or {}).get("jobBoard") or {}
+    team_map = {t["id"]: t["name"] for t in board.get("teams", [])}
+    jobs = []
+    for item in board.get("jobPostings", []):
+        jobs.append({
+            "source_name": source_name,
+            "source_type": "ashby",
+            "external_id": str(item.get("id", "")),
+            "title": item.get("title", ""),
+            "location": item.get("locationName", ""),
+            "department": team_map.get(item.get("teamId", ""), ""),
+            "url": f"https://jobs.ashbyhq.com/{org_key}/{item.get('id', '')}",
+            "posted_at": "",
+        })
+    return jobs
+
+
 def fetch_ashby(source: dict) -> List[dict]:
+    org_key = source["organization_key"]
     url = source.get("api_url", "https://api.ashbyhq.com/jobPosting.list")
     body = {
-        "organizationHostedJobsPageName": source["organization_key"],
+        "organizationHostedJobsPageName": org_key,
         "listedOnly": True,
     }
-    data = safe_post_json(url, body)
+    try:
+        data = safe_post_json(url, body)
+    except requests.exceptions.HTTPError as e:
+        if e.response is not None and e.response.status_code == 401:
+            return _fetch_ashby_graphql(org_key, source["name"])
+        raise
 
     jobs = []
     for item in data.get("results", []):
