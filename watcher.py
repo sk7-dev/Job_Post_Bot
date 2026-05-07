@@ -55,7 +55,7 @@ def matches_filters(job: dict, filters: dict) -> bool:
 
     location_ok = True
     if locations_any:
-        location_ok = any(k in combined for k in locations_any)
+        location_ok = any(k in location for k in locations_any)
 
     excluded_ok = True
     if excluded_keywords_any:
