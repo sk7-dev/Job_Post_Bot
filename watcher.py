@@ -683,6 +683,8 @@ def fetch_governmentjobs(source: dict) -> List[dict]:
     all_jobs = []
     for keyword in keywords:
         for page in range(1, max_pages + 1):
+            if page > 1:
+                time.sleep(2)
             url = f"{base}/jobs?keyword={quote(keyword)}&location=&page={page}{days_param}"
             html = safe_get(url, headers=headers).text
             blocks = extract_between(html, r'<div[^>]*class="job-item-container"[^>]*>', r'</div>\s*</div>')
