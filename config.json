@@ -94,6 +94,11 @@
       "name": "Doximity Careers",
       "type": "greenhouse",
       "board_token": "doximity"
+    },
+    {
+      "name": "Whatnot Careers",
+      "type": "ashby",
+      "organization_key": "whatnot"
     }
   ]
 }
