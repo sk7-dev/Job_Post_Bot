@@ -754,6 +754,81 @@ def fetch_petco_html(source: dict, html: str) -> List[dict]:
     return jobs
 
 
+_RH_JOB_LINK_RE = re.compile(
+    r'href="(/us/en/job/([a-z0-9-]+)/[a-z0-9-]+/([A-Za-z0-9]+-[A-Za-z0-9]+-usen))"'
+    r'[^>]*>\s*([^<]+?)\s*<',
+    re.IGNORECASE,
+)
+
+
+def _parse_rh_location(slug: str) -> str:
+    parts = slug.rsplit("-", 1)
+    if len(parts) == 2 and len(parts[1]) == 2:
+        city = parts[0].replace("-", " ").title()
+        return f"{city}, {parts[1].upper()}"
+    return slug.replace("-", " ").title()
+
+
+def fetch_roberthalf(source: dict) -> List[dict]:
+    base = "https://www.roberthalf.com"
+    keywords = source.get("keywords", "")
+    location = source.get("location", "")
+    max_pages = int(source.get("max_pages", 10))
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
+        "Accept-Language": "en-US,en;q=0.9",
+    }
+
+    jobs = []
+    seen_ids: set = set()
+
+    for page in range(1, max_pages + 1):
+        params: dict = {"pagenumber": page}
+        if keywords:
+            params["keywords"] = keywords
+        if location:
+            params["location"] = location
+
+        try:
+            html = safe_get(f"{base}/us/en/jobs", params=params, headers=headers).text
+        except requests.exceptions.RequestException:
+            break
+
+        matches = _RH_JOB_LINK_RE.findall(html)
+        if not matches:
+            break
+
+        new_on_page = 0
+        for path, city_state, job_id, title_raw in matches:
+            if job_id in seen_ids:
+                continue
+            seen_ids.add(job_id)
+            new_on_page += 1
+
+            jobs.append({
+                "source_name": source["name"],
+                "source_type": "roberthalf",
+                "external_id": job_id,
+                "title": unescape(title_raw.strip()),
+                "location": _parse_rh_location(city_state),
+                "department": "",
+                "url": f"{base}{path}",
+                "posted_at": "",
+            })
+
+        if new_on_page == 0:
+            break
+
+        if f"pagenumber={page + 1}" not in html:
+            break
+
+        time.sleep(1)
+
+    return jobs
+
+
 _FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -763,6 +838,7 @@ _FETCHERS = {
     "entertime": fetch_entertime,
     "governmentjobs": fetch_governmentjobs,
     "custom_html": fetch_custom_html,
+    "roberthalf": fetch_roberthalf,
 }
 
 
