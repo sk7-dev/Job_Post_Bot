@@ -103,7 +103,10 @@
     },
     {
       "name": "Robert Half",
-      "type": "roberthalf"
+      "type": "roberthalf",
+      "keywords": "data",
+      "location": "United States",
+      "max_pages": 5
     }
   ]
 }
