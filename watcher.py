@@ -755,7 +755,7 @@ def fetch_petco_html(source: dict, html: str) -> List[dict]:
 
 
 _RH_JOB_LINK_RE = re.compile(
-    r'href="(/us/en/job/([a-z0-9-]+)/[a-z0-9-]+/([A-Za-z0-9]+-[A-Za-z0-9]+-usen))"'
+    r'href="(https://www\.roberthalf\.com/us/en/job/([a-z0-9-]+)/[a-z0-9-]+/([A-Za-z0-9]+-[A-Za-z0-9]+-usen))"'
     r'[^>]*>\s*([^<]+?)\s*<',
     re.IGNORECASE,
 )
@@ -801,7 +801,7 @@ def fetch_roberthalf(source: dict) -> List[dict]:
             break
 
         new_on_page = 0
-        for path, city_state, job_id, title_raw in matches:
+        for full_url, city_state, job_id, title_raw in matches:
             if job_id in seen_ids:
                 continue
             seen_ids.add(job_id)
@@ -814,7 +814,7 @@ def fetch_roberthalf(source: dict) -> List[dict]:
                 "title": unescape(title_raw.strip()),
                 "location": _parse_rh_location(city_state),
                 "department": "",
-                "url": f"{base}{path}",
+                "url": full_url,
                 "posted_at": "",
             })
 
