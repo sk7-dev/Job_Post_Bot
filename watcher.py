@@ -11,6 +11,8 @@ from html import unescape
 
 import requests
 
+import dashboard_export
+
 CONFIG_PATH = "config.json"
 STATE_PATH = "state_seen.json"
 REQUEST_TIMEOUT = 30
@@ -62,6 +64,14 @@ def matches_filters(job: dict, filters: dict) -> bool:
         excluded_ok = not any(k in combined for k in excluded_keywords_any)
 
     return title_ok and location_ok and excluded_ok
+
+
+def matched_title_keywords(job: dict, filters: dict) -> List[str]:
+    title = normalize_text(job.get("title"))
+    keywords = [
+        normalize_text(x) for x in filters.get("title_keywords_any", []) if str(x).strip()
+    ]
+    return [k for k in keywords if k in title]
 
 
 def safe_get(url: str, params: Optional[dict] = None, headers: Optional[dict] = None):
@@ -850,6 +860,15 @@ def fetch_jobs_for_source(source: dict) -> List[dict]:
     return fetcher(source)
 
 
+def _fetch_source_timed(source: dict):
+    start = time.perf_counter()
+    try:
+        jobs = fetch_jobs_for_source(source)
+        return jobs, None, time.perf_counter() - start
+    except Exception as e:
+        return None, e, time.perf_counter() - start
+
+
 def stable_job_key(job: dict) -> str:
     return "||".join([
         job.get("source_type", ""),
@@ -942,6 +961,7 @@ def prune_seen_keys(seen: dict) -> dict:
 
 
 def main() -> int:
+    scan_start = time.perf_counter()
     config = load_json(CONFIG_PATH)
     state = load_json(STATE_PATH)
 
@@ -954,28 +974,30 @@ def main() -> int:
     errors = []
 
     with ThreadPoolExecutor(max_workers=CONCURRENCY) as executor:
-        futures = {executor.submit(fetch_jobs_for_source, s): s for s in sources}
+        futures = {executor.submit(_fetch_source_timed, s): s for s in sources}
         fetch_results = {}
         for future in as_completed(futures):
             source = futures[future]
             name = source.get("name", "unknown source")
-            try:
-                fetch_results[name] = future.result()
-            except Exception as e:
-                fetch_results[name] = e
+            fetch_results[name] = future.result()
 
     for source in sources:
         name = source.get("name", "unknown source")
         result = fetch_results.get(name)
-        if isinstance(result, Exception):
-            err = f"{name}: {result}"
+        if result is None:
+            continue
+        jobs, exc, _duration = result
+        if exc is not None:
+            err = f"{name}: {exc}"
             errors.append(err)
             print(f"ERROR - {err}", file=sys.stderr)
-        elif result is not None:
-            all_jobs.extend(result)
-            print(f"{name}: fetched {len(result)} job(s)")
+        else:
+            all_jobs.extend(jobs)
+            print(f"{name}: fetched {len(jobs)} job(s)")
 
     matching_jobs = [job for job in all_jobs if matches_filters(job, filters)]
+    for job in matching_jobs:
+        job["matched_keywords"] = matched_title_keywords(job, filters)
 
     new_jobs = []
     new_keys = []
@@ -1011,6 +1033,21 @@ def main() -> int:
     seen_keys_dict = prune_seen_keys(seen_keys_dict)
     state["seen_keys"] = dict(sorted(seen_keys_dict.items()))
     save_json(STATE_PATH, state)
+
+    scan_duration = time.perf_counter() - scan_start
+    try:
+        dashboard_export.export_dashboard_data(
+            sources=sources,
+            fetch_results=fetch_results,
+            matching_jobs=matching_jobs,
+            new_keys=set(new_keys),
+            key_fn=stable_job_key,
+            jobs_fetched_total=len(all_jobs),
+            scan_duration_seconds=scan_duration,
+            delivered=delivered,
+        )
+    except Exception as e:
+        print(f"WARNING - dashboard data export failed: {e}", file=sys.stderr)
 
     if errors:
         print("Completed with source errors:", file=sys.stderr)
