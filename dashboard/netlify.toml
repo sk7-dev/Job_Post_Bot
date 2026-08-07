@@ -1,0 +1,9 @@
+[build]
+  command = "npm run build"
+  # Skip rebuilding when a commit only touches files outside this directory
+  # (e.g. state_seen.json or dashboard_data/*.json committed by the bot's
+  # GitHub Action every 10 minutes). Runs with cwd = this base directory.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- ."
+
+[[plugins]]
+  package = "@netlify/plugin-nextjs"
