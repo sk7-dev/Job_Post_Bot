@@ -1,0 +1,122 @@
+[
+  {
+    "name": "Cascade Financial Services",
+    "type": "greenhouse",
+    "status": "healthy",
+    "jobs_fetched": 8,
+    "jobs_matched": 0,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 1168,
+    "error": null
+  },
+  {
+    "name": "Skechers Data Search",
+    "type": "phenom_embedded",
+    "status": "healthy",
+    "jobs_fetched": 10,
+    "jobs_matched": 5,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 1712,
+    "error": null
+  },
+  {
+    "name": "SCAN Careers",
+    "type": "workday",
+    "status": "healthy",
+    "jobs_fetched": 40,
+    "jobs_matched": 1,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 2790,
+    "error": null
+  },
+  {
+    "name": "Santander Careers",
+    "type": "workday",
+    "status": "healthy",
+    "jobs_fetched": 40,
+    "jobs_matched": 10,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 4403,
+    "error": null
+  },
+  {
+    "name": "Entertime Careers",
+    "type": "entertime",
+    "status": "healthy",
+    "jobs_fetched": 19,
+    "jobs_matched": 0,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 1285,
+    "error": null
+  },
+  {
+    "name": "GumGum Careers",
+    "type": "greenhouse",
+    "status": "healthy",
+    "jobs_fetched": 7,
+    "jobs_matched": 0,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 651,
+    "error": null
+  },
+  {
+    "name": "Petco Careers",
+    "type": "workday",
+    "status": "failed",
+    "jobs_fetched": 0,
+    "jobs_matched": 0,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 851,
+    "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
+  },
+  {
+    "name": "Accenture Careers Alt",
+    "type": "workday",
+    "status": "healthy",
+    "jobs_fetched": 40,
+    "jobs_matched": 0,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 5603,
+    "error": null
+  },
+  {
+    "name": "Doximity Careers",
+    "type": "greenhouse",
+    "status": "healthy",
+    "jobs_fetched": 7,
+    "jobs_matched": 2,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 827,
+    "error": null
+  },
+  {
+    "name": "Whatnot Careers",
+    "type": "ashby",
+    "status": "healthy",
+    "jobs_fetched": 137,
+    "jobs_matched": 15,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 1799,
+    "error": null
+  },
+  {
+    "name": "GovernmentJobs US",
+    "type": "governmentjobs",
+    "status": "healthy",
+    "jobs_fetched": 50,
+    "jobs_matched": 39,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 15699,
+    "error": null
+  },
+  {
+    "name": "Robert Half",
+    "type": "roberthalf",
+    "status": "healthy",
+    "jobs_fetched": 108,
+    "jobs_matched": 5,
+    "last_scan": "2026-08-07T01:13:02Z",
+    "duration_ms": 23320,
+    "error": null
+  }
+]
