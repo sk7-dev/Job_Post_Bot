@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 8,
     "jobs_matched": 0,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 128,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 477,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 5,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 1257,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 589,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 1654,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 954,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 9,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 2932,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 2606,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 19,
     "jobs_matched": 0,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 275,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 243,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 0,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 64,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 235,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "failed",
     "jobs_fetched": 0,
     "jobs_matched": 0,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 330,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 92,
     "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 2,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 4220,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 4151,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 2,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 92,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 90,
     "error": null
   },
   {
@@ -95,28 +95,28 @@
     "status": "healthy",
     "jobs_fetched": 134,
     "jobs_matched": 15,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 320,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 267,
     "error": null
   },
   {
     "name": "GovernmentJobs US",
     "type": "governmentjobs",
     "status": "healthy",
-    "jobs_fetched": 30,
-    "jobs_matched": 24,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 37354,
+    "jobs_fetched": 50,
+    "jobs_matched": 37,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 12910,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 99,
+    "jobs_fetched": 117,
     "jobs_matched": 8,
-    "last_scan": "2026-08-08T20:54:57Z",
-    "duration_ms": 18926,
+    "last_scan": "2026-08-08T21:19:22Z",
+    "duration_ms": 18356,
     "error": null
   }
 ]
