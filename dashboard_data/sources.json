@@ -5,19 +5,19 @@
     "status": "healthy",
     "jobs_fetched": 8,
     "jobs_matched": 0,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 353,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 85,
     "error": null
   },
   {
     "name": "Skechers Data Search",
     "type": "phenom_embedded",
-    "status": "healthy",
-    "jobs_fetched": 10,
-    "jobs_matched": 5,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 726,
-    "error": null
+    "status": "failed",
+    "jobs_fetched": 0,
+    "jobs_matched": 0,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 68,
+    "error": "403 Client Error: Forbidden for url: https://careers.skechers.com/us/en/search-results?keywords=data"
   },
   {
     "name": "SCAN Careers",
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 1323,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 1372,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 9,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 2959,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 2788,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 19,
     "jobs_matched": 0,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 227,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 260,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 0,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 118,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 69,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "failed",
     "jobs_fetched": 0,
     "jobs_matched": 0,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 207,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 201,
     "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 2,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 4514,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 4403,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 2,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 88,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 54,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 134,
     "jobs_matched": 15,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 451,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 270,
     "error": null
   },
   {
@@ -104,19 +104,19 @@
     "type": "governmentjobs",
     "status": "healthy",
     "jobs_fetched": 30,
-    "jobs_matched": 26,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 36569,
+    "jobs_matched": 23,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 36639,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 113,
-    "jobs_matched": 12,
-    "last_scan": "2026-08-09T10:07:36Z",
-    "duration_ms": 18822,
+    "jobs_fetched": 110,
+    "jobs_matched": 10,
+    "last_scan": "2026-08-09T10:48:39Z",
+    "duration_ms": 18763,
     "error": null
   }
 ]
