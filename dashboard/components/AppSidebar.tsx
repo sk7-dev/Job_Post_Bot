@@ -10,12 +10,12 @@ export function AppSidebar() {
   const pathname = usePathname();
 
   return (
-    <aside className="hidden md:flex md:fixed md:inset-y-0 md:left-0 md:w-60 md:flex-col md:border-r md:border-zinc-200 md:bg-white dark:md:border-zinc-800 dark:md:bg-zinc-950">
-      <div className="flex h-14 items-center gap-2 px-5">
-        <Radar className="size-5 text-zinc-900 dark:text-zinc-100" aria-hidden />
-        <span className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Job Watcher</span>
+    <aside className="hidden shrink-0 self-start rounded-[18px] border border-white/[0.08] bg-[var(--sidebar-bg)] shadow-[0_25px_80px_rgba(0,0,0,0.45)] md:sticky md:top-8 md:flex md:h-[calc(100vh-4rem)] md:w-60 md:flex-col">
+      <div className="flex h-16 items-center gap-2 px-6">
+        <Radar className="size-4 text-[var(--accent)]" aria-hidden />
+        <span className="text-[13px] font-medium tracking-wide text-zinc-200">Job Watcher</span>
       </div>
-      <nav className="flex-1 space-y-0.5 px-3 py-2">
+      <nav className="flex-1 space-y-1 px-4 py-3">
         {NAV_ITEMS.map((item) => {
           const active = pathname === item.href;
           const Icon = item.icon;
@@ -24,19 +24,25 @@ export function AppSidebar() {
               key={item.href}
               href={item.href}
               className={cn(
-                "flex items-center gap-2.5 rounded-lg px-3 py-2 text-sm font-medium transition-colors",
+                "group relative flex items-center gap-3 rounded-lg px-3.5 py-2.5 text-sm font-medium transition-colors",
                 active
-                  ? "bg-zinc-900 text-white dark:bg-zinc-100 dark:text-zinc-900"
-                  : "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100"
+                  ? "bg-white/[0.06] text-zinc-100"
+                  : "text-zinc-500 hover:bg-white/[0.03] hover:text-zinc-200"
               )}
             >
-              <Icon className="size-4" aria-hidden />
+              {active ? (
+                <span className="absolute left-0 top-1/2 h-4 w-0.5 -translate-y-1/2 rounded-full bg-[var(--accent)]" aria-hidden />
+              ) : null}
+              <Icon
+                className={cn("size-4 shrink-0", active ? "text-[var(--accent)]" : "text-zinc-500 group-hover:text-zinc-300")}
+                aria-hidden
+              />
               {item.label}
             </Link>
           );
         })}
       </nav>
-      <div className="px-5 py-4 text-xs text-zinc-400 dark:text-zinc-600">Read-only view</div>
+      <div className="px-6 py-5 text-xs text-zinc-600">Read-only view</div>
     </aside>
   );
 }
