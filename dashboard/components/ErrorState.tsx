@@ -24,13 +24,13 @@ export function ErrorState({
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center gap-2 rounded-xl border border-zinc-200 bg-zinc-50 px-6 py-14 text-center dark:border-zinc-800 dark:bg-zinc-900/50",
+        "flex flex-col items-center justify-center gap-2 rounded-2xl border border-[var(--border-subtle)] bg-white/[0.02] px-6 py-14 text-center",
         className
       )}
     >
-      <Icon className="size-8 text-zinc-400 dark:text-zinc-600" aria-hidden />
-      <p className="text-sm font-medium text-zinc-900 dark:text-zinc-100">{copy.title}</p>
-      <p className="max-w-sm text-sm text-zinc-500 dark:text-zinc-400">{message}</p>
+      <Icon className="size-8 text-zinc-500" aria-hidden />
+      <p className="text-sm font-medium text-zinc-100">{copy.title}</p>
+      <p className="max-w-sm text-sm text-zinc-500">{message}</p>
     </div>
   );
 }
