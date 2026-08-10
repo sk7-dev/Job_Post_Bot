@@ -11,8 +11,8 @@ export default async function FiltersPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Filters</h1>
-        <p className="text-sm text-zinc-500 dark:text-zinc-400">
+        <h1 className="text-[26px] font-semibold leading-tight text-zinc-100">Filters</h1>
+        <p className="mt-1 text-sm text-zinc-500">
           Current matching rules, read directly from <code className="font-mono text-xs">config.json</code>.
         </p>
       </div>
@@ -21,7 +21,7 @@ export default async function FiltersPage() {
         <ErrorState kind={config.kind} message={config.error} />
       ) : (
         <div className="space-y-4">
-          <div className="flex items-start gap-2 rounded-xl border border-blue-100 bg-blue-50 px-4 py-3 text-sm text-blue-800 dark:border-blue-500/20 dark:bg-blue-500/10 dark:text-blue-300">
+          <div className="flex items-start gap-2 rounded-2xl border border-[var(--accent)]/20 bg-[var(--accent)]/[0.06] px-4 py-3 text-sm text-[var(--accent)]">
             <Info className="mt-0.5 size-4 shrink-0" aria-hidden />
             <p>
               Filters are managed through <code className="font-mono text-xs">config.json</code> in the repository —
@@ -91,10 +91,10 @@ export default async function FiltersPage() {
               <CardTitle>Configured sources</CardTitle>
             </CardHeader>
             <CardContent>
-              <p className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">
+              <p className="text-[28px] font-semibold text-zinc-100">
                 {config.data.sources?.length ?? 0}
               </p>
-              <p className="text-sm text-zinc-500 dark:text-zinc-400">career sites configured for scraping</p>
+              <p className="text-sm text-zinc-500">career sites configured for scraping</p>
             </CardContent>
           </Card>
         </div>
