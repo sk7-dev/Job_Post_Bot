@@ -2,17 +2,16 @@ import { cn } from "@/lib/utils";
 import type { ButtonHTMLAttributes, AnchorHTMLAttributes } from "react";
 
 const BASE =
-  "inline-flex items-center justify-center gap-1.5 rounded-lg text-sm font-medium transition-colors focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-zinc-400 disabled:opacity-50 disabled:pointer-events-none";
+  "inline-flex items-center justify-center gap-1.5 rounded-[9px] text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 disabled:opacity-50 disabled:pointer-events-none";
 
 const VARIANTS = {
-  primary:
-    "bg-zinc-900 text-white hover:bg-zinc-700 dark:bg-zinc-100 dark:text-zinc-900 dark:hover:bg-white",
+  primary: "bg-white text-zinc-900 hover:bg-zinc-200",
   secondary:
-    "bg-zinc-100 text-zinc-900 hover:bg-zinc-200 dark:bg-zinc-800 dark:text-zinc-100 dark:hover:bg-zinc-700",
+    "border border-[var(--border-subtle)] bg-white/[0.03] text-zinc-200 hover:bg-white/[0.06] hover:border-[var(--accent)]/30 hover:shadow-[0_0_16px_rgba(143,174,248,0.12)]",
   ghost:
-    "text-zinc-600 hover:bg-zinc-100 hover:text-zinc-900 dark:text-zinc-400 dark:hover:bg-zinc-800 dark:hover:text-zinc-100",
+    "text-zinc-400 hover:bg-white/[0.05] hover:text-zinc-100 hover:border-[var(--accent)]/20 border border-transparent",
   outline:
-    "border border-zinc-200 text-zinc-700 hover:bg-zinc-50 dark:border-zinc-700 dark:text-zinc-300 dark:hover:bg-zinc-800",
+    "border border-[var(--border-subtle)] text-zinc-300 hover:bg-white/[0.04] hover:border-[var(--accent)]/30",
 };
 
 const SIZES = {
