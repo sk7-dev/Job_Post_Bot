@@ -9,22 +9,22 @@ export async function PageHeader() {
   const status = overview.ok ? overview.data.scan_status : "unknown";
 
   return (
-    <header className="sticky top-0 z-30 flex h-14 items-center justify-between border-b border-zinc-200 bg-white/95 px-4 backdrop-blur sm:px-6 md:pl-6 dark:border-zinc-800 dark:bg-zinc-950/95">
+    <header className="flex h-16 shrink-0 items-center justify-between border-b border-white/[0.06] px-4 sm:px-6 md:px-8">
       <div className="flex items-center gap-2 md:hidden">
-        <Radar className="size-4.5 text-zinc-900 dark:text-zinc-100" aria-hidden />
-        <span className="text-sm font-semibold text-zinc-900 dark:text-zinc-100">Job Watcher</span>
+        <Radar className="size-4 text-[var(--accent)]" aria-hidden />
+        <span className="text-[13px] font-medium text-zinc-200">Job Watcher</span>
       </div>
-      <div className="hidden md:block text-sm font-medium text-zinc-500 dark:text-zinc-400">
+      <div className="hidden text-[13px] text-zinc-500 md:block">
         Read-only view of your job watcher bot
       </div>
-      <div className="flex items-center gap-2 text-xs text-zinc-500 dark:text-zinc-400">
+      <div className="flex items-center gap-2 text-xs text-zinc-500">
         <StatusDot status={status} />
         <span>
           Last scan:{" "}
           {lastScan ? (
-            <RelativeTime iso={lastScan} className="font-medium text-zinc-700 dark:text-zinc-300" />
+            <RelativeTime iso={lastScan} className="font-medium text-zinc-300" />
           ) : (
-            <span className="font-medium text-zinc-700 dark:text-zinc-300">Unknown</span>
+            <span className="font-medium text-zinc-300">Unknown</span>
           )}
         </span>
       </div>
