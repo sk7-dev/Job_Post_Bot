@@ -25,11 +25,11 @@ export function StatusBadge({ status, className }: { status: AnyStatus; classNam
 export function StatusDot({ status }: { status: AnyStatus }) {
   const dotClass =
     status === "healthy" || status === "success"
-      ? "bg-emerald-500"
+      ? "bg-[var(--healthy)]"
       : status === "warning" || status === "partial"
-        ? "bg-amber-500"
+        ? "bg-[var(--warning)] shadow-[0_0_6px_rgba(232,184,91,0.6)]"
         : status === "failed"
-          ? "bg-red-500"
-          : "bg-zinc-400";
-  return <span className={`inline-block size-2 rounded-full ${dotClass}`} aria-hidden />;
+          ? "bg-[var(--failed)]"
+          : "bg-zinc-500";
+  return <span className={`inline-block size-1.5 rounded-full ${dotClass}`} aria-hidden />;
 }
