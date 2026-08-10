@@ -9,8 +9,8 @@ export default async function JobsPage() {
   return (
     <div className="space-y-6">
       <div>
-        <h1 className="text-2xl font-semibold text-zinc-900 dark:text-zinc-100">Jobs</h1>
-        <p className="text-sm text-zinc-500 dark:text-zinc-400">
+        <h1 className="text-[26px] font-semibold leading-tight text-zinc-100">Jobs</h1>
+        <p className="mt-1 text-sm text-zinc-500">
           Every matching job discovered in the last 90 days.
         </p>
       </div>
