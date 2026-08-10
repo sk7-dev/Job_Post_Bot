@@ -10,7 +10,7 @@ import { EmptyState } from "@/components/EmptyState";
 type SortOrder = "newest" | "oldest";
 
 const SELECT_CLASS =
-  "h-9 rounded-[9px] border border-[var(--border-subtle)] bg-white/[0.03] px-2.5 text-sm text-zinc-300 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/40";
+  "h-9 rounded-lg border border-[var(--border-subtle)] bg-white px-2.5 text-sm text-slate-700 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/30";
 
 export function JobsClient({ jobs }: { jobs: JobRecord[] }) {
   const [query, setQuery] = useState("");
@@ -59,13 +59,13 @@ export function JobsClient({ jobs }: { jobs: JobRecord[] }) {
     <div className="space-y-4">
       <div className="flex flex-wrap items-center gap-2">
         <div className="relative flex-1 min-w-[200px]">
-          <Search className="pointer-events-none absolute left-2.5 top-1/2 size-4 -translate-y-1/2 text-zinc-500" aria-hidden />
+          <Search className="pointer-events-none absolute left-2.5 top-1/2 size-4 -translate-y-1/2 text-slate-400" aria-hidden />
           <input
             type="text"
             value={query}
             onChange={(e) => setQuery(e.target.value)}
             placeholder="Search title, company, or location…"
-            className="h-9 w-full rounded-[9px] border border-[var(--border-subtle)] bg-white/[0.03] pl-8 pr-3 text-sm text-zinc-300 placeholder:text-zinc-500 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/40"
+            className="h-9 w-full rounded-lg border border-[var(--border-subtle)] bg-white pl-8 pr-3 text-sm text-slate-700 placeholder:text-slate-400 focus:outline-none focus:ring-2 focus:ring-[var(--accent)]/30"
           />
         </div>
 
@@ -102,7 +102,7 @@ export function JobsClient({ jobs }: { jobs: JobRecord[] }) {
         </select>
       </div>
 
-      <p className="text-xs text-zinc-500">
+      <p className="text-xs text-slate-500">
         {filtered.length} of {jobs.length} job{jobs.length === 1 ? "" : "s"}
       </p>
 
@@ -113,7 +113,7 @@ export function JobsClient({ jobs }: { jobs: JobRecord[] }) {
           <div className="hidden md:block">
             <JobTable jobs={filtered} />
           </div>
-          <div className="divide-y divide-white/[0.04] rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface)] px-1 md:hidden">
+          <div className="divide-y divide-slate-100 rounded-[14px] border border-[var(--border-subtle)] bg-[var(--surface)] px-1 md:hidden">
             {filtered.map((job) => (
               <JobCard key={job.key} job={job} />
             ))}
