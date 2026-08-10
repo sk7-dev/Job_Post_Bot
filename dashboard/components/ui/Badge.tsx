@@ -4,14 +4,11 @@ import type { HTMLAttributes } from "react";
 type BadgeTone = "neutral" | "green" | "amber" | "red" | "blue";
 
 const TONE_CLASSES: Record<BadgeTone, string> = {
-  neutral:
-    "bg-zinc-100 text-zinc-700 dark:bg-zinc-800 dark:text-zinc-300",
-  green:
-    "bg-emerald-50 text-emerald-700 dark:bg-emerald-500/10 dark:text-emerald-400",
-  amber:
-    "bg-amber-50 text-amber-700 dark:bg-amber-500/10 dark:text-amber-400",
-  red: "bg-red-50 text-red-700 dark:bg-red-500/10 dark:text-red-400",
-  blue: "bg-blue-50 text-blue-700 dark:bg-blue-500/10 dark:text-blue-400",
+  neutral: "bg-white/[0.05] text-zinc-300 border border-white/[0.08]",
+  green: "bg-[var(--healthy)]/10 text-[var(--healthy)] border border-[var(--healthy)]/25",
+  amber: "bg-[var(--warning)]/10 text-[var(--warning)] border border-[var(--warning)]/25",
+  red: "bg-[var(--failed)]/10 text-[var(--failed)] border border-[var(--failed)]/25",
+  blue: "bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/25",
 };
 
 interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
@@ -22,7 +19,7 @@ export function Badge({ tone = "neutral", className, ...props }: BadgeProps) {
   return (
     <span
       className={cn(
-        "inline-flex items-center gap-1 rounded-full px-2 py-0.5 text-xs font-medium",
+        "inline-flex items-center gap-1 rounded-full px-2.5 py-0.5 text-xs font-medium",
         TONE_CLASSES[tone],
         className
       )}
