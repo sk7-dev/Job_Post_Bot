@@ -2,16 +2,16 @@ import { cn } from "@/lib/utils";
 import type { ButtonHTMLAttributes, AnchorHTMLAttributes } from "react";
 
 const BASE =
-  "inline-flex items-center justify-center gap-1.5 rounded-[9px] text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]/40 disabled:opacity-50 disabled:pointer-events-none";
+  "inline-flex items-center justify-center gap-1.5 rounded-lg text-sm font-medium transition-all focus-visible:outline-none focus-visible:ring-2 focus-visible:ring-[var(--accent)]/30 focus-visible:ring-offset-2 focus-visible:ring-offset-white disabled:opacity-50 disabled:pointer-events-none";
 
 const VARIANTS = {
-  primary: "bg-white text-zinc-900 hover:bg-zinc-200",
+  primary: "bg-[var(--accent)] text-white hover:bg-[var(--accent-hover)]",
   secondary:
-    "border border-[var(--border-subtle)] bg-white/[0.03] text-zinc-200 hover:bg-white/[0.06] hover:border-[var(--accent)]/30 hover:shadow-[0_0_16px_rgba(143,174,248,0.12)]",
+    "border border-[var(--border-subtle)] bg-white text-[var(--text-secondary)] hover:bg-slate-50 hover:border-slate-300",
   ghost:
-    "text-zinc-400 hover:bg-white/[0.05] hover:text-zinc-100 hover:border-[var(--accent)]/20 border border-transparent",
+    "text-[var(--text-muted)] hover:bg-slate-50 hover:text-[var(--text-primary)] border border-transparent",
   outline:
-    "border border-[var(--border-subtle)] text-zinc-300 hover:bg-white/[0.04] hover:border-[var(--accent)]/30",
+    "border border-[var(--border-subtle)] text-[var(--text-secondary)] hover:bg-slate-50",
 };
 
 const SIZES = {

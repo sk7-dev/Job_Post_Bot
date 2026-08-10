@@ -4,11 +4,11 @@ import type { HTMLAttributes } from "react";
 type BadgeTone = "neutral" | "green" | "amber" | "red" | "blue";
 
 const TONE_CLASSES: Record<BadgeTone, string> = {
-  neutral: "bg-white/[0.05] text-zinc-300 border border-white/[0.08]",
-  green: "bg-[var(--healthy)]/10 text-[var(--healthy)] border border-[var(--healthy)]/25",
-  amber: "bg-[var(--warning)]/10 text-[var(--warning)] border border-[var(--warning)]/25",
-  red: "bg-[var(--failed)]/10 text-[var(--failed)] border border-[var(--failed)]/25",
-  blue: "bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/25",
+  neutral: "bg-slate-100 text-slate-600 border border-slate-200",
+  green: "bg-[var(--healthy-soft)] text-[var(--healthy)] border border-green-200",
+  amber: "bg-[var(--warning-soft)] text-[var(--warning)] border border-amber-200",
+  red: "bg-[var(--failed-soft)] text-[var(--failed)] border border-red-200",
+  blue: "bg-[var(--accent-soft)] text-[var(--accent)] border border-blue-200",
 };
 
 interface BadgeProps extends HTMLAttributes<HTMLSpanElement> {
