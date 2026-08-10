@@ -9,7 +9,7 @@ export function MobileNav() {
   const pathname = usePathname();
 
   return (
-    <nav className="fixed inset-x-0 bottom-0 z-40 flex border-t border-zinc-200 bg-white/95 backdrop-blur md:hidden dark:border-zinc-800 dark:bg-zinc-950/95">
+    <nav className="fixed inset-x-2 bottom-2 z-40 flex rounded-2xl border border-white/[0.08] bg-[var(--sidebar-bg)]/95 shadow-[0_15px_50px_rgba(0,0,0,0.35)] backdrop-blur-xl md:hidden">
       {NAV_ITEMS.map((item) => {
         const active = pathname === item.href;
         const Icon = item.icon;
@@ -18,8 +18,8 @@ export function MobileNav() {
             key={item.href}
             href={item.href}
             className={cn(
-              "flex flex-1 flex-col items-center gap-0.5 py-2.5 text-[11px] font-medium",
-              active ? "text-zinc-900 dark:text-zinc-100" : "text-zinc-400 dark:text-zinc-600"
+              "flex flex-1 flex-col items-center gap-1 py-3 text-[11px] font-medium transition-colors",
+              active ? "text-[var(--accent)]" : "text-zinc-500"
             )}
           >
             <Icon className="size-5" aria-hidden />
