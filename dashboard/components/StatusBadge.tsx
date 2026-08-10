@@ -27,9 +27,10 @@ export function StatusDot({ status }: { status: AnyStatus }) {
     status === "healthy" || status === "success"
       ? "bg-[var(--healthy)]"
       : status === "warning" || status === "partial"
-        ? "bg-[var(--warning)] shadow-[0_0_6px_rgba(232,184,91,0.6)]"
+        ? "bg-[var(--warning)] shadow-[0_0_0_3px_rgba(217,119,6,0.15)]"
         : status === "failed"
           ? "bg-[var(--failed)]"
-          : "bg-zinc-500";
-  return <span className={`inline-block size-1.5 rounded-full ${dotClass}`} aria-hidden />;
+          : "bg-slate-400";
+  const label = CONFIG[status]?.label ?? String(status);
+  return <span className={`inline-block size-1.5 rounded-full ${dotClass}`} role="img" aria-label={`Status: ${label}`} />;
 }

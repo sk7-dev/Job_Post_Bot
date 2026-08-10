@@ -1,14 +1,14 @@
 import { cn } from "@/lib/utils";
 
 function Pulse({ className }: { className?: string }) {
-  return <div className={cn("animate-pulse rounded-md bg-white/[0.06]", className)} />;
+  return <div className={cn("animate-pulse rounded-md bg-slate-200", className)} />;
 }
 
 export function StatsSkeleton() {
   return (
     <div className="grid grid-cols-2 gap-4 sm:grid-cols-4">
       {Array.from({ length: 4 }).map((_, i) => (
-        <div key={i} className="min-h-[128px] rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface)] p-5">
+        <div key={i} className="min-h-[128px] rounded-[14px] border border-[var(--border-subtle)] bg-[var(--surface)] p-5">
           <Pulse className="h-6 w-12 mb-2" />
           <Pulse className="h-3 w-20" />
         </div>
@@ -19,7 +19,7 @@ export function StatsSkeleton() {
 
 export function TableSkeleton({ rows = 6 }: { rows?: number }) {
   return (
-    <div className="rounded-2xl border border-[var(--border-subtle)] bg-[var(--surface)] divide-y divide-white/[0.04]">
+    <div className="rounded-[14px] border border-[var(--border-subtle)] bg-[var(--surface)] divide-y divide-slate-100">
       {Array.from({ length: rows }).map((_, i) => (
         <div key={i} className="flex items-center gap-4 px-5 py-3.5">
           <Pulse className="h-4 w-1/4" />

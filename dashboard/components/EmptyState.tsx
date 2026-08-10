@@ -15,14 +15,14 @@ export function EmptyState({
   return (
     <div
       className={cn(
-        "flex flex-col items-center justify-center gap-2 rounded-2xl border border-dashed border-white/[0.08] px-6 py-14 text-center",
+        "flex flex-col items-center justify-center gap-2 rounded-[14px] border border-dashed border-slate-200 px-6 py-14 text-center",
         className
       )}
     >
-      <Icon className="size-8 text-zinc-600" aria-hidden />
-      <p className="text-sm font-medium text-zinc-100">{title}</p>
+      <Icon className="size-8 text-slate-400" aria-hidden />
+      <p className="text-sm font-medium text-slate-900">{title}</p>
       {description ? (
-        <p className="max-w-sm text-sm text-zinc-500">{description}</p>
+        <p className="max-w-sm text-sm text-slate-500">{description}</p>
       ) : null}
     </div>
   );

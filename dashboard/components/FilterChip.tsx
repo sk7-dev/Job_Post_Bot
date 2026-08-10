@@ -4,9 +4,9 @@ import type { ReactNode } from "react";
 type ChipTone = "neutral" | "include" | "exclude";
 
 const TONE_CLASSES: Record<ChipTone, string> = {
-  neutral: "bg-white/[0.05] text-zinc-300 border border-white/[0.08]",
-  include: "bg-[var(--accent)]/10 text-[var(--accent)] border border-[var(--accent)]/25",
-  exclude: "bg-[var(--failed)]/10 text-[var(--failed)] border border-[var(--failed)]/25",
+  neutral: "bg-slate-100 text-slate-600 border border-slate-200",
+  include: "bg-[var(--accent-soft)] text-[var(--accent)] border border-blue-200",
+  exclude: "bg-[var(--failed-soft)] text-[var(--failed)] border border-red-200",
 };
 
 export function FilterChip({ tone = "neutral", children }: { tone?: ChipTone; children: ReactNode }) {
