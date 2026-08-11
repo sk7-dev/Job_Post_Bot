@@ -10,9 +10,34 @@ const STATUS_CONFIG: Record<ActivityRun["status"], { label: string; icon: Lucide
   failed: { label: "Scan failed", icon: XCircle, tone: "text-[var(--failed)]", soft: "bg-[var(--failed-soft)]" },
 };
 
-export function LatestRun({ run }: { run: ActivityRun }) {
+export function LatestRun({ run, compact }: { run: ActivityRun; compact?: boolean }) {
   const config = STATUS_CONFIG[run.status];
   const Icon = config.icon;
+
+  if (compact) {
+    return (
+      <div className="flex flex-col gap-3.5">
+        <div className="flex items-center gap-2.5">
+          <span className={`flex size-7 shrink-0 items-center justify-center rounded-full ${config.soft}`}>
+            <Icon className={`size-3.5 ${config.tone}`} aria-hidden />
+          </span>
+          <div className="min-w-0 flex-1">
+            <p className="truncate text-[13px] font-semibold text-slate-900">{config.label}</p>
+            <span className="mt-0.5 block text-[11px] text-slate-400">
+              <RelativeTime iso={run.timestamp} />
+            </span>
+          </div>
+        </div>
+
+        <dl className="grid grid-cols-2 gap-2">
+          <CompactStat label="Fetched" value={run.jobs_fetched} />
+          <CompactStat label="Matched" value={run.jobs_matched} />
+          <CompactStat label="New" value={run.new_jobs} />
+          <CompactStat label="Duration" value={formatDuration(run.duration_seconds)} />
+        </dl>
+      </div>
+    );
+  }
 
   return (
     <div>
@@ -46,6 +71,15 @@ function Stat({ label, value }: { label: string; value: ReactNode }) {
     <div className="rounded-lg bg-slate-50 px-3 py-2">
       <dt className="text-[11px] text-slate-400">{label}</dt>
       <dd className="text-base font-semibold text-slate-900">{value}</dd>
+    </div>
+  );
+}
+
+function CompactStat({ label, value }: { label: string; value: ReactNode }) {
+  return (
+    <div className="rounded-[10px] bg-slate-50 px-3 py-2.5">
+      <dt className="text-[10.5px] font-medium text-slate-400">{label}</dt>
+      <dd className="mt-0.5 text-[15px] font-semibold text-slate-900">{value}</dd>
     </div>
   );
 }
