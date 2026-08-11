@@ -97,7 +97,14 @@ export function ScanNowButton() {
 
   return (
     <div className="relative inline-flex">
-      <Button variant="primary" size="sm" onClick={handleClick} disabled={isBusy} aria-busy={isBusy}>
+      <Button
+        variant="primary"
+        size="sm"
+        className="h-11 md:h-8"
+        onClick={handleClick}
+        disabled={isBusy}
+        aria-busy={isBusy}
+      >
         {isBusy ? (
           <Loader2 className="size-3.5 animate-spin" aria-hidden />
         ) : state === "done" ? (
