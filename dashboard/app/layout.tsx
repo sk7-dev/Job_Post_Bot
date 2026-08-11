@@ -31,7 +31,7 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
           <AppSidebar />
           <div className="flex min-w-0 flex-1 flex-col">
             <PageHeader />
-            <main className="flex-1 px-4 pb-24 pt-6 sm:px-6 md:px-0 md:pb-0 md:pt-0">{children}</main>
+            <main className="flex-1 px-4 pb-28 pt-6 sm:px-6 md:px-0 md:pb-0 md:pt-0">{children}</main>
           </div>
         </div>
 
