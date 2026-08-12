@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 8,
     "jobs_matched": 0,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 122,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 92,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 6,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 1090,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 471,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 1799,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 1170,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 8,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 3218,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 3013,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 19,
     "jobs_matched": 0,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 206,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 195,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 0,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 95,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 59,
     "error": null
   },
   {
@@ -65,9 +65,9 @@
     "status": "failed",
     "jobs_fetched": 0,
     "jobs_matched": 0,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 210,
-    "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 20122,
+    "error": "503 Server Error: Service Unavailable for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
   },
   {
     "name": "Accenture Careers Alt",
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 2,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 4901,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 4750,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 8,
     "jobs_matched": 2,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 108,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 53,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 131,
     "jobs_matched": 13,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 429,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 286,
     "error": null
   },
   {
@@ -105,18 +105,18 @@
     "status": "healthy",
     "jobs_fetched": 30,
     "jobs_matched": 25,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 36680,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 36676,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 103,
-    "jobs_matched": 10,
-    "last_scan": "2026-08-12T20:19:03Z",
-    "duration_ms": 17946,
+    "jobs_fetched": 98,
+    "jobs_matched": 6,
+    "last_scan": "2026-08-12T21:06:09Z",
+    "duration_ms": 18387,
     "error": null
   }
 ]
