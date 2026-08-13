@@ -13,7 +13,7 @@
       "analyst"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -31,7 +31,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -49,7 +49,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -67,7 +67,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -85,7 +85,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -103,43 +103,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||2bb6f52c-cf15-46c6-99d6-86532fe03f33||https://jobs.ashbyhq.com/whatnot/2bb6f52c-cf15-46c6-99d6-86532fe03f33",
-    "title": "Data Scientist, Customer Experience",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Data & Marketplace Integrity",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/2bb6f52c-cf15-46c6-99d6-86532fe03f33",
-    "external_id": "2bb6f52c-cf15-46c6-99d6-86532fe03f33",
-    "matched_keywords": [
-      "data scientist",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||43855b81-43ad-4b85-965d-b974f32fc76e||https://jobs.ashbyhq.com/whatnot/43855b81-43ad-4b85-965d-b974f32fc76e",
-    "title": "Data Scientist, Finance & Payments",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Data & Marketplace Integrity",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/43855b81-43ad-4b85-965d-b974f32fc76e",
-    "external_id": "43855b81-43ad-4b85-965d-b974f32fc76e",
-    "matched_keywords": [
-      "data scientist",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -157,7 +121,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -174,7 +138,7 @@
       "analyst"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -191,7 +155,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -208,7 +172,7 @@
       "machine learning"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -225,7 +189,7 @@
       "machine learning"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -242,7 +206,7 @@
       "machine learning"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -259,7 +223,7 @@
       "analyst"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -276,7 +240,7 @@
       "analyst"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -293,7 +257,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -310,7 +274,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -328,7 +292,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -346,7 +310,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -364,7 +328,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -382,7 +346,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -400,41 +364,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
-    "title": "Consultor(a) SAP Data Migration",
-    "company": "Accenture Careers Alt",
-    "location": "R00253076 | Location Negotiable",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
-    "external_id": "Location Negotiable",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T12:05:25Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1595974||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/AWS-DATA-ARCHITECT---ODS_Req1595974",
-    "title": "AWS DATA ARCHITECT – ODS",
-    "company": "Santander Careers",
-    "location": "Madrid",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/AWS-DATA-ARCHITECT---ODS_Req1595974",
-    "external_id": "Req1595974",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -451,7 +381,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -469,7 +399,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -487,7 +417,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -504,7 +434,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -521,7 +451,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -539,7 +469,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -557,7 +487,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T08:45:01Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -574,7 +504,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -591,7 +521,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -609,7 +539,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -626,7 +556,7 @@
       "analyst"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
@@ -643,26 +573,353 @@
       "analyst"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||5398150||https://www.governmentjobs.com/jobs/5398150-0/data-integration-specialist-programmer-analyst-ii",
-    "title": "Data Integration Specialist (Programmer-Analyst II)",
+    "key": "workday||Santander Careers||Req1596032||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/AI-Transformation-Analyst---WM-I_Req1596032-1",
+    "title": "AI Transformation Analyst - WM&I",
+    "company": "Santander Careers",
+    "location": "Madrid",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/AI-Transformation-Analyst---WM-I_Req1596032-1",
+    "external_id": "Req1596032",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-10T13:51:37Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "phenom_embedded||Skechers Data Search||JR131555||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Data-Entry-Clerk_JR131555",
+    "title": "Data Entry Clerk",
+    "company": "Skechers Data Search",
+    "location": "Rancho Belago, California, United States of America",
+    "department": "Distribution Center",
+    "source_name": "Skechers Data Search",
+    "source_type": "phenom_embedded",
+    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Data-Entry-Clerk_JR131555",
+    "external_id": "JR131555",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-11T23:09:27Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00420-0013385750-usen||https://www.roberthalf.com/us/en/job/san-jose-ca/data-entry-clerk/00420-0013385750-usen",
+    "title": "Data Entry Clerk",
+    "company": "Robert Half",
+    "location": "San Jose, CA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/san-jose-ca/data-entry-clerk/00420-0013385750-usen",
+    "external_id": "00420-0013385750-usen",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T21:51:17Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04620-0013486394-usen||https://www.roberthalf.com/us/en/job/neenah-wi/functional-analyst-sap-fico/04620-0013486394-usen",
+    "title": "Functional Analyst (SAP FICO)",
+    "company": "Robert Half",
+    "location": "Neenah, WI",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/neenah-wi/functional-analyst-sap-fico/04620-0013486394-usen",
+    "external_id": "04620-0013486394-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T08:04:42Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Ebene||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Ebene/Associate-Data-Architect_R00348868",
+    "title": "Associate Data Architect",
+    "company": "Accenture Careers Alt",
+    "location": "R00348868 | Ebene",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Ebene/Associate-Data-Architect_R00348868",
+    "external_id": "Ebene",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-12T13:37:09Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Bucharest, Westgate Park - Bldg H1||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Bucharest-Westgate-Park---Bldg-H1/HR-Generalist-with-English_R00344193",
+    "title": "HR Onboarding Analyst with English",
+    "company": "Accenture Careers Alt",
+    "location": "R00344193 | Bucharest, Westgate Park - Bldg H1",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Bucharest-Westgate-Park---Bldg-H1/HR-Generalist-with-English_R00344193",
+    "external_id": "Bucharest, Westgate Park - Bldg H1",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T16:30:15Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5432730||https://www.governmentjobs.com/jobs/5432730-0/housing-data-analyst",
+    "title": "HOUSING DATA ANALYST",
     "company": "GovernmentJobs US",
-    "location": "Anne Arundel County, MD",
-    "department": "Anne Arundel County",
+    "location": "Chapel Hill, NC",
+    "department": "Town of Chapel Hill",
     "source_name": "GovernmentJobs US",
     "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5398150-0/data-integration-specialist-programmer-analyst-ii",
-    "external_id": "5398150",
+    "url": "https://www.governmentjobs.com/jobs/5432730-0/housing-data-analyst",
+    "external_id": "5432730",
     "matched_keywords": [
       "analyst",
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T02:39:32Z",
     "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5238941||https://www.governmentjobs.com/jobs/5238941-0/dba-data-analyst-i",
+    "title": "DBA/Data Analyst I",
+    "company": "GovernmentJobs US",
+    "location": "Midland, TX",
+    "department": "City of Midland",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5238941-0/dba-data-analyst-i",
+    "external_id": "5238941",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-12T21:56:56Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00700-0013485462-usen||https://www.roberthalf.com/us/en/job/warren-ma/help-desk-analyst-ii/00700-0013485462-usen",
+    "title": "Help Desk Analyst II",
+    "company": "Robert Half",
+    "location": "Warren, MA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/warren-ma/help-desk-analyst-ii/00700-0013485462-usen",
+    "external_id": "00700-0013485462-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T15:33:31Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5425825||https://www.governmentjobs.com/jobs/5425825-0/gis-data-analyst",
+    "title": "GIS Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Lubbock, TX",
+    "department": "City of Lubbock",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5425825-0/gis-data-analyst",
+    "external_id": "5425825",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03770-0013487312-usen||https://www.roberthalf.com/us/en/job/reading-pa/accounts-receivable-analyst/03770-0013487312-usen",
+    "title": "Accounts Receivable Analyst",
+    "company": "Robert Half",
+    "location": "Reading, PA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/reading-pa/accounts-receivable-analyst/03770-0013487312-usen",
+    "external_id": "03770-0013487312-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T16:30:15Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5414703||https://www.governmentjobs.com/jobs/5414703-0/crime-and-data-analyst",
+    "title": "Crime and Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "920 N. Main, CO",
+    "department": "Pueblo County",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5414703-0/crime-and-data-analyst",
+    "external_id": "5414703",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||147903||https://www.governmentjobs.com/jobs/147903-1/systems-and-data-analyst",
+    "title": "Systems and Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Vancouver, WA",
+    "department": "Vancouver Housing Authority",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/147903-1/systems-and-data-analyst",
+    "external_id": "147903",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T21:51:17Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04510-0013485856-usen||https://www.roberthalf.com/us/en/job/washington-dc/aml-analyst/04510-0013485856-usen",
+    "title": "AML Analyst",
+    "company": "Robert Half",
+    "location": "Washington, DC",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/washington-dc/aml-analyst/04510-0013485856-usen",
+    "external_id": "04510-0013485856-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T18:26:10Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01400-0013487519-usen||https://www.roberthalf.com/us/en/job/plainfield-in/help-deskdesktop-support-analyst/01400-0013487519-usen",
+    "title": "Help Desk/Desktop Support Analyst",
+    "company": "Robert Half",
+    "location": "Plainfield, IN",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/plainfield-in/help-deskdesktop-support-analyst/01400-0013487519-usen",
+    "external_id": "01400-0013487519-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T19:33:36Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01340-0013485319-usen||https://www.roberthalf.com/us/en/job/naperville-il/software-engineer-data-science/01340-0013485319-usen",
+    "title": "Software Engineer - Data Science",
+    "company": "Robert Half",
+    "location": "Naperville, IL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/naperville-il/software-engineer-data-science/01340-0013485319-usen",
+    "external_id": "01340-0013485319-usen",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-11T19:23:39Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00410-0013485135-usen||https://www.roberthalf.com/us/en/job/san-francisco-ca/security-analyst/00410-0013485135-usen",
+    "title": "Security Analyst",
+    "company": "Robert Half",
+    "location": "San Francisco, CA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/san-francisco-ca/security-analyst/00410-0013485135-usen",
+    "external_id": "00410-0013485135-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-10T17:30:35Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01200-0013479137-usen||https://www.roberthalf.com/us/en/job/kapolei-hi/dataintake-specialist/01200-0013479137-usen",
+    "title": "Data/Intake Specialist",
+    "company": "Robert Half",
+    "location": "Kapolei, HI",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/kapolei-hi/dataintake-specialist/01200-0013479137-usen",
+    "external_id": "01200-0013479137-usen",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T05:18:39Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03750-0013487954-usen||https://www.roberthalf.com/us/en/job/hampden-pa/fiscal-analyst/03750-0013487954-usen",
+    "title": "Fiscal Analyst",
+    "company": "Robert Half",
+    "location": "Hampden, PA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/hampden-pa/fiscal-analyst/03750-0013487954-usen",
+    "external_id": "03750-0013487954-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-13T02:39:32Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": true
+  },
+  {
+    "key": "roberthalf||Robert Half||00500-0013487874-usen||https://www.roberthalf.com/us/en/job/rancho-cucamonga-ca/grant-analyst/00500-0013487874-usen",
+    "title": "Grant Analyst",
+    "company": "Robert Half",
+    "location": "Rancho Cucamonga, CA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/rancho-cucamonga-ca/grant-analyst/00500-0013487874-usen",
+    "external_id": "00500-0013487874-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-13T02:39:32Z",
+    "last_seen": "2026-08-13T02:39:32Z",
+    "is_new": true
   },
   {
     "key": "governmentjobs||GovernmentJobs US||5195111||https://www.governmentjobs.com/jobs/5195111-0/data-analyst-medicaid-fraud-belleville-26-02",
@@ -679,42 +936,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Accenture Careers Alt||Helsinki||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Helsinki/Banking-data-consultant_R00309693",
-    "title": "Banking Data Consultant",
-    "company": "Accenture Careers Alt",
-    "location": "R00309693 | Helsinki",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Helsinki/Banking-data-consultant_R00309693",
-    "external_id": "Helsinki",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-10T10:38:21Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5195097||https://www.governmentjobs.com/jobs/5195097-0/data-analyst-medicaid-fraud-springfield-26-03",
-    "title": "Data Analyst, Medicaid Fraud, Springfield, 26-03",
-    "company": "GovernmentJobs US",
-    "location": "Springfield, IL",
-    "department": "Illinois Attorney General (IL)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5195097-0/data-analyst-medicaid-fraud-springfield-26-03",
-    "external_id": "5195097",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -732,7 +954,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -750,7 +972,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -768,7 +990,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -787,77 +1009,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||4543757||https://www.governmentjobs.com/jobs/4543757-0/automated-metering-infrastructure-ami-data-analyst-ii-class-code-3458",
-    "title": "AUTOMATED METERING INFRASTRUCTURE (AMI) DATA ANALYST II (CLASS CODE 3458)",
-    "company": "GovernmentJobs US",
-    "location": "New Orleans, LA",
-    "department": "City of New Orleans",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/4543757-0/automated-metering-infrastructure-ami-data-analyst-ii-class-code-3458",
-    "external_id": "4543757",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1596032||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/AI-Transformation-Analyst---WM-I_Req1596032-1",
-    "title": "AI Transformation Analyst - WM&I",
-    "company": "Santander Careers",
-    "location": "Madrid",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/AI-Transformation-Analyst---WM-I_Req1596032-1",
-    "external_id": "Req1596032",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-10T13:51:37Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Accenture Careers Alt||São Paulo - Barueri||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/So-Paulo---Barueri/Sales-Development-Rep-Analyst---Espanhol_R00327736-1",
-    "title": "Sales Development Rep Analyst | Espanhol",
-    "company": "Accenture Careers Alt",
-    "location": "R00327736 | São Paulo - Barueri",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/So-Paulo---Barueri/Sales-Development-Rep-Analyst---Espanhol_R00327736-1",
-    "external_id": "São Paulo - Barueri",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-10T13:51:37Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5438099||https://www.governmentjobs.com/jobs/5438099-0/administrative-analyst-iii-374c-data-business-analytics",
-    "title": "Administrative Analyst III (374C) - Data & Business Analytics",
-    "company": "GovernmentJobs US",
-    "location": "San Francisco, CA",
-    "department": "Superior Court of California, County of San Francisco",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5438099-0/administrative-analyst-iii-374c-data-business-analytics",
-    "external_id": "5438099",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -875,24 +1027,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Roma/Business-Transformation-Analyst_R00349915",
-    "title": "Business Transformation Analyst",
-    "company": "Accenture Careers Alt",
-    "location": "R00349915 | Location Negotiable",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Roma/Business-Transformation-Analyst_R00349915",
-    "external_id": "Location Negotiable",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T10:34:37Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -910,42 +1045,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5422433||https://www.governmentjobs.com/jobs/5422433-0/general-professional-iv-med-quest-data-analyst-ewa-oahu",
-    "title": "GENERAL PROFESSIONAL IV (MED-QUEST DATA ANALYST) - EWA, OAHU",
-    "company": "GovernmentJobs US",
-    "location": "Island of Oahu",
-    "department": "State of Hawai'i",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5422433-0/general-professional-iv-med-quest-data-analyst-ewa-oahu",
-    "external_id": "5422433",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T06:35:05Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1556578||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/Customer-Strategy-Analyst_Req1556578-1",
-    "title": "Customer Strategy Analyst - Santander Insurance",
-    "company": "Santander Careers",
-    "location": "Madrid",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/Customer-Strategy-Analyst_Req1556578-1",
-    "external_id": "Req1556578",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -963,131 +1063,25 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||147903||https://www.governmentjobs.com/jobs/147903-1/systems-and-data-analyst",
-    "title": "Systems and Data Analyst",
+    "key": "governmentjobs||GovernmentJobs US||5445648||https://www.governmentjobs.com/jobs/5445648-0/administrative-analyst-iii-374c-data-business-analytics",
+    "title": "Administrative Analyst III (374C) - Data & Business Analytics",
     "company": "GovernmentJobs US",
-    "location": "Vancouver, WA",
-    "department": "Vancouver Housing Authority",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/147903-1/systems-and-data-analyst",
-    "external_id": "147903",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T21:51:17Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5425825||https://www.governmentjobs.com/jobs/5425825-0/gis-data-analyst",
-    "title": "GIS Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Lubbock, TX",
-    "department": "City of Lubbock",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5425825-0/gis-data-analyst",
-    "external_id": "5425825",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5289122||https://www.governmentjobs.com/jobs/5289122-0/programmer-analyst-student-data-systems-and-bi-reporting",
-    "title": "Programmer/Analyst – Student Data Systems and BI Reporting",
-    "company": "GovernmentJobs US",
-    "location": "UCMO - Warrensburg, MO",
-    "department": "University of Central Missouri (UCM)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5289122-0/programmer-analyst-student-data-systems-and-bi-reporting",
-    "external_id": "5289122",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5195206||https://www.governmentjobs.com/jobs/5195206-0/data-analyst-medicaid-fraud-oakbrook-26-01",
-    "title": "Data Analyst, Medicaid Fraud, Oakbrook, 26-01",
-    "company": "GovernmentJobs US",
-    "location": "Oakbrook, IL",
-    "department": "Illinois Attorney General (IL)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5195206-0/data-analyst-medicaid-fraud-oakbrook-26-01",
-    "external_id": "5195206",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||00410-0013478844-usen||https://www.roberthalf.com/us/en/job/san-francisco-ca/data-analyst/00410-0013478844-usen",
-    "title": "Data Analyst",
-    "company": "Robert Half",
     "location": "San Francisco, CA",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/san-francisco-ca/data-analyst/00410-0013478844-usen",
-    "external_id": "00410-0013478844-usen",
+    "department": "Superior Court of California, County of San Francisco",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5445648-0/administrative-analyst-iii-374c-data-business-analytics",
+    "external_id": "5445648",
     "matched_keywords": [
       "analyst",
       "data"
     ],
-    "first_seen": "2026-08-07T19:43:23Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||00720-0013485318-usen||https://www.roberthalf.com/us/en/job/stamford-ct/business-analyst/00720-0013485318-usen",
-    "title": "Business Analyst",
-    "company": "Robert Half",
-    "location": "Stamford, CT",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/stamford-ct/business-analyst/00720-0013485318-usen",
-    "external_id": "00720-0013485318-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-08T08:28:38Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||03370-9504376203-usen||https://www.roberthalf.com/us/en/job/dayton-oh/data-entry-clerk/03370-9504376203-usen",
-    "title": "Data Entry Clerk",
-    "company": "Robert Half",
-    "location": "Dayton, OH",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/dayton-oh/data-entry-clerk/03370-9504376203-usen",
-    "external_id": "03370-9504376203-usen",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-10T15:43:11Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "first_seen": "2026-08-12T17:29:28Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -1105,147 +1099,79 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
-    "key": "roberthalf||Robert Half||01040-0013485364-usen||https://www.roberthalf.com/us/en/job/palm-beach-gardens-fl/jr-logistics-analyst/01040-0013485364-usen",
-    "title": "Jr. Logistics Analyst",
-    "company": "Robert Half",
-    "location": "Palm Beach Gardens, FL",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/palm-beach-gardens-fl/jr-logistics-analyst/01040-0013485364-usen",
-    "external_id": "01040-0013485364-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-08T08:28:38Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||03320-0013473553-usen||https://www.roberthalf.com/us/en/job/erlanger-ky/data-engineer/03320-0013473553-usen",
-    "title": "Data Engineer",
-    "company": "Robert Half",
-    "location": "Erlanger, KY",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/erlanger-ky/data-engineer/03320-0013473553-usen",
-    "external_id": "03320-0013473553-usen",
-    "matched_keywords": [
-      "data engineer",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||01000-0013486274-usen||https://www.roberthalf.com/us/en/job/pembroke-pines-fl/financial-analyst/01000-0013486274-usen",
-    "title": "Financial Analyst",
-    "company": "Robert Half",
-    "location": "Pembroke Pines, FL",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/pembroke-pines-fl/financial-analyst/01000-0013486274-usen",
-    "external_id": "01000-0013486274-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-11T01:11:54Z",
-    "last_seen": "2026-08-11T01:11:54Z",
-    "is_new": true
-  },
-  {
-    "key": "roberthalf||Robert Half||03230-0013481251-usen||https://www.roberthalf.com/us/en/job/greenville-sc/ehr-workflow-analyst/03230-0013481251-usen",
-    "title": "EHR Workflow Analyst",
-    "company": "Robert Half",
-    "location": "Greenville, SC",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/greenville-sc/ehr-workflow-analyst/03230-0013481251-usen",
-    "external_id": "03230-0013481251-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-10T17:30:35Z",
-    "last_seen": "2026-08-10T23:57:24Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||04820-0013483879-usen||https://www.roberthalf.com/us/en/job/salt-lake-city-ut/data-analyst/04820-0013483879-usen",
-    "title": "Data Analyst",
-    "company": "Robert Half",
-    "location": "Salt Lake City, UT",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/salt-lake-city-ut/data-analyst/04820-0013483879-usen",
-    "external_id": "04820-0013483879-usen",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T05:07:44Z",
-    "last_seen": "2026-08-10T23:57:24Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5259259||https://www.governmentjobs.com/jobs/5259259-0/meter-data-analyst",
-    "title": "Meter Data Analyst",
+    "key": "governmentjobs||GovernmentJobs US||5438099||https://www.governmentjobs.com/jobs/5438099-0/administrative-analyst-iii-374c-data-business-analytics",
+    "title": "Administrative Analyst III (374C) - Data & Business Analytics",
     "company": "GovernmentJobs US",
-    "location": "Santa Clara, CA",
-    "department": "City of Santa Clara",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5259259-0/meter-data-analyst",
-    "external_id": "5259259",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T05:07:44Z",
-    "last_seen": "2026-08-10T23:57:24Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5414703||https://www.governmentjobs.com/jobs/5414703-0/crime-and-data-analyst",
-    "title": "Crime and Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "920 N. Main, CO",
-    "department": "Pueblo County",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5414703-0/crime-and-data-analyst",
-    "external_id": "5414703",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T23:57:24Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||00410-0013485135-usen||https://www.roberthalf.com/us/en/job/san-francisco-ca/security-analyst/00410-0013485135-usen",
-    "title": "Security Analyst",
-    "company": "Robert Half",
     "location": "San Francisco, CA",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/san-francisco-ca/security-analyst/00410-0013485135-usen",
-    "external_id": "00410-0013485135-usen",
+    "department": "Superior Court of California, County of San Francisco",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5438099-0/administrative-analyst-iii-374c-data-business-analytics",
+    "external_id": "5438099",
     "matched_keywords": [
-      "analyst"
+      "analyst",
+      "data"
     ],
-    "first_seen": "2026-08-10T17:30:35Z",
-    "last_seen": "2026-08-10T23:57:24Z",
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-13T00:01:26Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5289122||https://www.governmentjobs.com/jobs/5289122-0/programmer-analyst-student-data-systems-and-bi-reporting",
+    "title": "Programmer/Analyst – Student Data Systems and BI Reporting",
+    "company": "GovernmentJobs US",
+    "location": "UCMO - Warrensburg, MO",
+    "department": "University of Central Missouri (UCM)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5289122-0/programmer-analyst-student-data-systems-and-bi-reporting",
+    "external_id": "5289122",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-13T00:01:26Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5195206||https://www.governmentjobs.com/jobs/5195206-0/data-analyst-medicaid-fraud-oakbrook-26-01",
+    "title": "Data Analyst, Medicaid Fraud, Oakbrook, 26-01",
+    "company": "GovernmentJobs US",
+    "location": "Oakbrook, IL",
+    "department": "Illinois Attorney General (IL)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5195206-0/data-analyst-medicaid-fraud-oakbrook-26-01",
+    "external_id": "5195206",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-13T00:01:26Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5195097||https://www.governmentjobs.com/jobs/5195097-0/data-analyst-medicaid-fraud-springfield-26-03",
+    "title": "Data Analyst, Medicaid Fraud, Springfield, 26-03",
+    "company": "GovernmentJobs US",
+    "location": "Springfield, IL",
+    "department": "Illinois Attorney General (IL)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5195097-0/data-analyst-medicaid-fraud-springfield-26-03",
+    "external_id": "5195097",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-13T00:01:26Z",
     "is_new": false
   },
   {
@@ -1263,7 +1189,607 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T23:24:47Z",
+    "last_seen": "2026-08-13T00:01:26Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||4543757||https://www.governmentjobs.com/jobs/4543757-0/automated-metering-infrastructure-ami-data-analyst-ii-class-code-3458",
+    "title": "AUTOMATED METERING INFRASTRUCTURE (AMI) DATA ANALYST II (CLASS CODE 3458)",
+    "company": "GovernmentJobs US",
+    "location": "New Orleans, LA",
+    "department": "City of New Orleans",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/4543757-0/automated-metering-infrastructure-ami-data-analyst-ii-class-code-3458",
+    "external_id": "4543757",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-12T23:19:52Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03110-0013483809-usen||https://www.roberthalf.com/us/en/job/reno-nv/financial-analyst/03110-0013483809-usen",
+    "title": "Financial Analyst",
+    "company": "Robert Half",
+    "location": "Reno, NV",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/reno-nv/financial-analyst/03110-0013483809-usen",
+    "external_id": "03110-0013483809-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T05:18:39Z",
+    "last_seen": "2026-08-12T23:19:52Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||02940-0013463235-usen||https://www.roberthalf.com/us/en/job/new-york-ny/business-analyst/02940-0013463235-usen",
+    "title": "Business Analyst",
+    "company": "Robert Half",
+    "location": "New York, NY",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/new-york-ny/business-analyst/02940-0013463235-usen",
+    "external_id": "02940-0013463235-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T16:30:15Z",
+    "last_seen": "2026-08-12T22:32:23Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||02310-0013486214-usen||https://www.roberthalf.com/us/en/job/pocahontas-ia/data-entry-clerk/02310-0013486214-usen",
+    "title": "Data Entry Clerk",
+    "company": "Robert Half",
+    "location": "Pocahontas, IA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/pocahontas-ia/data-entry-clerk/02310-0013486214-usen",
+    "external_id": "02310-0013486214-usen",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-11T16:23:08Z",
+    "last_seen": "2026-08-12T22:32:23Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04730-0013486281-usen||https://www.roberthalf.com/us/en/job/san-antonio-tx/tax-analyst-intermediate-3-6-years/04730-0013486281-usen",
+    "title": "Tax Analyst Intermediate (3-6 years)",
+    "company": "Robert Half",
+    "location": "San Antonio, TX",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/san-antonio-tx/tax-analyst-intermediate-3-6-years/04730-0013486281-usen",
+    "external_id": "04730-0013486281-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T14:23:25Z",
+    "last_seen": "2026-08-12T21:56:56Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03340-0013484041-usen||https://www.roberthalf.com/us/en/job/cleveland-oh/medical-claims-analyst/03340-0013484041-usen",
+    "title": "Medical Claims Analyst",
+    "company": "Robert Half",
+    "location": "Cleveland, OH",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/cleveland-oh/medical-claims-analyst/03340-0013484041-usen",
+    "external_id": "03340-0013484041-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T05:18:39Z",
+    "last_seen": "2026-08-12T20:19:03Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03370-9504370597-usen||https://www.roberthalf.com/us/en/job/dayton-oh/financial-analyst/03370-9504370597-usen",
+    "title": "Financial Analyst",
+    "company": "Robert Half",
+    "location": "Dayton, OH",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/dayton-oh/financial-analyst/03370-9504370597-usen",
+    "external_id": "03370-9504370597-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T20:19:03Z",
+    "last_seen": "2026-08-12T20:19:03Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5405484||https://www.governmentjobs.com/jobs/5405484-0/data-systems-developer-it-data-management-journey",
+    "title": "Data Systems Developer (IT Data Management – Journey)",
+    "company": "GovernmentJobs US",
+    "location": "Thurston County – Lacey, WA",
+    "department": "State of Washington",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5405484-0/data-systems-developer-it-data-management-journey",
+    "external_id": "5405484",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-12T17:29:28Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5439066||https://www.governmentjobs.com/jobs/5439066-0/database-administrator",
+    "title": "Database Administrator",
+    "company": "GovernmentJobs US",
+    "location": "1 Gary K Anderson Plz Decatur, IL",
+    "department": "City of Decatur",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5439066-0/database-administrator",
+    "external_id": "5439066",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T21:06:08Z",
+    "last_seen": "2026-08-12T17:29:28Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||55634||https://www.governmentjobs.com/jobs/55634-1/database-architect",
+    "title": "Database Architect",
+    "company": "GovernmentJobs US",
+    "location": "San Carlos, CA",
+    "department": "San Mateo County Transit District",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/55634-1/database-architect",
+    "external_id": "55634",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-12T17:29:28Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||147305||https://www.governmentjobs.com/jobs/147305-1/data-practices-officer",
+    "title": "Data Practices Officer",
+    "company": "GovernmentJobs US",
+    "location": "Saint Paul, MN",
+    "department": "Teachers Retirement Association",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/147305-1/data-practices-officer",
+    "external_id": "147305",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-12T17:29:28Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5440400||https://www.governmentjobs.com/jobs/5440400-0/data-entry-clerk",
+    "title": "Data Entry Clerk",
+    "company": "GovernmentJobs US",
+    "location": "Justice Center - West Chester, PA",
+    "department": "County of Chester",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5440400-0/data-entry-clerk",
+    "external_id": "5440400",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T21:06:08Z",
+    "last_seen": "2026-08-12T17:29:28Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5394820||https://www.governmentjobs.com/jobs/5394820-0/database-administrator-ii",
+    "title": "Database Administrator II",
+    "company": "GovernmentJobs US",
+    "location": "Lynchburg, VA",
+    "department": "City of Lynchburg",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5394820-0/database-administrator-ii",
+    "external_id": "5394820",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-12T17:29:28Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||São Paulo - Barueri||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/So-Paulo---Barueri/Sales-Development-Rep-Analyst---Espanhol_R00327736-1",
+    "title": "Sales Development Rep Analyst | Espanhol",
+    "company": "Accenture Careers Alt",
+    "location": "R00327736 | São Paulo - Barueri",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/So-Paulo---Barueri/Sales-Development-Rep-Analyst---Espanhol_R00327736-1",
+    "external_id": "São Paulo - Barueri",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-10T13:51:37Z",
+    "last_seen": "2026-08-12T15:33:31Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5422433||https://www.governmentjobs.com/jobs/5422433-0/general-professional-iv-med-quest-data-analyst-ewa-oahu",
+    "title": "GENERAL PROFESSIONAL IV (MED-QUEST DATA ANALYST) - EWA, OAHU",
+    "company": "GovernmentJobs US",
+    "location": "Island of Oahu",
+    "department": "State of Hawai'i",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5422433-0/general-professional-iv-med-quest-data-analyst-ewa-oahu",
+    "external_id": "5422433",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T06:35:05Z",
+    "last_seen": "2026-08-12T15:33:31Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00920-0013484516-usen||https://www.roberthalf.com/us/en/job/lithonia-ga/help-deskdesktop-support-analyst/00920-0013484516-usen",
+    "title": "Help Desk/Desktop Support Analyst",
+    "company": "Robert Half",
+    "location": "Lithonia, GA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/lithonia-ga/help-deskdesktop-support-analyst/00920-0013484516-usen",
+    "external_id": "00920-0013484516-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T13:37:09Z",
+    "last_seen": "2026-08-12T15:33:31Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00900-0013485788-usen||https://www.roberthalf.com/us/en/job/tuskegee-institute-al/it-enterprise-analyst/00900-0013485788-usen",
+    "title": "IT Enterprise Analyst",
+    "company": "Robert Half",
+    "location": "Tuskegee Institute, AL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/tuskegee-institute-al/it-enterprise-analyst/00900-0013485788-usen",
+    "external_id": "00900-0013485788-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T13:37:09Z",
+    "last_seen": "2026-08-12T15:33:31Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03190-0013481368-usen||https://www.roberthalf.com/us/en/job/charlotte-nc/financial-analyst/03190-0013481368-usen",
+    "title": "Financial Analyst",
+    "company": "Robert Half",
+    "location": "Charlotte, NC",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/charlotte-nc/financial-analyst/03190-0013481368-usen",
+    "external_id": "03190-0013481368-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T16:13:59Z",
+    "last_seen": "2026-08-12T14:39:23Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04620-0013487174-usen||https://www.roberthalf.com/us/en/job/appleton-wi/data-architect-gcp/04620-0013487174-usen",
+    "title": "Data Architect (GCP)",
+    "company": "Robert Half",
+    "location": "Appleton, WI",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/appleton-wi/data-architect-gcp/04620-0013487174-usen",
+    "external_id": "04620-0013487174-usen",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-12T08:04:42Z",
+    "last_seen": "2026-08-12T13:37:09Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01070-0013400603-usen||https://www.roberthalf.com/us/en/job/saint-petersburg-fl/tyler-munis-erp-analyst/01070-0013400603-usen",
+    "title": "Tyler Munis ERP Analyst",
+    "company": "Robert Half",
+    "location": "Saint Petersburg, FL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/saint-petersburg-fl/tyler-munis-erp-analyst/01070-0013400603-usen",
+    "external_id": "01070-0013400603-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T13:37:09Z",
+    "last_seen": "2026-08-12T13:37:09Z",
+    "is_new": true
+  },
+  {
+    "key": "roberthalf||Robert Half||03930-0013422822-usen||https://www.roberthalf.com/us/en/job/nashville-tn/service-support-analyst/03930-0013422822-usen",
+    "title": "Service Support Analyst",
+    "company": "Robert Half",
+    "location": "Nashville, TN",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/nashville-tn/service-support-analyst/03930-0013422822-usen",
+    "external_id": "03930-0013422822-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-12T13:37:09Z",
+    "last_seen": "2026-08-12T13:37:09Z",
+    "is_new": true
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Helsinki||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Helsinki/Banking-data-consultant_R00309693",
+    "title": "Banking Data Consultant",
+    "company": "Accenture Careers Alt",
+    "location": "R00309693 | Helsinki",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Helsinki/Banking-data-consultant_R00309693",
+    "external_id": "Helsinki",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-10T10:38:21Z",
+    "last_seen": "2026-08-12T12:05:54Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01720-0013486603-usen||https://www.roberthalf.com/us/en/job/louisville-ky/financial-analyst/01720-0013486603-usen",
+    "title": "Financial Analyst",
+    "company": "Robert Half",
+    "location": "Louisville, KY",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/louisville-ky/financial-analyst/01720-0013486603-usen",
+    "external_id": "01720-0013486603-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T15:27:10Z",
+    "last_seen": "2026-08-12T12:05:54Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||02300-0013466992-usen||https://www.roberthalf.com/us/en/job/minneapolis-mn/data-engineer/02300-0013466992-usen",
+    "title": "Data Engineer",
+    "company": "Robert Half",
+    "location": "Minneapolis, MN",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/minneapolis-mn/data-engineer/02300-0013466992-usen",
+    "external_id": "02300-0013466992-usen",
+    "matched_keywords": [
+      "data engineer",
+      "data"
+    ],
+    "first_seen": "2026-08-12T10:29:57Z",
+    "last_seen": "2026-08-12T12:05:54Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1556578||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/Customer-Strategy-Analyst_Req1556578-1",
+    "title": "Customer Strategy Analyst - Santander Insurance",
+    "company": "Santander Careers",
+    "location": "Madrid",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/Customer-Strategy-Analyst_Req1556578-1",
+    "external_id": "Req1556578",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-12T10:29:57Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||02220-0013486661-usen||https://www.roberthalf.com/us/en/job/battle-creek-mi/data-analyst/02220-0013486661-usen",
+    "title": "Data Analyst",
+    "company": "Robert Half",
+    "location": "Battle Creek, MI",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/battle-creek-mi/data-analyst/02220-0013486661-usen",
+    "external_id": "02220-0013486661-usen",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-11T16:23:08Z",
+    "last_seen": "2026-08-12T10:29:57Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01180-0013485317-usen||https://www.roberthalf.com/us/en/job/bartow-fl/accounts-receivable-analyst/01180-0013485317-usen",
+    "title": "Accounts Receivable Analyst",
+    "company": "Robert Half",
+    "location": "Bartow, FL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/bartow-fl/accounts-receivable-analyst/01180-0013485317-usen",
+    "external_id": "01180-0013485317-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-08T07:56:16Z",
+    "last_seen": "2026-08-12T09:20:22Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5429822||https://www.governmentjobs.com/jobs/5429822-0/database-administrator",
+    "title": "Database Administrator",
+    "company": "GovernmentJobs US",
+    "location": "Glendale, AZ",
+    "department": "City of Glendale (AZ)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5429822-0/database-administrator",
+    "external_id": "5429822",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-12T06:42:45Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5354376||https://www.governmentjobs.com/jobs/5354376-0/airport-data-engineer",
+    "title": "Airport Data Engineer",
+    "company": "GovernmentJobs US",
+    "location": "Harry Reid International Airport - Las Vegas, NV",
+    "department": "Clark County Department of Aviation",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5354376-0/airport-data-engineer",
+    "external_id": "5354376",
+    "matched_keywords": [
+      "data engineer",
+      "data"
+    ],
+    "first_seen": "2026-08-08T09:51:01Z",
+    "last_seen": "2026-08-12T06:42:45Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||121519||https://www.governmentjobs.com/jobs/121519-1/data-visualization-specialist",
+    "title": "Data Visualization Specialist",
+    "company": "GovernmentJobs US",
+    "location": "Bellevue, WA",
+    "department": "Bellevue College",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/121519-1/data-visualization-specialist",
+    "external_id": "121519",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-10T19:27:20Z",
+    "last_seen": "2026-08-12T06:42:45Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04400-0013474891-usen||https://www.roberthalf.com/us/en/job/monroe-wa/it-analyst/04400-0013474891-usen",
+    "title": "IT Analyst",
+    "company": "Robert Half",
+    "location": "Monroe, WA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/monroe-wa/it-analyst/04400-0013474891-usen",
+    "external_id": "04400-0013474891-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-12T06:42:45Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5432366||https://www.governmentjobs.com/jobs/5432366-0/student-enrollment-and-data-specialist",
+    "title": "STUDENT ENROLLMENT AND DATA SPECIALIST",
+    "company": "GovernmentJobs US",
+    "location": "District-Wide, CA",
+    "department": "Inglewood Unified School District",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5432366-0/student-enrollment-and-data-specialist",
+    "external_id": "5432366",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-10T19:27:20Z",
+    "last_seen": "2026-08-12T06:42:45Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5399745||https://www.governmentjobs.com/jobs/5399745-0/field-data-specialist-res",
+    "title": "Field Data Specialist-Res",
+    "company": "GovernmentJobs US",
+    "location": "City County Building, IN",
+    "department": "City of Indianapolis and Marion County",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5399745-0/field-data-specialist-res",
+    "external_id": "5399745",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-12T06:42:45Z",
+    "last_seen": "2026-08-12T06:42:45Z",
+    "is_new": true
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5204695||https://www.governmentjobs.com/jobs/5204695-0/database-it-engineer-iii-police",
+    "title": "Database IT Engineer III (Police)",
+    "company": "GovernmentJobs US",
+    "location": "Mesa, AZ",
+    "department": "City of Mesa",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5204695-0/database-it-engineer-iii-police",
+    "external_id": "5204695",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-12T06:42:45Z",
+    "last_seen": "2026-08-12T06:42:45Z",
+    "is_new": true
+  },
+  {
+    "key": "roberthalf||Robert Half||01500-0013483703-usen||https://www.roberthalf.com/us/en/job/marion-ia/help-deskdesktop-support-analyst/01500-0013483703-usen",
+    "title": "Help Desk/Desktop Support Analyst",
+    "company": "Robert Half",
+    "location": "Marion, IA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/marion-ia/help-deskdesktop-support-analyst/01500-0013483703-usen",
+    "external_id": "01500-0013483703-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T21:44:43Z",
+    "last_seen": "2026-08-12T05:11:30Z",
     "is_new": false
   },
   {
@@ -1281,109 +1807,456 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T23:24:47Z",
+    "last_seen": "2026-08-12T03:23:45Z",
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||5405484||https://www.governmentjobs.com/jobs/5405484-0/data-systems-developer-it-data-management-journey",
-    "title": "Data Systems Developer (IT Data Management – Journey)",
+    "key": "roberthalf||Robert Half||01030-0013472230-usen||https://www.roberthalf.com/us/en/job/orlando-fl/billing-analyst/01030-0013472230-usen",
+    "title": "Billing Analyst",
+    "company": "Robert Half",
+    "location": "Orlando, FL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/orlando-fl/billing-analyst/01030-0013472230-usen",
+    "external_id": "01030-0013472230-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T03:11:49Z",
+    "last_seen": "2026-08-12T03:23:45Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||02310-0013477735-usen||https://www.roberthalf.com/us/en/job/bayport-mn/business-analyst/02310-0013477735-usen",
+    "title": "Business Analyst",
+    "company": "Robert Half",
+    "location": "Bayport, MN",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/bayport-mn/business-analyst/02310-0013477735-usen",
+    "external_id": "02310-0013477735-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T09:42:34Z",
+    "last_seen": "2026-08-12T03:23:45Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01070-0013486480-usen||https://www.roberthalf.com/us/en/job/barefoot-beach-fl/help-deskdesktop-support-analyst/01070-0013486480-usen",
+    "title": "Help Desk/Desktop Support Analyst",
+    "company": "Robert Half",
+    "location": "Barefoot Beach, FL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/barefoot-beach-fl/help-deskdesktop-support-analyst/01070-0013486480-usen",
+    "external_id": "01070-0013486480-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T14:23:25Z",
+    "last_seen": "2026-08-12T03:23:45Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04620-0013486582-usen||https://www.roberthalf.com/us/en/job/appleton-wi/help-deskdesktop-support-analyst/04620-0013486582-usen",
+    "title": "Help Desk/Desktop Support Analyst",
+    "company": "Robert Half",
+    "location": "Appleton, WI",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/appleton-wi/help-deskdesktop-support-analyst/04620-0013486582-usen",
+    "external_id": "04620-0013486582-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T15:27:10Z",
+    "last_seen": "2026-08-12T01:00:15Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||02760-0013464354-usen||https://www.roberthalf.com/us/en/job/hackensack-nj/job-cost-analyst/02760-0013464354-usen",
+    "title": "Job Cost Analyst",
+    "company": "Robert Half",
+    "location": "Hackensack, NJ",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/hackensack-nj/job-cost-analyst/02760-0013464354-usen",
+    "external_id": "02760-0013464354-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T13:06:48Z",
+    "last_seen": "2026-08-12T01:00:15Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04860-0013455518-usen||https://www.roberthalf.com/us/en/job/bogalusa-la/financial-analyst/04860-0013455518-usen",
+    "title": "Financial Analyst",
+    "company": "Robert Half",
+    "location": "Bogalusa, LA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/bogalusa-la/financial-analyst/04860-0013455518-usen",
+    "external_id": "04860-0013455518-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T17:24:55Z",
+    "last_seen": "2026-08-12T01:00:15Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Roma/Business-Transformation-Analyst_R00349915",
+    "title": "Business Transformation Analyst",
+    "company": "Accenture Careers Alt",
+    "location": "R00349915 | Location Negotiable",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Roma/Business-Transformation-Analyst_R00349915",
+    "external_id": "Location Negotiable",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T10:34:37Z",
+    "last_seen": "2026-08-11T18:13:17Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00720-0013485318-usen||https://www.roberthalf.com/us/en/job/stamford-ct/business-analyst/00720-0013485318-usen",
+    "title": "Business Analyst",
+    "company": "Robert Half",
+    "location": "Stamford, CT",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/stamford-ct/business-analyst/00720-0013485318-usen",
+    "external_id": "00720-0013485318-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-08T08:28:38Z",
+    "last_seen": "2026-08-11T17:24:55Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01000-0013486274-usen||https://www.roberthalf.com/us/en/job/pembroke-pines-fl/financial-analyst/01000-0013486274-usen",
+    "title": "Financial Analyst",
+    "company": "Robert Half",
+    "location": "Pembroke Pines, FL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/pembroke-pines-fl/financial-analyst/01000-0013486274-usen",
+    "external_id": "01000-0013486274-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T01:11:54Z",
+    "last_seen": "2026-08-11T16:23:08Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03340-0013477171-usen||https://www.roberthalf.com/us/en/job/cleveland-oh/credit-analyst/03340-0013477171-usen",
+    "title": "Credit Analyst",
+    "company": "Robert Half",
+    "location": "Cleveland, OH",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/cleveland-oh/credit-analyst/03340-0013477171-usen",
+    "external_id": "03340-0013477171-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T16:23:08Z",
+    "last_seen": "2026-08-11T16:23:08Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5259259||https://www.governmentjobs.com/jobs/5259259-0/meter-data-analyst",
+    "title": "Meter Data Analyst",
     "company": "GovernmentJobs US",
-    "location": "Thurston County – Lacey, WA",
-    "department": "State of Washington",
+    "location": "Santa Clara, CA",
+    "department": "City of Santa Clara",
     "source_name": "GovernmentJobs US",
     "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5405484-0/data-systems-developer-it-data-management-journey",
-    "external_id": "5405484",
+    "url": "https://www.governmentjobs.com/jobs/5259259-0/meter-data-analyst",
+    "external_id": "5259259",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T05:07:44Z",
+    "last_seen": "2026-08-11T15:27:10Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00070-0013477559-usen||https://www.roberthalf.com/us/en/job/salinas-ca/contracts-analyst/00070-0013477559-usen",
+    "title": "Contracts Analyst",
+    "company": "Robert Half",
+    "location": "Salinas, CA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/salinas-ca/contracts-analyst/00070-0013477559-usen",
+    "external_id": "00070-0013477559-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T15:27:10Z",
+    "last_seen": "2026-08-11T15:27:10Z",
+    "is_new": true
+  },
+  {
+    "key": "ashby||Whatnot Careers||2bb6f52c-cf15-46c6-99d6-86532fe03f33||https://jobs.ashbyhq.com/whatnot/2bb6f52c-cf15-46c6-99d6-86532fe03f33",
+    "title": "Data Scientist, Customer Experience",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Data & Marketplace Integrity",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/2bb6f52c-cf15-46c6-99d6-86532fe03f33",
+    "external_id": "2bb6f52c-cf15-46c6-99d6-86532fe03f33",
+    "matched_keywords": [
+      "data scientist",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-11T14:23:25Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||43855b81-43ad-4b85-965d-b974f32fc76e||https://jobs.ashbyhq.com/whatnot/43855b81-43ad-4b85-965d-b974f32fc76e",
+    "title": "Data Scientist, Finance & Payments",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Data & Marketplace Integrity",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/43855b81-43ad-4b85-965d-b974f32fc76e",
+    "external_id": "43855b81-43ad-4b85-965d-b974f32fc76e",
+    "matched_keywords": [
+      "data scientist",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-11T14:23:25Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1595974||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/AWS-DATA-ARCHITECT---ODS_Req1595974",
+    "title": "AWS DATA ARCHITECT – ODS",
+    "company": "Santander Careers",
+    "location": "Madrid",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/job/Madrid/AWS-DATA-ARCHITECT---ODS_Req1595974",
+    "external_id": "Req1595974",
     "matched_keywords": [
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T23:24:47Z",
+    "last_seen": "2026-08-11T14:23:25Z",
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||5439066||https://www.governmentjobs.com/jobs/5439066-0/database-administrator",
-    "title": "Database Administrator",
-    "company": "GovernmentJobs US",
-    "location": "1 Gary K Anderson Plz Decatur, IL",
-    "department": "City of Decatur",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5439066-0/database-administrator",
-    "external_id": "5439066",
+    "key": "roberthalf||Robert Half||02310-0013486434-usen||https://www.roberthalf.com/us/en/job/saint-cloud-mn/database-developer/02310-0013486434-usen",
+    "title": "Database Developer",
+    "company": "Robert Half",
+    "location": "Saint Cloud, MN",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/saint-cloud-mn/database-developer/02310-0013486434-usen",
+    "external_id": "02310-0013486434-usen",
     "matched_keywords": [
       "data"
     ],
-    "first_seen": "2026-08-07T21:06:08Z",
-    "last_seen": "2026-08-10T23:24:47Z",
+    "first_seen": "2026-08-11T10:29:37Z",
+    "last_seen": "2026-08-11T14:23:25Z",
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||5429822||https://www.governmentjobs.com/jobs/5429822-0/database-administrator",
-    "title": "Database Administrator",
-    "company": "GovernmentJobs US",
-    "location": "Glendale, AZ",
-    "department": "City of Glendale (AZ)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5429822-0/database-administrator",
-    "external_id": "5429822",
+    "key": "roberthalf||Robert Half||03760-0013482424-usen||https://www.roberthalf.com/us/en/job/warrendale-pa/logistics-pricing-analyst/03760-0013482424-usen",
+    "title": "Logistics Pricing Analyst",
+    "company": "Robert Half",
+    "location": "Warrendale, PA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/warrendale-pa/logistics-pricing-analyst/03760-0013482424-usen",
+    "external_id": "03760-0013482424-usen",
     "matched_keywords": [
-      "data"
+      "analyst"
     ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T23:24:47Z",
+    "first_seen": "2026-08-10T12:26:18Z",
+    "last_seen": "2026-08-11T14:23:25Z",
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||55634||https://www.governmentjobs.com/jobs/55634-1/database-architect",
-    "title": "Database Architect",
-    "company": "GovernmentJobs US",
-    "location": "San Carlos, CA",
-    "department": "San Mateo County Transit District",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/55634-1/database-architect",
-    "external_id": "55634",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T23:24:47Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||147305||https://www.governmentjobs.com/jobs/147305-1/data-practices-officer",
-    "title": "Data Practices Officer",
-    "company": "GovernmentJobs US",
-    "location": "Saint Paul, MN",
-    "department": "Teachers Retirement Association",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/147305-1/data-practices-officer",
-    "external_id": "147305",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T23:24:47Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5440400||https://www.governmentjobs.com/jobs/5440400-0/data-entry-clerk",
+    "key": "roberthalf||Robert Half||02080-0013482018-usen||https://www.roberthalf.com/us/en/job/richmond-me/data-entry-clerk/02080-0013482018-usen",
     "title": "Data Entry Clerk",
-    "company": "GovernmentJobs US",
-    "location": "Justice Center - West Chester, PA",
-    "department": "County of Chester",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5440400-0/data-entry-clerk",
-    "external_id": "5440400",
+    "company": "Robert Half",
+    "location": "Richmond, ME",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/richmond-me/data-entry-clerk/02080-0013482018-usen",
+    "external_id": "02080-0013482018-usen",
     "matched_keywords": [
       "data"
     ],
-    "first_seen": "2026-08-07T21:06:08Z",
-    "last_seen": "2026-08-10T23:24:47Z",
+    "first_seen": "2026-08-11T13:06:48Z",
+    "last_seen": "2026-08-11T13:06:48Z",
+    "is_new": true
+  },
+  {
+    "key": "roberthalf||Robert Half||01302-0013486470-usen||https://www.roberthalf.com/us/en/job/northbrook-il/aml-analyst/01302-0013486470-usen",
+    "title": "AML Analyst",
+    "company": "Robert Half",
+    "location": "Northbrook, IL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/northbrook-il/aml-analyst/01302-0013486470-usen",
+    "external_id": "01302-0013486470-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-11T13:06:48Z",
+    "last_seen": "2026-08-11T13:06:48Z",
+    "is_new": true
+  },
+  {
+    "key": "roberthalf||Robert Half||01040-0013485364-usen||https://www.roberthalf.com/us/en/job/palm-beach-gardens-fl/jr-logistics-analyst/01040-0013485364-usen",
+    "title": "Jr. Logistics Analyst",
+    "company": "Robert Half",
+    "location": "Palm Beach Gardens, FL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/palm-beach-gardens-fl/jr-logistics-analyst/01040-0013485364-usen",
+    "external_id": "01040-0013485364-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-08T08:28:38Z",
+    "last_seen": "2026-08-11T12:00:09Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03320-0013473553-usen||https://www.roberthalf.com/us/en/job/erlanger-ky/data-engineer/03320-0013473553-usen",
+    "title": "Data Engineer",
+    "company": "Robert Half",
+    "location": "Erlanger, KY",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/erlanger-ky/data-engineer/03320-0013473553-usen",
+    "external_id": "03320-0013473553-usen",
+    "matched_keywords": [
+      "data engineer",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-11T11:18:36Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
+    "title": "Consultor(a) SAP Data Migration",
+    "company": "Accenture Careers Alt",
+    "location": "R00253076 | Location Negotiable",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
+    "external_id": "Location Negotiable",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T12:05:25Z",
+    "last_seen": "2026-08-11T10:29:37Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5440392||https://www.governmentjobs.com/jobs/5440392-0/data-engineer",
+    "title": "Data Engineer",
+    "company": "GovernmentJobs US",
+    "location": "Spotsylvania, VA",
+    "department": "Spotsylvania County",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5440392-0/data-engineer",
+    "external_id": "5440392",
+    "matched_keywords": [
+      "data engineer",
+      "data"
+    ],
+    "first_seen": "2026-08-10T11:32:37Z",
+    "last_seen": "2026-08-11T09:38:01Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5410851||https://www.governmentjobs.com/jobs/5410851-0/data-scientist",
+    "title": "Data Scientist",
+    "company": "GovernmentJobs US",
+    "location": "10 Park Plaza Suite 2150 Boston, MA",
+    "department": "Boston Region MPO / CTPS",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5410851-0/data-scientist",
+    "external_id": "5410851",
+    "matched_keywords": [
+      "data scientist",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-11T09:38:01Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5204067||https://www.governmentjobs.com/jobs/5204067-0/data-coordinator",
+    "title": "DATA COORDINATOR",
+    "company": "GovernmentJobs US",
+    "location": "Baton Rouge, LA",
+    "department": "State of Louisiana",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5204067-0/data-coordinator",
+    "external_id": "5204067",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-11T09:38:01Z",
+    "is_new": true
+  },
+  {
+    "key": "roberthalf||Robert Half||00410-0013478844-usen||https://www.roberthalf.com/us/en/job/san-francisco-ca/data-analyst/00410-0013478844-usen",
+    "title": "Data Analyst",
+    "company": "Robert Half",
+    "location": "San Francisco, CA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/san-francisco-ca/data-analyst/00410-0013478844-usen",
+    "external_id": "00410-0013478844-usen",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T19:43:23Z",
+    "last_seen": "2026-08-11T06:37:39Z",
     "is_new": false
   },
   {
@@ -1400,24 +2273,77 @@
       "analyst"
     ],
     "first_seen": "2026-08-10T17:30:35Z",
-    "last_seen": "2026-08-10T22:54:07Z",
+    "last_seen": "2026-08-11T06:37:39Z",
     "is_new": false
   },
   {
-    "key": "roberthalf||Robert Half||04400-0013474891-usen||https://www.roberthalf.com/us/en/job/monroe-wa/it-analyst/04400-0013474891-usen",
-    "title": "IT Analyst",
+    "key": "roberthalf||Robert Half||04820-0013483879-usen||https://www.roberthalf.com/us/en/job/salt-lake-city-ut/data-analyst/04820-0013483879-usen",
+    "title": "Data Analyst",
     "company": "Robert Half",
-    "location": "Monroe, WA",
+    "location": "Salt Lake City, UT",
     "department": "",
     "source_name": "Robert Half",
     "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/monroe-wa/it-analyst/04400-0013474891-usen",
-    "external_id": "04400-0013474891-usen",
+    "url": "https://www.roberthalf.com/us/en/job/salt-lake-city-ut/data-analyst/04820-0013483879-usen",
+    "external_id": "04820-0013483879-usen",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T05:07:44Z",
+    "last_seen": "2026-08-11T04:40:56Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5398150||https://www.governmentjobs.com/jobs/5398150-0/data-integration-specialist-programmer-analyst-ii",
+    "title": "Data Integration Specialist (Programmer-Analyst II)",
+    "company": "GovernmentJobs US",
+    "location": "Anne Arundel County, MD",
+    "department": "Anne Arundel County",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5398150-0/data-integration-specialist-programmer-analyst-ii",
+    "external_id": "5398150",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-08-11T03:11:49Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03370-9504376203-usen||https://www.roberthalf.com/us/en/job/dayton-oh/data-entry-clerk/03370-9504376203-usen",
+    "title": "Data Entry Clerk",
+    "company": "Robert Half",
+    "location": "Dayton, OH",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/dayton-oh/data-entry-clerk/03370-9504376203-usen",
+    "external_id": "03370-9504376203-usen",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-10T15:43:11Z",
+    "last_seen": "2026-08-11T03:11:49Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03230-0013481251-usen||https://www.roberthalf.com/us/en/job/greenville-sc/ehr-workflow-analyst/03230-0013481251-usen",
+    "title": "EHR Workflow Analyst",
+    "company": "Robert Half",
+    "location": "Greenville, SC",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/greenville-sc/ehr-workflow-analyst/03230-0013481251-usen",
+    "external_id": "03230-0013481251-usen",
     "matched_keywords": [
       "analyst"
     ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T21:33:34Z",
+    "first_seen": "2026-08-10T17:30:35Z",
+    "last_seen": "2026-08-11T03:11:49Z",
     "is_new": false
   },
   {
@@ -1452,127 +2378,6 @@
     ],
     "first_seen": "2026-08-10T20:27:22Z",
     "last_seen": "2026-08-10T20:56:47Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||01180-0013485317-usen||https://www.roberthalf.com/us/en/job/bartow-fl/accounts-receivable-analyst/01180-0013485317-usen",
-    "title": "Accounts Receivable Analyst",
-    "company": "Robert Half",
-    "location": "Bartow, FL",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/bartow-fl/accounts-receivable-analyst/01180-0013485317-usen",
-    "external_id": "01180-0013485317-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-08T07:56:16Z",
-    "last_seen": "2026-08-10T20:56:47Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||02310-0013477735-usen||https://www.roberthalf.com/us/en/job/bayport-mn/business-analyst/02310-0013477735-usen",
-    "title": "Business Analyst",
-    "company": "Robert Half",
-    "location": "Bayport, MN",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/bayport-mn/business-analyst/02310-0013477735-usen",
-    "external_id": "02310-0013477735-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T09:42:34Z",
-    "last_seen": "2026-08-10T20:56:47Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5394820||https://www.governmentjobs.com/jobs/5394820-0/database-administrator-ii",
-    "title": "Database Administrator II",
-    "company": "GovernmentJobs US",
-    "location": "Lynchburg, VA",
-    "department": "City of Lynchburg",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5394820-0/database-administrator-ii",
-    "external_id": "5394820",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T19:27:20Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5354376||https://www.governmentjobs.com/jobs/5354376-0/airport-data-engineer",
-    "title": "Airport Data Engineer",
-    "company": "GovernmentJobs US",
-    "location": "Harry Reid International Airport - Las Vegas, NV",
-    "department": "Clark County Department of Aviation",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5354376-0/airport-data-engineer",
-    "external_id": "5354376",
-    "matched_keywords": [
-      "data engineer",
-      "data"
-    ],
-    "first_seen": "2026-08-08T09:51:01Z",
-    "last_seen": "2026-08-10T19:27:20Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||121519||https://www.governmentjobs.com/jobs/121519-1/data-visualization-specialist",
-    "title": "Data Visualization Specialist",
-    "company": "GovernmentJobs US",
-    "location": "Bellevue, WA",
-    "department": "Bellevue College",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/121519-1/data-visualization-specialist",
-    "external_id": "121519",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-10T19:27:20Z",
-    "last_seen": "2026-08-10T19:27:20Z",
-    "is_new": true
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5432366||https://www.governmentjobs.com/jobs/5432366-0/student-enrollment-and-data-specialist",
-    "title": "STUDENT ENROLLMENT AND DATA SPECIALIST",
-    "company": "GovernmentJobs US",
-    "location": "District-Wide, CA",
-    "department": "Inglewood Unified School District",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5432366-0/student-enrollment-and-data-specialist",
-    "external_id": "5432366",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-10T19:27:20Z",
-    "last_seen": "2026-08-10T19:27:20Z",
-    "is_new": true
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5432730||https://www.governmentjobs.com/jobs/5432730-0/housing-data-analyst",
-    "title": "HOUSING DATA ANALYST",
-    "company": "GovernmentJobs US",
-    "location": "Chapel Hill, NC",
-    "department": "Town of Chapel Hill",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5432730-0/housing-data-analyst",
-    "external_id": "5432730",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-10T18:24:02Z",
     "is_new": false
   },
   {
@@ -1674,23 +2479,6 @@
       "analyst"
     ],
     "first_seen": "2026-08-10T00:54:30Z",
-    "last_seen": "2026-08-10T14:49:48Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||03760-0013482424-usen||https://www.roberthalf.com/us/en/job/warrendale-pa/logistics-pricing-analyst/03760-0013482424-usen",
-    "title": "Logistics Pricing Analyst",
-    "company": "Robert Half",
-    "location": "Warrendale, PA",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/warrendale-pa/logistics-pricing-analyst/03760-0013482424-usen",
-    "external_id": "03760-0013482424-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-10T12:26:18Z",
     "last_seen": "2026-08-10T14:49:48Z",
     "is_new": false
   },
@@ -2021,24 +2809,6 @@
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||5440392||https://www.governmentjobs.com/jobs/5440392-0/data-engineer",
-    "title": "Data Engineer",
-    "company": "GovernmentJobs US",
-    "location": "Spotsylvania, VA",
-    "department": "Spotsylvania County",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5440392-0/data-engineer",
-    "external_id": "5440392",
-    "matched_keywords": [
-      "data engineer",
-      "data"
-    ],
-    "first_seen": "2026-08-10T11:32:37Z",
-    "last_seen": "2026-08-10T11:32:37Z",
-    "is_new": true
-  },
-  {
     "key": "roberthalf||Robert Half||03140-0013466871-usen||https://www.roberthalf.com/us/en/job/reno-nv/financial-analyst/03140-0013466871-usen",
     "title": "Financial Analyst",
     "company": "Robert Half",
@@ -2069,23 +2839,6 @@
       "analyst"
     ],
     "first_seen": "2026-08-08T06:04:56Z",
-    "last_seen": "2026-08-10T07:59:17Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||00420-0013385750-usen||https://www.roberthalf.com/us/en/job/san-jose-ca/data-entry-clerk/00420-0013385750-usen",
-    "title": "Data Entry Clerk",
-    "company": "Robert Half",
-    "location": "San Jose, CA",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/san-jose-ca/data-entry-clerk/00420-0013385750-usen",
-    "external_id": "00420-0013385750-usen",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T21:51:17Z",
     "last_seen": "2026-08-10T07:59:17Z",
     "is_new": false
   },
@@ -2178,23 +2931,6 @@
     "is_new": false
   },
   {
-    "key": "roberthalf||Robert Half||03340-0013484041-usen||https://www.roberthalf.com/us/en/job/cleveland-oh/medical-claims-analyst/03340-0013484041-usen",
-    "title": "Medical Claims Analyst",
-    "company": "Robert Half",
-    "location": "Cleveland, OH",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/cleveland-oh/medical-claims-analyst/03340-0013484041-usen",
-    "external_id": "03340-0013484041-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T05:18:39Z",
-    "last_seen": "2026-08-10T00:54:30Z",
-    "is_new": false
-  },
-  {
     "key": "roberthalf||Robert Half||03770-0013485473-usen||https://www.roberthalf.com/us/en/job/lyon-station-pa/supply-chain-analyst/03770-0013485473-usen",
     "title": "Supply Chain Analyst",
     "company": "Robert Half",
@@ -2209,23 +2945,6 @@
     ],
     "first_seen": "2026-08-08T21:49:41Z",
     "last_seen": "2026-08-09T21:21:14Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||03190-0013481368-usen||https://www.roberthalf.com/us/en/job/charlotte-nc/financial-analyst/03190-0013481368-usen",
-    "title": "Financial Analyst",
-    "company": "Robert Half",
-    "location": "Charlotte, NC",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/charlotte-nc/financial-analyst/03190-0013481368-usen",
-    "external_id": "03190-0013481368-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T16:13:59Z",
-    "last_seen": "2026-08-09T19:53:45Z",
     "is_new": false
   },
   {
@@ -2538,23 +3257,6 @@
     "is_new": false
   },
   {
-    "key": "roberthalf||Robert Half||01200-0013479137-usen||https://www.roberthalf.com/us/en/job/kapolei-hi/dataintake-specialist/01200-0013479137-usen",
-    "title": "Data/Intake Specialist",
-    "company": "Robert Half",
-    "location": "Kapolei, HI",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/kapolei-hi/dataintake-specialist/01200-0013479137-usen",
-    "external_id": "01200-0013479137-usen",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T05:18:39Z",
-    "last_seen": "2026-08-07T09:42:34Z",
-    "is_new": false
-  },
-  {
     "key": "roberthalf||Robert Half||01200-0013463063-usen||https://www.roberthalf.com/us/en/job/honolulu-hi/business-intelligence-bi-analyst/01200-0013463063-usen",
     "title": "Business Intelligence (BI) Analyst",
     "company": "Robert Half",
@@ -2586,23 +3288,6 @@
     ],
     "first_seen": "2026-08-07T05:07:44Z",
     "last_seen": "2026-08-07T07:53:49Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||03110-0013483809-usen||https://www.roberthalf.com/us/en/job/reno-nv/financial-analyst/03110-0013483809-usen",
-    "title": "Financial Analyst",
-    "company": "Robert Half",
-    "location": "Reno, NV",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/reno-nv/financial-analyst/03110-0013483809-usen",
-    "external_id": "03110-0013483809-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T05:18:39Z",
-    "last_seen": "2026-08-07T06:35:05Z",
     "is_new": false
   },
   {
@@ -2672,40 +3357,5 @@
     "first_seen": "2026-08-07T01:13:02Z",
     "last_seen": "2026-08-07T01:13:02Z",
     "is_new": true
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5410851||https://www.governmentjobs.com/jobs/5410851-0/data-scientist",
-    "title": "Data Scientist",
-    "company": "GovernmentJobs US",
-    "location": "10 Park Plaza Suite 2150 Boston, MA",
-    "department": "Boston Region MPO / CTPS",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5410851-0/data-scientist",
-    "external_id": "5410851",
-    "matched_keywords": [
-      "data scientist",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-07T01:13:02Z",
-    "is_new": true
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5204067||https://www.governmentjobs.com/jobs/5204067-0/data-coordinator",
-    "title": "DATA COORDINATOR",
-    "company": "GovernmentJobs US",
-    "location": "Baton Rouge, LA",
-    "department": "State of Louisiana",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5204067-0/data-coordinator",
-    "external_id": "5204067",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-08-07T01:13:02Z",
-    "is_new": false
   }
 ]
