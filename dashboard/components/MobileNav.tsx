@@ -23,7 +23,7 @@ export function MobileNav() {
           >
             <span
               className={cn(
-                "flex flex-col items-center justify-center gap-0.5 rounded-full px-3 py-1.5 transition-all duration-200",
+                "flex w-16 flex-col items-center justify-center gap-0.5 rounded-full py-1.5 transition-all duration-200",
                 active && "bg-gradient-to-br from-[var(--accent)] to-indigo-600 shadow-[0_4px_10px_rgba(37,99,235,0.35)]"
               )}
             >
