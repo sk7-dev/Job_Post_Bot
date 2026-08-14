@@ -19500,5 +19500,103 @@
         "error": null
       }
     ]
+  },
+  {
+    "timestamp": "2026-08-14T12:39:40Z",
+    "status": "partial",
+    "duration_seconds": 44.48,
+    "sources_total": 12,
+    "sources_succeeded": 11,
+    "sources_failed": 1,
+    "jobs_fetched": 474,
+    "jobs_matched": 83,
+    "new_jobs": 2,
+    "alerts_sent": 2,
+    "sources": [
+      {
+        "name": "Cascade Financial Services",
+        "status": "healthy",
+        "jobs_fetched": 9,
+        "jobs_matched": 0,
+        "error": null
+      },
+      {
+        "name": "Skechers Data Search",
+        "status": "healthy",
+        "jobs_fetched": 10,
+        "jobs_matched": 7,
+        "error": null
+      },
+      {
+        "name": "SCAN Careers",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 1,
+        "error": null
+      },
+      {
+        "name": "Santander Careers",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 9,
+        "error": null
+      },
+      {
+        "name": "Entertime Careers",
+        "status": "healthy",
+        "jobs_fetched": 20,
+        "jobs_matched": 0,
+        "error": null
+      },
+      {
+        "name": "GumGum Careers",
+        "status": "healthy",
+        "jobs_fetched": 9,
+        "jobs_matched": 0,
+        "error": null
+      },
+      {
+        "name": "Petco Careers",
+        "status": "failed",
+        "jobs_fetched": 0,
+        "jobs_matched": 0,
+        "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
+      },
+      {
+        "name": "Accenture Careers Alt",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 5,
+        "error": null
+      },
+      {
+        "name": "Doximity Careers",
+        "status": "healthy",
+        "jobs_fetched": 9,
+        "jobs_matched": 2,
+        "error": null
+      },
+      {
+        "name": "Whatnot Careers",
+        "status": "healthy",
+        "jobs_fetched": 132,
+        "jobs_matched": 13,
+        "error": null
+      },
+      {
+        "name": "GovernmentJobs US",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 32,
+        "error": null
+      },
+      {
+        "name": "Robert Half",
+        "status": "healthy",
+        "jobs_fetched": 125,
+        "jobs_matched": 14,
+        "error": null
+      }
+    ]
   }
 ]
