@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 9,
     "jobs_matched": 0,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 144,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 105,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 7,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 599,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 412,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 1091,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 6651,
     "error": null
   },
   {
@@ -35,28 +35,28 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 10,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 2574,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 2745,
     "error": null
   },
   {
     "name": "Entertime Careers",
     "type": "entertime",
-    "status": "failed",
-    "jobs_fetched": 0,
+    "status": "healthy",
+    "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 230,
-    "error": "403 Client Error: Forbidden for url: https://secure4.entertimeonline.com/ta/rest/ui/recruitment/companies/%7C6149039/job-requisitions?_=1787010726284&offset=0&size=20&lang=en-US&sort=desc"
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 731,
+    "error": null
   },
   {
     "name": "GumGum Careers",
     "type": "greenhouse",
     "status": "healthy",
-    "jobs_fetched": 8,
+    "jobs_fetched": 9,
     "jobs_matched": 0,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 63,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 92,
     "error": null
   },
   {
@@ -65,7 +65,7 @@
     "status": "failed",
     "jobs_fetched": 0,
     "jobs_matched": 0,
-    "last_scan": "2026-08-17T23:52:44Z",
+    "last_scan": "2026-08-18T00:35:54Z",
     "duration_ms": 105,
     "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
   },
@@ -74,9 +74,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 4,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 4290,
+    "jobs_matched": 3,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 4313,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 2,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 35,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 96,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 131,
     "jobs_matched": 13,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 300,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 282,
     "error": null
   },
   {
@@ -104,19 +104,19 @@
     "type": "governmentjobs",
     "status": "healthy",
     "jobs_fetched": 30,
-    "jobs_matched": 26,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 38085,
+    "jobs_matched": 25,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 37561,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 102,
-    "jobs_matched": 5,
-    "last_scan": "2026-08-17T23:52:44Z",
-    "duration_ms": 18250,
+    "jobs_fetched": 101,
+    "jobs_matched": 7,
+    "last_scan": "2026-08-18T00:35:54Z",
+    "duration_ms": 19284,
     "error": null
   }
 ]
