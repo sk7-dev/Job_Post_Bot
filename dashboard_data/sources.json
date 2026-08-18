@@ -3,10 +3,10 @@
     "name": "Cascade Financial Services",
     "type": "greenhouse",
     "status": "healthy",
-    "jobs_fetched": 9,
-    "jobs_matched": 0,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 214,
+    "jobs_fetched": 10,
+    "jobs_matched": 1,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 112,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 7,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 685,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 588,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 1906,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 1618,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 10,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 2636,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 2742,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 460,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 701,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 0,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 38,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 40,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "failed",
     "jobs_fetched": 0,
     "jobs_matched": 0,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 93,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 115,
     "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 7,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 4150,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 4536,
     "error": null
   },
   {
@@ -85,18 +85,18 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 2,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 47,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 57,
     "error": null
   },
   {
     "name": "Whatnot Careers",
     "type": "ashby",
     "status": "healthy",
-    "jobs_fetched": 133,
+    "jobs_fetched": 132,
     "jobs_matched": 14,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 186,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 767,
     "error": null
   },
   {
@@ -105,18 +105,18 @@
     "status": "healthy",
     "jobs_fetched": 30,
     "jobs_matched": 25,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 38516,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 37877,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 96,
-    "jobs_matched": 8,
-    "last_scan": "2026-08-18T17:17:42Z",
-    "duration_ms": 21042,
+    "jobs_fetched": 99,
+    "jobs_matched": 6,
+    "last_scan": "2026-08-18T17:46:26Z",
+    "duration_ms": 19287,
     "error": null
   }
 ]
