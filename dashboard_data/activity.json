@@ -1,103 +1,5 @@
 [
   {
-    "timestamp": "2026-08-15T12:59:53Z",
-    "status": "partial",
-    "duration_seconds": 37.83,
-    "sources_total": 12,
-    "sources_succeeded": 11,
-    "sources_failed": 1,
-    "jobs_fetched": 436,
-    "jobs_matched": 68,
-    "new_jobs": 0,
-    "alerts_sent": 0,
-    "sources": [
-      {
-        "name": "Cascade Financial Services",
-        "status": "healthy",
-        "jobs_fetched": 9,
-        "jobs_matched": 0,
-        "error": null
-      },
-      {
-        "name": "Skechers Data Search",
-        "status": "healthy",
-        "jobs_fetched": 10,
-        "jobs_matched": 7,
-        "error": null
-      },
-      {
-        "name": "SCAN Careers",
-        "status": "healthy",
-        "jobs_fetched": 40,
-        "jobs_matched": 1,
-        "error": null
-      },
-      {
-        "name": "Santander Careers",
-        "status": "healthy",
-        "jobs_fetched": 40,
-        "jobs_matched": 9,
-        "error": null
-      },
-      {
-        "name": "Entertime Careers",
-        "status": "healthy",
-        "jobs_fetched": 20,
-        "jobs_matched": 0,
-        "error": null
-      },
-      {
-        "name": "GumGum Careers",
-        "status": "healthy",
-        "jobs_fetched": 8,
-        "jobs_matched": 0,
-        "error": null
-      },
-      {
-        "name": "Petco Careers",
-        "status": "failed",
-        "jobs_fetched": 0,
-        "jobs_matched": 0,
-        "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
-      },
-      {
-        "name": "Accenture Careers Alt",
-        "status": "healthy",
-        "jobs_fetched": 40,
-        "jobs_matched": 5,
-        "error": null
-      },
-      {
-        "name": "Doximity Careers",
-        "status": "healthy",
-        "jobs_fetched": 9,
-        "jobs_matched": 2,
-        "error": null
-      },
-      {
-        "name": "Whatnot Careers",
-        "status": "healthy",
-        "jobs_fetched": 132,
-        "jobs_matched": 13,
-        "error": null
-      },
-      {
-        "name": "GovernmentJobs US",
-        "status": "healthy",
-        "jobs_fetched": 30,
-        "jobs_matched": 27,
-        "error": null
-      },
-      {
-        "name": "Robert Half",
-        "status": "healthy",
-        "jobs_fetched": 98,
-        "jobs_matched": 4,
-        "error": null
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-15T13:30:28Z",
     "status": "partial",
     "duration_seconds": 37.94,
@@ -19595,6 +19497,104 @@
         "status": "healthy",
         "jobs_fetched": 120,
         "jobs_matched": 8,
+        "error": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-19T13:04:02Z",
+    "status": "partial",
+    "duration_seconds": 37.72,
+    "sources_total": 12,
+    "sources_succeeded": 11,
+    "sources_failed": 1,
+    "jobs_fetched": 452,
+    "jobs_matched": 71,
+    "new_jobs": 1,
+    "alerts_sent": 1,
+    "sources": [
+      {
+        "name": "Cascade Financial Services",
+        "status": "healthy",
+        "jobs_fetched": 9,
+        "jobs_matched": 1,
+        "error": null
+      },
+      {
+        "name": "Skechers Data Search",
+        "status": "healthy",
+        "jobs_fetched": 10,
+        "jobs_matched": 7,
+        "error": null
+      },
+      {
+        "name": "SCAN Careers",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 1,
+        "error": null
+      },
+      {
+        "name": "Santander Careers",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 9,
+        "error": null
+      },
+      {
+        "name": "Entertime Careers",
+        "status": "healthy",
+        "jobs_fetched": 20,
+        "jobs_matched": 0,
+        "error": null
+      },
+      {
+        "name": "GumGum Careers",
+        "status": "healthy",
+        "jobs_fetched": 6,
+        "jobs_matched": 0,
+        "error": null
+      },
+      {
+        "name": "Petco Careers",
+        "status": "failed",
+        "jobs_fetched": 0,
+        "jobs_matched": 0,
+        "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
+      },
+      {
+        "name": "Accenture Careers Alt",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 2,
+        "error": null
+      },
+      {
+        "name": "Doximity Careers",
+        "status": "healthy",
+        "jobs_fetched": 10,
+        "jobs_matched": 2,
+        "error": null
+      },
+      {
+        "name": "Whatnot Careers",
+        "status": "healthy",
+        "jobs_fetched": 129,
+        "jobs_matched": 14,
+        "error": null
+      },
+      {
+        "name": "GovernmentJobs US",
+        "status": "healthy",
+        "jobs_fetched": 30,
+        "jobs_matched": 26,
+        "error": null
+      },
+      {
+        "name": "Robert Half",
+        "status": "healthy",
+        "jobs_fetched": 118,
+        "jobs_matched": 9,
         "error": null
       }
     ]
