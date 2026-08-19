@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 9,
     "jobs_matched": 1,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 273,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 175,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 7,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 772,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 744,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 1208,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 1277,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 9,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 3097,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 2890,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 592,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 453,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 6,
     "jobs_matched": 0,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 104,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 135,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "failed",
     "jobs_fetched": 0,
     "jobs_matched": 0,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 356,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 208,
     "error": "422 Client Error: Unprocessable Entity for url: https://petco.wd1.myworkdayjobs.com/wday/cxs/petco/External/jobs"
   },
   {
@@ -74,9 +74,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 5,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 5380,
+    "jobs_matched": 4,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 5103,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 2,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 100,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 62,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 129,
     "jobs_matched": 14,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 370,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 476,
     "error": null
   },
   {
@@ -105,18 +105,18 @@
     "status": "healthy",
     "jobs_fetched": 30,
     "jobs_matched": 26,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 37470,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 37144,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 109,
-    "jobs_matched": 7,
-    "last_scan": "2026-08-19T05:29:49Z",
-    "duration_ms": 18778,
+    "jobs_fetched": 119,
+    "jobs_matched": 5,
+    "last_scan": "2026-08-19T05:56:24Z",
+    "duration_ms": 18637,
     "error": null
   }
 ]
