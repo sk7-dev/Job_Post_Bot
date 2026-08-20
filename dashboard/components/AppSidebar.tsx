@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import { usePathname } from "next/navigation";
+import { Rocket, ChevronRight } from "lucide-react";
 import { cn } from "@/lib/utils";
 import { Brand } from "./Brand";
 import { NAV_ITEMS } from "./nav-items";
@@ -41,7 +42,32 @@ export function AppSidebar() {
           );
         })}
       </nav>
-      <div className="px-6 py-5 text-xs text-slate-400">Read-only view</div>
+      <div className="border-t border-[var(--border-subtle)] px-4 py-4">
+        <Link
+          href="/deploy"
+          className={cn(
+            "group relative flex items-center gap-3 overflow-hidden rounded-lg bg-gradient-to-br from-[var(--accent)] to-indigo-600 px-3.5 py-3 shadow-[0_4px_14px_rgba(37,99,235,0.25)] transition-all hover:-translate-y-0.5 hover:shadow-[0_8px_20px_rgba(37,99,235,0.32)]",
+            pathname === "/deploy" && "ring-2 ring-[var(--accent)]/40 ring-offset-2 ring-offset-[var(--sidebar-bg)]"
+          )}
+        >
+          <span
+            aria-hidden
+            className="pointer-events-none absolute -right-4 -top-6 size-16 rounded-full bg-white/10 blur-xl transition-transform duration-300 group-hover:scale-125"
+          />
+          <span className="flex size-8 shrink-0 items-center justify-center rounded-md bg-white/15">
+            <Rocket className="size-4 text-white" aria-hidden />
+          </span>
+          <span className="min-w-0 flex-1">
+            <span className="block text-sm font-semibold text-white">Deploy it yourself</span>
+            <span className="block text-[11px] text-blue-100/80">Run your own instance</span>
+          </span>
+          <ChevronRight
+            className="size-4 shrink-0 text-white/70 transition-transform group-hover:translate-x-0.5"
+            aria-hidden
+          />
+        </Link>
+        <p className="mt-3 text-xs text-slate-400">Read-only view</p>
+      </div>
     </aside>
   );
 }
