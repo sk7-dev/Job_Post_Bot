@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 9,
     "jobs_matched": 1,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 3394,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 68,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 7,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 718,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 534,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 2356,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 3551,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 8,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 3139,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 3188,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 535,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 530,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 6,
     "jobs_matched": 0,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 58,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 66,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 1728,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 1515,
     "error": null
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 6,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 4730,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 5222,
     "error": null
   },
   {
@@ -85,7 +85,7 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 2,
-    "last_scan": "2026-08-20T17:12:35Z",
+    "last_scan": "2026-08-20T19:52:18Z",
     "duration_ms": 51,
     "error": null
   },
@@ -93,10 +93,10 @@
     "name": "Whatnot Careers",
     "type": "ashby",
     "status": "healthy",
-    "jobs_fetched": 131,
-    "jobs_matched": 14,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 327,
+    "jobs_fetched": 132,
+    "jobs_matched": 13,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 450,
     "error": null
   },
   {
@@ -105,18 +105,18 @@
     "status": "healthy",
     "jobs_fetched": 30,
     "jobs_matched": 26,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 36510,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 36683,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 104,
-    "jobs_matched": 11,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 19610,
+    "jobs_fetched": 106,
+    "jobs_matched": 8,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 18930,
     "error": null
   },
   {
@@ -125,8 +125,18 @@
     "status": "healthy",
     "jobs_fetched": 261,
     "jobs_matched": 1,
-    "last_scan": "2026-08-20T17:12:35Z",
-    "duration_ms": 2654,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 2228,
+    "error": null
+  },
+  {
+    "name": "KPMG US Careers",
+    "type": "kpmg",
+    "status": "healthy",
+    "jobs_fetched": 180,
+    "jobs_matched": 6,
+    "last_scan": "2026-08-20T19:52:18Z",
+    "duration_ms": 14415,
     "error": null
   }
 ]
