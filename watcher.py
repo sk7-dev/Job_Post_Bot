@@ -839,6 +839,78 @@ def fetch_roberthalf(source: dict) -> List[dict]:
     return jobs
 
 
+def adp_extract_location(item: dict) -> str:
+    locations = []
+    for loc in item.get("requisitionLocations") or []:
+        address = loc.get("address") or {}
+        city = address.get("cityName", "")
+        state = (address.get("countrySubdivisionLevel1") or {}).get("longName", "")
+        country = (address.get("country") or {}).get("longName", "")
+        parts = [p for p in [city, state, country] if p]
+        if parts:
+            locations.append(", ".join(parts))
+    return " | ".join(locations)
+
+
+def fetch_adp(source: dict) -> List[dict]:
+    domain = source["domain"]
+    base_url = f"https://myjobs.adp.com/{domain}"
+
+    config = safe_get_json(f"https://myjobs.adp.com/public/staffing/v1/career-site/{domain}")
+    my_jobs_token = config.get("myJobsToken")
+    if not my_jobs_token:
+        raise ValueError(f"No myJobsToken found for ADP career site '{domain}'")
+
+    headers = {
+        "myjobstoken": my_jobs_token,
+        "rolecode": "manager",
+        "Accept": "application/json, text/plain, */*",
+        "Referer": "https://myjobs.adp.com/",
+    }
+
+    endpoint = "https://my.adp.com/myadp_prefix/mycareer/public/staffing/v1/job-requisitions/apply-custom-filters"
+    select_fields = "reqId,jobTitle,publishedJobTitle,workLevelCode,postingDate,requisitionLocations"
+    top = 100
+    skip = 0
+    jobs = []
+
+    while True:
+        params = {
+            "$select": select_fields,
+            "$top": top,
+            "$skip": skip,
+            "$filter": "",
+            "tz": "America/New_York",
+        }
+        data = safe_get_json(endpoint, params=params, headers=headers)
+        postings = data.get("jobRequisitions") or []
+        if not postings:
+            break
+
+        for item in postings:
+            req_id = str(item.get("reqId", ""))
+            jobs.append({
+                "source_name": source["name"],
+                "source_type": "adp",
+                "external_id": req_id,
+                "title": item.get("publishedJobTitle") or item.get("jobTitle", ""),
+                "location": adp_extract_location(item),
+                "department": "",
+                "url": f"{base_url}/cx/job-details?reqId={req_id}",
+                "posted_at": item.get("postingDate", ""),
+            })
+
+        total = data.get("count")
+        skip += len(postings)
+
+        if total is not None and skip >= total:
+            break
+        if len(postings) < top:
+            break
+
+    return jobs
+
+
 _FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -849,6 +921,7 @@ _FETCHERS = {
     "governmentjobs": fetch_governmentjobs,
     "custom_html": fetch_custom_html,
     "roberthalf": fetch_roberthalf,
+    "adp": fetch_adp,
 }
 
 
