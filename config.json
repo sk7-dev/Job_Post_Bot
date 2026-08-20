@@ -107,6 +107,11 @@
       "keywords": "data",
       "location": "United States",
       "max_pages": 5
+    },
+    {
+      "name": "Advantest Careers",
+      "type": "adp",
+      "domain": "advantestcareers"
     }
   ]
 }
