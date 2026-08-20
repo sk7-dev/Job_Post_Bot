@@ -112,6 +112,12 @@
       "name": "Advantest Careers",
       "type": "adp",
       "domain": "advantestcareers"
+    },
+    {
+      "name": "KPMG US Careers",
+      "type": "kpmg",
+      "keyword": "data",
+      "max_pages": 15
     }
   ]
 }

@@ -911,6 +911,63 @@ def fetch_adp(source: dict) -> List[dict]:
     return jobs
 
 
+def fetch_kpmg(source: dict) -> List[dict]:
+    base_url = "https://www.kpmguscareers.com"
+    endpoint = f"{base_url}/wp-content/themes/understrap-child-main/page-templates/google/get-jobs.php"
+    keyword = source.get("keyword", "")
+    max_pages = int(source.get("max_pages", 15))
+
+    headers = {
+        "User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36",
+        "X-Requested-With": "XMLHttpRequest",
+        "Referer": f"{base_url}/job-search/",
+    }
+
+    jobs = []
+
+    for page in range(1, max_pages + 1):
+        params = {"ajax": "1", "keyword": keyword, "spage": page}
+        data = safe_get_json(endpoint, params=params, headers=headers)
+        jobs_html = (data.get("postings") or {}).get("jobs", "")
+
+        cards = re.split(r'<div class="search--item[^"]*">', jobs_html)[1:]
+        if not cards:
+            break
+
+        for card in cards:
+            link_match = re.search(r'<a href="([^"]+)"\s+data-id="([^"]*)"', card)
+            if not link_match:
+                continue
+            job_path, external_id = link_match.group(1), link_match.group(2)
+
+            meta_match = re.search(
+                r'<div class="h5 text-dark-grey">(.*?)</div>\s*<div class="text-xs text-dark-grey">(.*?)</div>',
+                card,
+                re.DOTALL,
+            )
+            title = strip_html_tags(meta_match.group(1)) if meta_match else ""
+            meta = strip_html_tags(meta_match.group(2)) if meta_match else ""
+            department, _, location = meta.partition(" | ")
+
+            job_url = job_path if job_path.startswith("http") else f"{base_url}{job_path}"
+
+            jobs.append({
+                "source_name": source["name"],
+                "source_type": "kpmg",
+                "external_id": external_id or job_path,
+                "title": title,
+                "location": location.strip(),
+                "department": department.strip(),
+                "url": job_url,
+                "posted_at": "",
+            })
+
+        if len(cards) < 12:
+            break
+
+    return jobs
+
+
 _FETCHERS = {
     "greenhouse": fetch_greenhouse,
     "lever": fetch_lever,
@@ -922,6 +979,7 @@ _FETCHERS = {
     "custom_html": fetch_custom_html,
     "roberthalf": fetch_roberthalf,
     "adp": fetch_adp,
+    "kpmg": fetch_kpmg,
 }
 
 
