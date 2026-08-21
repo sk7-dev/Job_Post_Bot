@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 9,
     "jobs_matched": 1,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 209,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 162,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 7,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 608,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 650,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 1148,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 1417,
     "error": null
   },
   {
@@ -35,19 +35,19 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 7,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 2544,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 3243,
     "error": null
   },
   {
     "name": "Entertime Careers",
     "type": "entertime",
-    "status": "failed",
-    "jobs_fetched": 0,
+    "status": "healthy",
+    "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 348,
-    "error": "403 Client Error: Forbidden for url: https://secure4.entertimeonline.com/ta/rest/ui/recruitment/companies/%7C6149039/job-requisitions?_=1787283636455&offset=0&size=20&lang=en-US&sort=desc"
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 578,
+    "error": null
   },
   {
     "name": "GumGum Careers",
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 6,
     "jobs_matched": 0,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 119,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 79,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 1659,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 1702,
     "error": null
   },
   {
@@ -74,9 +74,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 5,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 4215,
+    "jobs_matched": 6,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 4099,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 2,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 33,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 79,
     "error": null
   },
   {
@@ -95,28 +95,28 @@
     "status": "healthy",
     "jobs_fetched": 134,
     "jobs_matched": 13,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 204,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 306,
     "error": null
   },
   {
     "name": "GovernmentJobs US",
     "type": "governmentjobs",
     "status": "healthy",
-    "jobs_fetched": 30,
-    "jobs_matched": 26,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 37965,
+    "jobs_fetched": 40,
+    "jobs_matched": 34,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 40866,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 104,
-    "jobs_matched": 11,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 19353,
+    "jobs_fetched": 114,
+    "jobs_matched": 12,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 19475,
     "error": null
   },
   {
@@ -125,8 +125,8 @@
     "status": "healthy",
     "jobs_fetched": 265,
     "jobs_matched": 1,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 2875,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 3547,
     "error": null
   },
   {
@@ -135,8 +135,8 @@
     "status": "healthy",
     "jobs_fetched": 180,
     "jobs_matched": 7,
-    "last_scan": "2026-08-21T03:41:15Z",
-    "duration_ms": 10568,
+    "last_scan": "2026-08-21T04:24:00Z",
+    "duration_ms": 10274,
     "error": null
   }
 ]
