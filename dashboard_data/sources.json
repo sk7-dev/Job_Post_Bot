@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 9,
     "jobs_matched": 1,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 131,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 210,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 7,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 571,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 670,
     "error": null
   },
   {
@@ -25,19 +25,19 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 1273,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 1086,
     "error": null
   },
   {
     "name": "Santander Careers",
     "type": "workday",
-    "status": "healthy",
-    "jobs_fetched": 40,
-    "jobs_matched": 7,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 2660,
-    "error": null
+    "status": "failed",
+    "jobs_fetched": 0,
+    "jobs_matched": 0,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 696,
+    "error": "Expecting value: line 1 column 1 (char 0)"
   },
   {
     "name": "Entertime Careers",
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 779,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 609,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 6,
     "jobs_matched": 0,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 102,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 130,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 1633,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 1695,
     "error": null
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 5,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 4046,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 4375,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 2,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 192,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 126,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 131,
     "jobs_matched": 12,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 261,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 523,
     "error": null
   },
   {
@@ -105,18 +105,18 @@
     "status": "healthy",
     "jobs_fetched": 30,
     "jobs_matched": 26,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 37851,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 37714,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 75,
-    "jobs_matched": 3,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 15376,
+    "jobs_fetched": 108,
+    "jobs_matched": 4,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 19772,
     "error": null
   },
   {
@@ -125,8 +125,8 @@
     "status": "healthy",
     "jobs_fetched": 264,
     "jobs_matched": 1,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 2494,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 2731,
     "error": null
   },
   {
@@ -135,8 +135,8 @@
     "status": "healthy",
     "jobs_fetched": 180,
     "jobs_matched": 8,
-    "last_scan": "2026-08-22T06:01:52Z",
-    "duration_ms": 11834,
+    "last_scan": "2026-08-22T06:54:59Z",
+    "duration_ms": 16290,
     "error": null
   }
 ]
