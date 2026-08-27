@@ -1,117 +1,5 @@
 [
   {
-    "timestamp": "2026-08-22T07:52:05Z",
-    "status": "partial",
-    "duration_seconds": 40.92,
-    "sources_total": 14,
-    "sources_succeeded": 12,
-    "sources_failed": 2,
-    "jobs_fetched": 731,
-    "jobs_matched": 77,
-    "new_jobs": 0,
-    "alerts_sent": 0,
-    "sources": [
-      {
-        "name": "Cascade Financial Services",
-        "status": "healthy",
-        "jobs_fetched": 9,
-        "jobs_matched": 1,
-        "error": null
-      },
-      {
-        "name": "Skechers Data Search",
-        "status": "healthy",
-        "jobs_fetched": 10,
-        "jobs_matched": 7,
-        "error": null
-      },
-      {
-        "name": "SCAN Careers",
-        "status": "healthy",
-        "jobs_fetched": 40,
-        "jobs_matched": 1,
-        "error": null
-      },
-      {
-        "name": "Santander Careers",
-        "status": "healthy",
-        "jobs_fetched": 40,
-        "jobs_matched": 7,
-        "error": null
-      },
-      {
-        "name": "Entertime Careers",
-        "status": "failed",
-        "jobs_fetched": 0,
-        "jobs_matched": 0,
-        "error": "403 Client Error: Forbidden for url: https://secure4.entertimeonline.com/ta/rest/ui/recruitment/companies/%7C6149039/job-requisitions?_=1787385084366&offset=0&size=20&lang=en-US&sort=desc"
-      },
-      {
-        "name": "GumGum Careers",
-        "status": "healthy",
-        "jobs_fetched": 6,
-        "jobs_matched": 0,
-        "error": null
-      },
-      {
-        "name": "Petco Careers",
-        "status": "healthy",
-        "jobs_fetched": 40,
-        "jobs_matched": 0,
-        "error": null
-      },
-      {
-        "name": "Accenture Careers Alt",
-        "status": "healthy",
-        "jobs_fetched": 40,
-        "jobs_matched": 5,
-        "error": null
-      },
-      {
-        "name": "Doximity Careers",
-        "status": "healthy",
-        "jobs_fetched": 10,
-        "jobs_matched": 2,
-        "error": null
-      },
-      {
-        "name": "Whatnot Careers",
-        "status": "healthy",
-        "jobs_fetched": 131,
-        "jobs_matched": 12,
-        "error": null
-      },
-      {
-        "name": "GovernmentJobs US",
-        "status": "healthy",
-        "jobs_fetched": 40,
-        "jobs_matched": 34,
-        "error": null
-      },
-      {
-        "name": "Robert Half",
-        "status": "healthy",
-        "jobs_fetched": 101,
-        "jobs_matched": 7,
-        "error": null
-      },
-      {
-        "name": "Advantest Careers",
-        "status": "healthy",
-        "jobs_fetched": 264,
-        "jobs_matched": 1,
-        "error": null
-      },
-      {
-        "name": "KPMG US Careers",
-        "status": "failed",
-        "jobs_fetched": 0,
-        "jobs_matched": 0,
-        "error": "Expecting value: line 1 column 1 (char 0)"
-      }
-    ]
-  },
-  {
     "timestamp": "2026-08-22T08:16:53Z",
     "status": "success",
     "duration_seconds": 38.86,
@@ -22396,6 +22284,118 @@
         "jobs_fetched": 180,
         "jobs_matched": 7,
         "error": null
+      }
+    ]
+  },
+  {
+    "timestamp": "2026-08-27T10:37:41Z",
+    "status": "partial",
+    "duration_seconds": 38.94,
+    "sources_total": 14,
+    "sources_succeeded": 13,
+    "sources_failed": 1,
+    "jobs_fetched": 751,
+    "jobs_matched": 72,
+    "new_jobs": 2,
+    "alerts_sent": 2,
+    "sources": [
+      {
+        "name": "Cascade Financial Services",
+        "status": "healthy",
+        "jobs_fetched": 9,
+        "jobs_matched": 1,
+        "error": null
+      },
+      {
+        "name": "Skechers Data Search",
+        "status": "healthy",
+        "jobs_fetched": 10,
+        "jobs_matched": 7,
+        "error": null
+      },
+      {
+        "name": "SCAN Careers",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 1,
+        "error": null
+      },
+      {
+        "name": "Santander Careers",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 10,
+        "error": null
+      },
+      {
+        "name": "Entertime Careers",
+        "status": "healthy",
+        "jobs_fetched": 20,
+        "jobs_matched": 0,
+        "error": null
+      },
+      {
+        "name": "GumGum Careers",
+        "status": "healthy",
+        "jobs_fetched": 7,
+        "jobs_matched": 0,
+        "error": null
+      },
+      {
+        "name": "Petco Careers",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 1,
+        "error": null
+      },
+      {
+        "name": "Accenture Careers Alt",
+        "status": "healthy",
+        "jobs_fetched": 40,
+        "jobs_matched": 2,
+        "error": null
+      },
+      {
+        "name": "Doximity Careers",
+        "status": "healthy",
+        "jobs_fetched": 10,
+        "jobs_matched": 2,
+        "error": null
+      },
+      {
+        "name": "Whatnot Careers",
+        "status": "healthy",
+        "jobs_fetched": 134,
+        "jobs_matched": 11,
+        "error": null
+      },
+      {
+        "name": "GovernmentJobs US",
+        "status": "healthy",
+        "jobs_fetched": 30,
+        "jobs_matched": 27,
+        "error": null
+      },
+      {
+        "name": "Robert Half",
+        "status": "healthy",
+        "jobs_fetched": 101,
+        "jobs_matched": 8,
+        "error": null
+      },
+      {
+        "name": "Advantest Careers",
+        "status": "healthy",
+        "jobs_fetched": 270,
+        "jobs_matched": 2,
+        "error": null
+      },
+      {
+        "name": "KPMG US Careers",
+        "status": "failed",
+        "jobs_fetched": 0,
+        "jobs_matched": 0,
+        "error": "Expecting value: line 1 column 1 (char 0)"
       }
     ]
   }
