@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 9,
     "jobs_matched": 1,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 206,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 152,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 7,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 621,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 695,
     "error": null
   },
   {
@@ -25,19 +25,19 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 1161,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 1417,
     "error": null
   },
   {
     "name": "Santander Careers",
     "type": "workday",
-    "status": "failed",
-    "jobs_fetched": 0,
-    "jobs_matched": 0,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 972,
-    "error": "Expecting value: line 1 column 1 (char 0)"
+    "status": "healthy",
+    "jobs_fetched": 40,
+    "jobs_matched": 9,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 2427,
+    "error": null
   },
   {
     "name": "Entertime Careers",
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 986,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 695,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 0,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 99,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 58,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 1771,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 1679,
     "error": null
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 3,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 4428,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 3941,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 2,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 115,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 95,
     "error": null
   },
   {
@@ -95,28 +95,28 @@
     "status": "healthy",
     "jobs_fetched": 135,
     "jobs_matched": 11,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 390,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 311,
     "error": null
   },
   {
     "name": "GovernmentJobs US",
     "type": "governmentjobs",
     "status": "healthy",
-    "jobs_fetched": 50,
-    "jobs_matched": 43,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 12803,
+    "jobs_fetched": 40,
+    "jobs_matched": 34,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 40462,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 120,
-    "jobs_matched": 8,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 18982,
+    "jobs_fetched": 109,
+    "jobs_matched": 4,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 18375,
     "error": null
   },
   {
@@ -125,8 +125,8 @@
     "status": "healthy",
     "jobs_fetched": 271,
     "jobs_matched": 2,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 3114,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 2785,
     "error": null
   },
   {
@@ -135,8 +135,8 @@
     "status": "failed",
     "jobs_fetched": 0,
     "jobs_matched": 0,
-    "last_scan": "2026-08-29T07:27:16Z",
-    "duration_ms": 436,
+    "last_scan": "2026-08-29T13:16:17Z",
+    "duration_ms": 63,
     "error": "Expecting value: line 1 column 1 (char 0)"
   }
 ]
