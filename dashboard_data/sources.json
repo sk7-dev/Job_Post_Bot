@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 1,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 169,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 97,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 6,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 619,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 894,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 1526,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 1552,
     "error": null
   },
   {
@@ -35,19 +35,19 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 7,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 2890,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 2865,
     "error": null
   },
   {
     "name": "Entertime Careers",
     "type": "entertime",
-    "status": "failed",
-    "jobs_fetched": 0,
+    "status": "healthy",
+    "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 403,
-    "error": "403 Client Error: Forbidden for url: https://secure4.entertimeonline.com/ta/rest/ui/recruitment/companies/%7C6149039/job-requisitions?_=1788637233479&offset=0&size=20&lang=en-US&sort=desc"
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 527,
+    "error": null
   },
   {
     "name": "GumGum Careers",
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 9,
     "jobs_matched": 0,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 130,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 67,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 1810,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 1706,
     "error": null
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 5,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 4416,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 4517,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 1,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 114,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 70,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 138,
     "jobs_matched": 11,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 367,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 446,
     "error": null
   },
   {
@@ -105,18 +105,18 @@
     "status": "healthy",
     "jobs_fetched": 50,
     "jobs_matched": 42,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 12076,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 11140,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 105,
-    "jobs_matched": 4,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 18319,
+    "jobs_fetched": 119,
+    "jobs_matched": 3,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 18958,
     "error": null
   },
   {
@@ -125,8 +125,8 @@
     "status": "healthy",
     "jobs_fetched": 262,
     "jobs_matched": 1,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 2945,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 3259,
     "error": null
   },
   {
@@ -135,8 +135,8 @@
     "status": "healthy",
     "jobs_fetched": 180,
     "jobs_matched": 7,
-    "last_scan": "2026-09-05T19:40:53Z",
-    "duration_ms": 14122,
+    "last_scan": "2026-09-05T21:43:39Z",
+    "duration_ms": 13940,
     "error": null
   }
 ]
