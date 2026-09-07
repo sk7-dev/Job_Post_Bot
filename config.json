@@ -2,6 +2,7 @@
   "filters": {
     "title_keywords_any": [
       "machine learning",
+      "ai engineer",
       "data engineer",
       "data scientist",
       "analyst",
@@ -79,6 +80,16 @@
       "name": "Petco Careers",
       "type": "workday",
       "url": "https://petco.wd504.myworkdayjobs.com/External"
+    },
+    {
+      "name": "Intel Careers",
+      "type": "workday",
+      "url": "https://intel.wd1.myworkdayjobs.com/External"
+    },
+    {
+      "name": "Thomson Reuters Careers",
+      "type": "workday",
+      "url": "https://thomsonreuters.wd5.myworkdayjobs.com/en-US/External_Career_Site"
     },
     {
       "name": "Accenture Careers Alt",
