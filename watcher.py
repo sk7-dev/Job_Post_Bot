@@ -408,7 +408,7 @@ def fetch_workday(source: dict) -> List[dict]:
             title = item.get("title", "")
             external_path = item.get("externalPath", "")
             if external_path:
-                job_url = f"{base_url}/{site}/job/{external_path.lstrip('/')}"
+                job_url = f"{base_url}/{site}/{external_path.lstrip('/')}"
             else:
                 job_url = source.get("url", "")
 
