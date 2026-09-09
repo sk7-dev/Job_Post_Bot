@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 1,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 79,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 62,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 6,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 659,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 601,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 1499,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 1268,
     "error": null
   },
   {
@@ -35,19 +35,19 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 9,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 2983,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 2435,
     "error": null
   },
   {
     "name": "Entertime Careers",
     "type": "entertime",
-    "status": "failed",
-    "jobs_fetched": 0,
+    "status": "healthy",
+    "jobs_fetched": 20,
     "jobs_matched": 0,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 293,
-    "error": "403 Client Error: Forbidden for url: https://secure4.entertimeonline.com/ta/rest/ui/recruitment/companies/%7C6149039/job-requisitions?_=1788916917264&offset=0&size=20&lang=en-US&sort=desc"
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 948,
+    "error": null
   },
   {
     "name": "GumGum Careers",
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 9,
     "jobs_matched": 0,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 2877,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 33,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 1564,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 1825,
     "error": null
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 1763,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 1721,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 2,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 1958,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 1971,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 7,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 5372,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 4817,
     "error": null
   },
   {
@@ -105,8 +105,8 @@
     "status": "healthy",
     "jobs_fetched": 12,
     "jobs_matched": 2,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 62,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 56,
     "error": null
   },
   {
@@ -115,8 +115,8 @@
     "status": "healthy",
     "jobs_fetched": 139,
     "jobs_matched": 12,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 651,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 198,
     "error": null
   },
   {
@@ -125,28 +125,28 @@
     "status": "healthy",
     "jobs_fetched": 30,
     "jobs_matched": 25,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 36558,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 38381,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 119,
-    "jobs_matched": 5,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 20015,
+    "jobs_fetched": 110,
+    "jobs_matched": 2,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 18964,
     "error": null
   },
   {
     "name": "Advantest Careers",
     "type": "adp",
     "status": "healthy",
-    "jobs_fetched": 268,
+    "jobs_fetched": 269,
     "jobs_matched": 2,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 7688,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 2064,
     "error": null
   },
   {
@@ -155,8 +155,8 @@
     "status": "healthy",
     "jobs_fetched": 180,
     "jobs_matched": 7,
-    "last_scan": "2026-09-09T01:22:36Z",
-    "duration_ms": 13400,
+    "last_scan": "2026-09-09T06:10:26Z",
+    "duration_ms": 10233,
     "error": null
   }
 ]
