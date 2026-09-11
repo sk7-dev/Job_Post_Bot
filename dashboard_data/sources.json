@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 1,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 137,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 221,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 6,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 503,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 508,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 1133,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 1407,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 8,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 2497,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 2668,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 19,
     "jobs_matched": 0,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 143,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 257,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 12,
     "jobs_matched": 0,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 150,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 75,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 1711,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 1926,
     "error": null
   },
   {
@@ -74,9 +74,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 1,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 1712,
+    "jobs_matched": 2,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 1647,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 2056,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 2103,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 4,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 4470,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 4954,
     "error": null
   },
   {
@@ -105,8 +105,8 @@
     "status": "healthy",
     "jobs_fetched": 14,
     "jobs_matched": 2,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 41,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 54,
     "error": null
   },
   {
@@ -115,8 +115,8 @@
     "status": "healthy",
     "jobs_fetched": 141,
     "jobs_matched": 12,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 225,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 194,
     "error": null
   },
   {
@@ -125,8 +125,8 @@
     "status": "healthy",
     "jobs_fetched": 30,
     "jobs_matched": 27,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 38227,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 38846,
     "error": null
   },
   {
@@ -135,8 +135,8 @@
     "status": "healthy",
     "jobs_fetched": 117,
     "jobs_matched": 11,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 19337,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 19438,
     "error": null
   },
   {
@@ -145,8 +145,8 @@
     "status": "healthy",
     "jobs_fetched": 265,
     "jobs_matched": 2,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 3087,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 3174,
     "error": null
   },
   {
@@ -155,8 +155,8 @@
     "status": "healthy",
     "jobs_fetched": 180,
     "jobs_matched": 6,
-    "last_scan": "2026-09-11T17:09:47Z",
-    "duration_ms": 16326,
+    "last_scan": "2026-09-11T19:39:26Z",
+    "duration_ms": 10654,
     "error": null
   }
 ]
