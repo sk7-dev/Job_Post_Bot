@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 1,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 84,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 238,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 6,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 542,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 904,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 1039,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 1486,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 7,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 2910,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 2817,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 18,
     "jobs_matched": 0,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 172,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 189,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 12,
     "jobs_matched": 0,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 63,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 160,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 1447,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 1694,
     "error": null
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 3,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 1699,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 1926,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 2,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 1771,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 2272,
     "error": null
   },
   {
@@ -94,9 +94,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 4,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 4471,
+    "jobs_matched": 3,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 4140,
     "error": null
   },
   {
@@ -105,8 +105,8 @@
     "status": "healthy",
     "jobs_fetched": 14,
     "jobs_matched": 2,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 61,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 119,
     "error": null
   },
   {
@@ -115,8 +115,8 @@
     "status": "healthy",
     "jobs_fetched": 142,
     "jobs_matched": 12,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 317,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 380,
     "error": null
   },
   {
@@ -124,19 +124,19 @@
     "type": "governmentjobs",
     "status": "healthy",
     "jobs_fetched": 30,
-    "jobs_matched": 26,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 36634,
+    "jobs_matched": 27,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 36952,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 112,
-    "jobs_matched": 11,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 18391,
+    "jobs_fetched": 109,
+    "jobs_matched": 10,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 18766,
     "error": null
   },
   {
@@ -145,8 +145,8 @@
     "status": "healthy",
     "jobs_fetched": 263,
     "jobs_matched": 2,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 3241,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 2868,
     "error": null
   },
   {
@@ -155,8 +155,8 @@
     "status": "healthy",
     "jobs_fetched": 180,
     "jobs_matched": 6,
-    "last_scan": "2026-09-12T18:59:57Z",
-    "duration_ms": 14363,
+    "last_scan": "2026-09-12T21:15:49Z",
+    "duration_ms": 12096,
     "error": null
   }
 ]
