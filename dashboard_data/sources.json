@@ -3,10 +3,10 @@
     "name": "Cascade Financial Services",
     "type": "greenhouse",
     "status": "healthy",
-    "jobs_fetched": 6,
+    "jobs_fetched": 7,
     "jobs_matched": 0,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 81,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 187,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 6,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 796,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 1002,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 1074,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 1301,
     "error": null
   },
   {
@@ -34,9 +34,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 7,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 2980,
+    "jobs_matched": 8,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 2922,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 18,
     "jobs_matched": 0,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 177,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 339,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 12,
     "jobs_matched": 0,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 56,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 138,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 1447,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 2136,
     "error": null
   },
   {
@@ -74,9 +74,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 2,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 1832,
+    "jobs_matched": 1,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 1988,
     "error": null
   },
   {
@@ -84,9 +84,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 2,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 2097,
+    "jobs_matched": 1,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 2040,
     "error": null
   },
   {
@@ -94,9 +94,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 3,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 6004,
+    "jobs_matched": 4,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 4438,
     "error": null
   },
   {
@@ -105,18 +105,18 @@
     "status": "healthy",
     "jobs_fetched": 15,
     "jobs_matched": 3,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 63,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 145,
     "error": null
   },
   {
     "name": "Whatnot Careers",
     "type": "ashby",
     "status": "healthy",
-    "jobs_fetched": 144,
-    "jobs_matched": 12,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 388,
+    "jobs_fetched": 143,
+    "jobs_matched": 11,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 1304,
     "error": null
   },
   {
@@ -125,28 +125,28 @@
     "status": "healthy",
     "jobs_fetched": 30,
     "jobs_matched": 26,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 37397,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 37130,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 104,
-    "jobs_matched": 8,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 19102,
+    "jobs_fetched": 90,
+    "jobs_matched": 5,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 19370,
     "error": null
   },
   {
     "name": "Advantest Careers",
     "type": "adp",
     "status": "healthy",
-    "jobs_fetched": 259,
+    "jobs_fetched": 262,
     "jobs_matched": 2,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 3221,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 2836,
     "error": null
   },
   {
@@ -155,8 +155,8 @@
     "status": "healthy",
     "jobs_fetched": 180,
     "jobs_matched": 6,
-    "last_scan": "2026-09-15T14:57:12Z",
-    "duration_ms": 14961,
+    "last_scan": "2026-09-15T18:39:09Z",
+    "duration_ms": 13327,
     "error": null
   }
 ]

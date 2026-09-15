@@ -13,7 +13,7 @@
       "analyst"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
     "is_new": false
   },
   {
@@ -31,8 +31,1196 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
     "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||eb97d6f0-71fa-4e68-a135-0e69ed486c6f||https://jobs.ashbyhq.com/whatnot/eb97d6f0-71fa-4e68-a135-0e69ed486c6f",
+    "title": "Staff Data Engineer, Payments",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Data & Marketplace Integrity",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/eb97d6f0-71fa-4e68-a135-0e69ed486c6f",
+    "external_id": "eb97d6f0-71fa-4e68-a135-0e69ed486c6f",
+    "matched_keywords": [
+      "data engineer",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||e3e7c019-4657-47a9-a9f3-123d2cd1a75e||https://jobs.ashbyhq.com/whatnot/e3e7c019-4657-47a9-a9f3-123d2cd1a75e",
+    "title": "Machine Learning Engineer, Growth",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Engineering",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/e3e7c019-4657-47a9-a9f3-123d2cd1a75e",
+    "external_id": "e3e7c019-4657-47a9-a9f3-123d2cd1a75e",
+    "matched_keywords": [
+      "machine learning"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||cee7e839-d88d-4782-8e55-82de2e9ad87e||https://jobs.ashbyhq.com/whatnot/cee7e839-d88d-4782-8e55-82de2e9ad87e",
+    "title": "Machine Learning Infrastructure Engineer",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Engineering",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/cee7e839-d88d-4782-8e55-82de2e9ad87e",
+    "external_id": "cee7e839-d88d-4782-8e55-82de2e9ad87e",
+    "matched_keywords": [
+      "machine learning"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||11162b1e-e7c9-432d-8ef6-6e89d28b3078||https://jobs.ashbyhq.com/whatnot/11162b1e-e7c9-432d-8ef6-6e89d28b3078",
+    "title": "Machine Learning Platform Engineer",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Engineering",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/11162b1e-e7c9-432d-8ef6-6e89d28b3078",
+    "external_id": "11162b1e-e7c9-432d-8ef6-6e89d28b3078",
+    "matched_keywords": [
+      "machine learning"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||5bd6bfa2-28f3-42d2-acb1-0c5c8fb9d65c||https://jobs.ashbyhq.com/whatnot/5bd6bfa2-28f3-42d2-acb1-0c5c8fb9d65c",
+    "title": "Payroll Analyst",
+    "company": "Whatnot Careers",
+    "location": "New York, NY",
+    "department": "Accounting",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/5bd6bfa2-28f3-42d2-acb1-0c5c8fb9d65c",
+    "external_id": "5bd6bfa2-28f3-42d2-acb1-0c5c8fb9d65c",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||517db0ec-ca8d-4d5e-bd84-4f9e8f1579c8||https://jobs.ashbyhq.com/whatnot/517db0ec-ca8d-4d5e-bd84-4f9e8f1579c8",
+    "title": "Software Engineer, Data Developer Platform",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Data & Marketplace Integrity",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/517db0ec-ca8d-4d5e-bd84-4f9e8f1579c8",
+    "external_id": "517db0ec-ca8d-4d5e-bd84-4f9e8f1579c8",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||a906c895-a49e-4961-9b11-7cc23517204a||https://jobs.ashbyhq.com/whatnot/a906c895-a49e-4961-9b11-7cc23517204a",
+    "title": "Software Engineer, Data Platform",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Data & Marketplace Integrity",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/a906c895-a49e-4961-9b11-7cc23517204a",
+    "external_id": "a906c895-a49e-4961-9b11-7cc23517204a",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "phenom_embedded||Skechers Data Search||JR128337||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Data-Security-Engineer_JR128337",
+    "title": "Data Security Engineer",
+    "company": "Skechers Data Search",
+    "location": "Manhattan Beach, California, United States of America",
+    "department": "Corporate",
+    "source_name": "Skechers Data Search",
+    "source_type": "phenom_embedded",
+    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Data-Security-Engineer_JR128337",
+    "external_id": "JR128337",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "phenom_embedded||Skechers Data Search||JR125838||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Digital-Data-Architect_JR125838-1",
+    "title": "Salesforce Data Cloud Architect",
+    "company": "Skechers Data Search",
+    "location": "Manhattan Beach, California, United States of America",
+    "department": "Corporate",
+    "source_name": "Skechers Data Search",
+    "source_type": "phenom_embedded",
+    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Digital-Data-Architect_JR125838-1",
+    "external_id": "JR125838",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "phenom_embedded||Skechers Data Search||JR127715||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Operations-Data---Financial-Analyst_JR127715",
+    "title": "Operations Data & Financial Analyst",
+    "company": "Skechers Data Search",
+    "location": "Rancho Belago, California, United States of America",
+    "department": "Distribution Center",
+    "source_name": "Skechers Data Search",
+    "source_type": "phenom_embedded",
+    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Operations-Data---Financial-Analyst_JR127715",
+    "external_id": "JR127715",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "phenom_embedded||Skechers Data Search||JR127946||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Milmort-Belgium/Business-Analyst_JR127946",
+    "title": "Business Analyst",
+    "company": "Skechers Data Search",
+    "location": "Milmort, Belgium",
+    "department": "Distribution Center",
+    "source_name": "Skechers Data Search",
+    "source_type": "phenom_embedded",
+    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Milmort-Belgium/Business-Analyst_JR127946",
+    "external_id": "JR127946",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "phenom_embedded||Skechers Data Search||JR131555||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Data-Entry-Clerk_JR131555",
+    "title": "Data Entry Clerk",
+    "company": "Skechers Data Search",
+    "location": "Rancho Belago, California, United States of America",
+    "department": "Distribution Center",
+    "source_name": "Skechers Data Search",
+    "source_type": "phenom_embedded",
+    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Data-Entry-Clerk_JR131555",
+    "external_id": "JR131555",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-11T23:09:27Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "phenom_embedded||Skechers Data Search||JR131647||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Data-Scientist_JR131647",
+    "title": "Data Scientist",
+    "company": "Skechers Data Search",
+    "location": "Manhattan Beach, California, United States of America",
+    "department": "Corporate",
+    "source_name": "Skechers Data Search",
+    "source_type": "phenom_embedded",
+    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Data-Scientist_JR131647",
+    "external_id": "JR131647",
+    "matched_keywords": [
+      "data scientist",
+      "data"
+    ],
+    "first_seen": "2026-08-13T20:58:32Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "adp||Advantest Careers||5001218244000||https://myjobs.adp.com/advantestcareers/cx/job-details?reqId=5001218244000",
+    "title": "GSEC Process, Tooling & Data Analytics Specialist (m/f/d)",
+    "company": "Advantest Careers",
+    "location": "Boeblingen, Germany",
+    "department": "",
+    "source_name": "Advantest Careers",
+    "source_type": "adp",
+    "url": "https://myjobs.adp.com/advantestcareers/cx/job-details?reqId=5001218244000",
+    "external_id": "5001218244000",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-25T07:23:34Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||66bf8d28-dad6-4510-ad87-c346fb38e9fd||https://jobs.ashbyhq.com/whatnot/66bf8d28-dad6-4510-ad87-c346fb38e9fd",
+    "title": "Staff Data Engineer, Data Developer Platform",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Data & Marketplace Integrity",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/66bf8d28-dad6-4510-ad87-c346fb38e9fd",
+    "external_id": "66bf8d28-dad6-4510-ad87-c346fb38e9fd",
+    "matched_keywords": [
+      "data engineer",
+      "data"
+    ],
+    "first_seen": "2026-08-28T16:54:13Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||7e4e4752-e482-4411-a87b-9c138b0acf5a||https://jobs.ashbyhq.com/whatnot/7e4e4752-e482-4411-a87b-9c138b0acf5a",
+    "title": "Staff Machine Learning Engineer, Ads",
+    "company": "Whatnot Careers",
+    "location": "New York, NY",
+    "department": "Buyer Engineering",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/7e4e4752-e482-4411-a87b-9c138b0acf5a",
+    "external_id": "7e4e4752-e482-4411-a87b-9c138b0acf5a",
+    "matched_keywords": [
+      "machine learning"
+    ],
+    "first_seen": "2026-09-01T16:57:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "greenhouse||Doximity Careers||8024477||https://job-boards.greenhouse.io/doximity/jobs/8024477",
+    "title": "Staff Applied AI Engineer",
+    "company": "Doximity Careers",
+    "location": "San Francisco, CA or Remote (U.S.)",
+    "department": "",
+    "source_name": "Doximity Careers",
+    "source_type": "greenhouse",
+    "url": "https://job-boards.greenhouse.io/doximity/jobs/8024477",
+    "external_id": "8024477",
+    "matched_keywords": [
+      "ai engineer"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "adp||Advantest Careers||5001183128906||https://myjobs.adp.com/advantestcareers/cx/job-details?reqId=5001183128906",
+    "title": "Applied AI Engineer",
+    "company": "Advantest Careers",
+    "location": "San Jose, California, United States",
+    "department": "",
+    "source_name": "Advantest Careers",
+    "source_type": "adp",
+    "url": "https://myjobs.adp.com/advantestcareers/cx/job-details?reqId=5001183128906",
+    "external_id": "5001183128906",
+    "matched_keywords": [
+      "ai engineer"
+    ],
+    "first_seen": "2026-09-07T18:22:04Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "ashby||Whatnot Careers||1ef7144a-265d-4abf-a1d1-a3e2efe8e80d||https://jobs.ashbyhq.com/whatnot/1ef7144a-265d-4abf-a1d1-a3e2efe8e80d",
+    "title": "Machine Learning Engineer, Discovery",
+    "company": "Whatnot Careers",
+    "location": "New York, NY",
+    "department": "Engineering",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/1ef7144a-265d-4abf-a1d1-a3e2efe8e80d",
+    "external_id": "1ef7144a-265d-4abf-a1d1-a3e2efe8e80d",
+    "matched_keywords": [
+      "machine learning"
+    ],
+    "first_seen": "2026-09-08T21:22:44Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5449886||https://www.governmentjobs.com/jobs/5449886-0/data-analyst",
+    "title": "Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "UCMO - Warrensburg, MO",
+    "department": "University of Central Missouri (UCM)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5449886-0/data-analyst",
+    "external_id": "5449886",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-14T22:01:03Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5465491||https://www.governmentjobs.com/jobs/5465491-0/data-analyst",
+    "title": "Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Main Campus, NC",
+    "department": "Pitt Community College",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5465491-0/data-analyst",
+    "external_id": "5465491",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-29T00:48:07Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5475594||https://www.governmentjobs.com/jobs/5475594-0/departmental-analyst-9-p11-application-data-analyst-dds",
+    "title": "Departmental Analyst 9-P11 - Application Data Analyst (DDS)",
+    "company": "GovernmentJobs US",
+    "location": "Lansing, MI",
+    "department": "State of Michigan",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5475594-0/departmental-analyst-9-p11-application-data-analyst-dds",
+    "external_id": "5475594",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-09T15:08:13Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5475003||https://www.governmentjobs.com/jobs/5475003-0/data-analyst",
+    "title": "Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "45 High Street, Boston",
+    "department": "Massachusetts Bay Transportation Authority",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5475003-0/data-analyst",
+    "external_id": "5475003",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-10T22:29:15Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||149543||https://www.governmentjobs.com/jobs/149543-1/data-analyst",
+    "title": "Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "La Palma, CA",
+    "department": "California Joint Powers Insurance Authority (CJPIA)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/149543-1/data-analyst",
+    "external_id": "149543",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-11T00:21:59Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||London||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Global-S-C-ATIOS-Strategy-Consultant_R00333207",
+    "title": "AI Engineer - Global Strategy Consultant",
+    "company": "Accenture Careers Alt",
+    "location": "R00333207 | London",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Global-S-C-ATIOS-Strategy-Consultant_R00333207",
+    "external_id": "London",
+    "matched_keywords": [
+      "ai engineer"
+    ],
+    "first_seen": "2026-09-07T18:22:04Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
+    "title": "Consultor(a) SAP Data Migration",
+    "company": "Accenture Careers Alt",
+    "location": "R00253076 | Location Negotiable",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
+    "external_id": "Location Negotiable",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T12:05:25Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req0860022||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Boadilla-del-Monte/I-SGTO-Software-engineering-Coe-Data_Req0860022",
+    "title": "I_SGTO_Software engineering Coe Data",
+    "company": "Santander Careers",
+    "location": "Boadilla del Monte",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Boadilla-del-Monte/I-SGTO-Software-engineering-Coe-Data_Req0860022",
+    "external_id": "Req0860022",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req0904505||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Boadilla-del-Monte/I-T-OCC-Data-Analyst-Information-Centre_Req0904505",
+    "title": "I_T&OCC_Data Analyst Information Centre",
+    "company": "Santander Careers",
+    "location": "Boadilla del Monte",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Boadilla-del-Monte/I-T-OCC-Data-Analyst-Information-Centre_Req0904505",
+    "external_id": "Req0904505",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1596032||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madrid/AI-Transformation-Analyst---WM-I_Req1596032-1",
+    "title": "AI Transformation Analyst - WM&I",
+    "company": "Santander Careers",
+    "location": "Madrid",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madrid/AI-Transformation-Analyst---WM-I_Req1596032-1",
+    "external_id": "Req1596032",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-10T13:51:37Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1542407||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SANTA-BARBARA-1-PLANTA-SEGUNDA/Applied-AI-Engineer_Req1542407",
+    "title": "Frontier Agentic AI Engineer — Santander AI Lab",
+    "company": "Santander Careers",
+    "location": "SANTA BARBARA 1-PLANTA SEGUNDA",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SANTA-BARBARA-1-PLANTA-SEGUNDA/Applied-AI-Engineer_Req1542407",
+    "external_id": "Req1542407",
+    "matched_keywords": [
+      "ai engineer"
+    ],
+    "first_seen": "2026-09-07T18:22:04Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Intel Careers||JR0286800||https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Database-Administrator-PL-SQL-Developer_JR0286800",
+    "title": "Database Administrator PL/SQL Developer",
+    "company": "Intel Careers",
+    "location": "2 Locations",
+    "department": "",
+    "source_name": "Intel Careers",
+    "source_type": "workday",
+    "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Database-Administrator-PL-SQL-Developer_JR0286800",
+    "external_id": "JR0286800",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-09-07T18:22:04Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1582968||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SANTIAGO/XMLNAME----Oportunidad-laboral--Analista-I---Real-Estate-Intelligence---Data---Plazo-fijo-Santiago_Req1582968",
+    "title": "📣 Oportunidad laboral: Analista I | Real Estate Intelligence & Data | Plazo fijo Santiago",
+    "company": "Santander Careers",
+    "location": "SANTIAGO",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SANTIAGO/XMLNAME----Oportunidad-laboral--Analista-I---Real-Estate-Intelligence---Data---Plazo-fijo-Santiago_Req1582968",
+    "external_id": "Req1582968",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-09-08T21:22:44Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1601398||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/GARAY-151-PISO-4/ARG-SSR-Data-Oversight-Analyst_Req1601398-1",
+    "title": "ARG SSR Data Oversight Analyst",
+    "company": "Santander Careers",
+    "location": "GARAY 151 PISO 4",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/GARAY-151-PISO-4/ARG-SSR-Data-Oversight-Analyst_Req1601398-1",
+    "external_id": "Req1601398",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-10T22:29:15Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5474670||https://www.governmentjobs.com/jobs/5474670-0/database-analyst-3",
+    "title": "Database Analyst 3",
+    "company": "GovernmentJobs US",
+    "location": "Atlanta, GA",
+    "department": "Georgia Department of Public Health (GA)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5474670-0/database-analyst-3",
+    "external_id": "5474670",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-11T21:54:01Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5466455||https://www.governmentjobs.com/jobs/5466455-0/analyst-iii-988-data-administrator",
+    "title": "Analyst III - 988 Data Administrator",
+    "company": "GovernmentJobs US",
+    "location": "Denver, CO",
+    "department": "State of Colorado",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5466455-0/analyst-iii-988-data-administrator",
+    "external_id": "5466455",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-11T21:54:01Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5457207||https://www.governmentjobs.com/jobs/5457207-0/data-and-statistical-analyst",
+    "title": "Data and Statistical Analyst",
+    "company": "GovernmentJobs US",
+    "location": "300 L Street; Antioch, CA",
+    "department": "City of Antioch",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5457207-0/data-and-statistical-analyst",
+    "external_id": "5457207",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-21T19:42:21Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5469745||https://www.governmentjobs.com/jobs/5469745-0/research-data-analyst-ii",
+    "title": "Research/Data Analyst II",
+    "company": "GovernmentJobs US",
+    "location": "25 - HINDS COUNTY, MS",
+    "department": "State of Mississippi",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5469745-0/research-data-analyst-ii",
+    "external_id": "5469745",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-02T21:59:45Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5473711||https://www.governmentjobs.com/jobs/5473711-0/business-and-community-data-analyst",
+    "title": "Business and Community Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Council Bluffs, IA",
+    "department": "Iowa Western Community College (IA)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5473711-0/business-and-community-data-analyst",
+    "external_id": "5473711",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-04T21:50:57Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5414766||https://www.governmentjobs.com/jobs/5414766-0/gis-data-analyst-fire",
+    "title": "GIS Data Analyst - Fire",
+    "company": "GovernmentJobs US",
+    "location": "Boise, ID",
+    "department": "City of Boise",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5414766-0/gis-data-analyst-fire",
+    "external_id": "5414766",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-08T23:29:11Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "kpmg||KPMG US Careers||121509609167823558||https://www.kpmguscareers.com/jobdetail/?jobId=134667",
+    "title": "Associate, Federal Data Analyst",
+    "company": "KPMG US Careers",
+    "location": "St Louis, MO",
+    "department": "Advisory",
+    "source_name": "KPMG US Careers",
+    "source_type": "kpmg",
+    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=134667",
+    "external_id": "121509609167823558",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-20T17:16:45Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "kpmg||KPMG US Careers||112063737522725574||https://www.kpmguscareers.com/jobdetail/?jobId=135884",
+    "title": "Analyst, IT Svc Management",
+    "company": "KPMG US Careers",
+    "location": "Montvale, NJ",
+    "department": "Tax",
+    "source_name": "KPMG US Careers",
+    "source_type": "kpmg",
+    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=135884",
+    "external_id": "112063737522725574",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-20T17:16:45Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "kpmg||KPMG US Careers||138311084216853190||https://www.kpmguscareers.com/jobdetail/?jobId=135757",
+    "title": "Associate Data Programmer, Global Trade Analytics",
+    "company": "KPMG US Careers",
+    "location": "Atlanta, GA; Boston, MA; Charlotte, NC; Dallas, TX; Denver, CO; Detroit, MI; Los Angeles, CA; McLean, VA; Morristown, NJ; New York, NY; Orlando, FL; Philadelphia, PA; Phoenix, AZ; Salt Lake City, UT; San Diego, CA; San Francisco, CA",
+    "department": "Tax",
+    "source_name": "KPMG US Careers",
+    "source_type": "kpmg",
+    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=135757",
+    "external_id": "138311084216853190",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-20T17:16:45Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "kpmg||KPMG US Careers||129189535752823494||https://www.kpmguscareers.com/jobdetail/?jobId=135758",
+    "title": "Experienced Associate - Global Trade - Data Analytics",
+    "company": "KPMG US Careers",
+    "location": "Atlanta, GA; Boston, MA; Chicago, IL; Dallas, TX; Denver, CO; Detroit, MI; Houston, TX; Los Angeles, CA; McLean, VA; Miami, FL; Morristown, NJ; New York, NY; Orlando, FL; Philadelphia, PA; Salt Lake City, UT; San Francisco, CA",
+    "department": "Tax",
+    "source_name": "KPMG US Careers",
+    "source_type": "kpmg",
+    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=135758",
+    "external_id": "129189535752823494",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-20T17:16:45Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "kpmg||KPMG US Careers||123511264180609734||https://www.kpmguscareers.com/jobdetail/?jobId=136424",
+    "title": "Analyst I - Engagement Services",
+    "company": "KPMG US Careers",
+    "location": "Orlando, FL",
+    "department": "Advisory",
+    "source_name": "KPMG US Careers",
+    "source_type": "kpmg",
+    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=136424",
+    "external_id": "123511264180609734",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-24T21:21:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "kpmg||KPMG US Careers||99691270330294982||https://www.kpmguscareers.com/jobdetail/?jobId=137307",
+    "title": "Associate, FS Asset Management - Data & Analytics",
+    "company": "KPMG US Careers",
+    "location": "Irvine, CA; Los Angeles, CA",
+    "department": "Advisory",
+    "source_name": "KPMG US Careers",
+    "source_type": "kpmg",
+    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=137307",
+    "external_id": "99691270330294982",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-09-03T18:41:38Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5481142||https://www.governmentjobs.com/jobs/5481142-0/research-data-analyst-i",
+    "title": "Research/Data Analyst I",
+    "company": "GovernmentJobs US",
+    "location": "45 - MADISON COUNTY, MS",
+    "department": "State of Mississippi",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5481142-0/research-data-analyst-i",
+    "external_id": "5481142",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-14T22:11:45Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5388193||https://www.governmentjobs.com/jobs/5388193-0/institutional-research-strategic-data-analyst",
+    "title": "Institutional Research Strategic Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Zanesville Campus, OH",
+    "department": "Zane State College",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5388193-0/institutional-research-strategic-data-analyst",
+    "external_id": "5388193",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5478011||https://www.governmentjobs.com/jobs/5478011-0/dshs-hcla-performance-outcomes-and-data-analyst",
+    "title": "DSHS HCLA Performance Outcomes and Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Thurston County – Lacey, WA",
+    "department": "State of Washington",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5478011-0/dshs-hcla-performance-outcomes-and-data-analyst",
+    "external_id": "5478011",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-10T17:46:59Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "greenhouse||Doximity Careers||8202870||https://job-boards.greenhouse.io/doximity/jobs/8202870",
+    "title": "Accounts Receivable Analyst, Order- to- Cash",
+    "company": "Doximity Careers",
+    "location": "Remote",
+    "department": "",
+    "source_name": "Doximity Careers",
+    "source_type": "greenhouse",
+    "url": "https://job-boards.greenhouse.io/doximity/jobs/8202870",
+    "external_id": "8202870",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-15T00:39:26Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||4775405||https://www.governmentjobs.com/jobs/4775405-0/predictive-data-analyst-emergency-appointment-homelessness",
+    "title": "PREDICTIVE DATA ANALYST / EMERGENCY APPOINTMENT HOMELESSNESS",
+    "company": "GovernmentJobs US",
+    "location": "Los Angeles County, CA",
+    "department": "County of Los Angeles",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/4775405-0/predictive-data-analyst-emergency-appointment-homelessness",
+    "external_id": "4775405",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5195111||https://www.governmentjobs.com/jobs/5195111-0/data-analyst-medicaid-fraud-belleville-26-02",
+    "title": "Data Analyst, Medicaid Fraud, Belleville, 26-02",
+    "company": "GovernmentJobs US",
+    "location": "Belleville, IL",
+    "department": "Illinois Attorney General (IL)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5195111-0/data-analyst-medicaid-fraud-belleville-26-02",
+    "external_id": "5195111",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Thomson Reuters Careers||JREQ203028||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/India-Hyderabad-Telangana/Integration-Analyst_JREQ203028-1",
+    "title": "Integration Analyst",
+    "company": "Thomson Reuters Careers",
+    "location": "Hyderabad | Telangana | JREQ203028",
+    "department": "",
+    "source_name": "Thomson Reuters Careers",
+    "source_type": "workday",
+    "url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/India-Hyderabad-Telangana/Integration-Analyst_JREQ203028-1",
+    "external_id": "JREQ203028",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-15T10:08:52Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5422019||https://www.governmentjobs.com/jobs/5422019-0/data-reporting-query-analyst",
+    "title": "Data Reporting & Query Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Main Campus - Philadelphia, PA",
+    "department": "Community College of Philadelphia",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5422019-0/data-reporting-query-analyst",
+    "external_id": "5422019",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5467912||https://www.governmentjobs.com/jobs/5467912-0/travel-data-analyst-transportation-planning-technician-3",
+    "title": "Travel Data Analyst (Transportation Planning Technician 3)",
+    "company": "GovernmentJobs US",
+    "location": "Thurston County – Tumwater, WA",
+    "department": "State of Washington",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5467912-0/travel-data-analyst-transportation-planning-technician-3",
+    "external_id": "5467912",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-01T16:57:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04010-0013459651-usen||https://www.roberthalf.com/us/en/job/dallas-tx/data-scientist/04010-0013459651-usen",
+    "title": "Data Scientist",
+    "company": "Robert Half",
+    "location": "Dallas, TX",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/dallas-tx/data-scientist/04010-0013459651-usen",
+    "external_id": "04010-0013459651-usen",
+    "matched_keywords": [
+      "data scientist",
+      "data"
+    ],
+    "first_seen": "2026-09-15T05:18:09Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||02310-0013504879-usen||https://www.roberthalf.com/us/en/job/shoreview-mn/data-engineer/02310-0013504879-usen",
+    "title": "Data Engineer",
+    "company": "Robert Half",
+    "location": "Shoreview, MN",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/shoreview-mn/data-engineer/02310-0013504879-usen",
+    "external_id": "02310-0013504879-usen",
+    "matched_keywords": [
+      "data engineer",
+      "data"
+    ],
+    "first_seen": "2026-09-12T14:02:15Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03700-0013494024-usen||https://www.roberthalf.com/us/en/job/breinigsville-pa/logistics-analyst/03700-0013494024-usen",
+    "title": "Logistics Analyst",
+    "company": "Robert Half",
+    "location": "Breinigsville, PA",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/breinigsville-pa/logistics-analyst/03700-0013494024-usen",
+    "external_id": "03700-0013494024-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-25T15:54:17Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1612485||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SAO-PAULO/Data---Analytics-Spec-I--DBA-_Req1612485",
+    "title": "Data & Analytics Spec I (DBA)",
+    "company": "Santander Careers",
+    "location": "SAO PAULO",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SAO-PAULO/Data---Analytics-Spec-I--DBA-_Req1612485",
+    "external_id": "Req1612485",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-09-15T14:57:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||London||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Customer-AI-Developer-Specialist_R00314667",
+    "title": "Customer AI Engineer",
+    "company": "Accenture Careers Alt",
+    "location": "R00314667 | London",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Customer-AI-Developer-Specialist_R00314667",
+    "external_id": "London",
+    "matched_keywords": [
+      "ai engineer"
+    ],
+    "first_seen": "2026-09-15T14:57:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||149725||https://www.governmentjobs.com/jobs/149725-1/data-analyst-department-of-fire-ems",
+    "title": "Data Analyst - Department of Fire & EMS",
+    "company": "GovernmentJobs US",
+    "location": "Westminster, MD",
+    "department": "Carroll County Government",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/149725-1/data-analyst-department-of-fire-ems",
+    "external_id": "149725",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-15T14:57:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||04030-0013490205-usen||https://www.roberthalf.com/us/en/job/coppell-tx/ml-ops-ai-engineer-ii/04030-0013490205-usen",
+    "title": "ML OPS AI ENGINEER II",
+    "company": "Robert Half",
+    "location": "Coppell, TX",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/coppell-tx/ml-ops-ai-engineer-ii/04030-0013490205-usen",
+    "external_id": "04030-0013490205-usen",
+    "matched_keywords": [
+      "ai engineer"
+    ],
+    "first_seen": "2026-09-15T14:57:12Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5374468||https://www.governmentjobs.com/jobs/5374468-0/fire-data-analyst",
+    "title": "Fire Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "624 South Chester, AR",
+    "department": "City of Little Rock",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5374468-0/fire-data-analyst",
+    "external_id": "5374468",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-07T07:33:17Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5195206||https://www.governmentjobs.com/jobs/5195206-0/data-analyst-medicaid-fraud-oakbrook-26-01",
+    "title": "Data Analyst, Medicaid Fraud, Oakbrook, 26-01",
+    "company": "GovernmentJobs US",
+    "location": "Oakbrook, IL",
+    "department": "Illinois Attorney General (IL)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5195206-0/data-analyst-medicaid-fraud-oakbrook-26-01",
+    "external_id": "5195206",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5195097||https://www.governmentjobs.com/jobs/5195097-0/data-analyst-medicaid-fraud-springfield-26-03",
+    "title": "Data Analyst, Medicaid Fraud, Springfield, 26-03",
+    "company": "GovernmentJobs US",
+    "location": "Springfield, IL",
+    "department": "Illinois Attorney General (IL)",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5195097-0/data-analyst-medicaid-fraud-springfield-26-03",
+    "external_id": "5195097",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1611816||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/Intern---Data-Steward_Req1611816",
+    "title": "Intern - Data Steward",
+    "company": "Santander Careers",
+    "location": "Miami",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Miami/Intern---Data-Steward_Req1611816",
+    "external_id": "Req1611816",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-09-15T18:39:09Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": true
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Heredia||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Heredia/XMLNAME---Sales-Operations-Support-Analyst---Junior_R00357062",
+    "title": "​​Sales Operations Support Analyst | Junior",
+    "company": "Accenture Careers Alt",
+    "location": "R00357062 | Heredia",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Heredia/XMLNAME---Sales-Operations-Support-Analyst---Junior_R00357062",
+    "external_id": "Heredia",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-15T18:39:09Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": true
+  },
+  {
+    "key": "ashby||Whatnot Careers||7df54686-18dd-4722-8f60-b61897f327e8||https://jobs.ashbyhq.com/whatnot/7df54686-18dd-4722-8f60-b61897f327e8",
+    "title": "Staff Data Engineer, Analytics",
+    "company": "Whatnot Careers",
+    "location": "San Francisco, CA",
+    "department": "Data & Marketplace Integrity",
+    "source_name": "Whatnot Careers",
+    "source_type": "ashby",
+    "url": "https://jobs.ashbyhq.com/whatnot/7df54686-18dd-4722-8f60-b61897f327e8",
+    "external_id": "7df54686-18dd-4722-8f60-b61897f327e8",
+    "matched_keywords": [
+      "data engineer",
+      "data"
+    ],
+    "first_seen": "2026-09-15T18:39:09Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": true
+  },
+  {
+    "key": "roberthalf||Robert Half||01000-9504394653-usen||https://www.roberthalf.com/us/en/job/deerfield-beach-fl/business-systems-analyst/01000-9504394653-usen",
+    "title": "Business Systems Analyst",
+    "company": "Robert Half",
+    "location": "Deerfield Beach, FL",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/deerfield-beach-fl/business-systems-analyst/01000-9504394653-usen",
+    "external_id": "01000-9504394653-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-15T18:39:09Z",
+    "last_seen": "2026-09-15T18:39:09Z",
+    "is_new": true
   },
   {
     "key": "ashby||Whatnot Careers||9fd6fef1-619f-48dd-97b0-c91063432df3||https://jobs.ashbyhq.com/whatnot/9fd6fef1-619f-48dd-97b0-c91063432df3",
@@ -70,578 +1258,6 @@
     "is_new": false
   },
   {
-    "key": "ashby||Whatnot Careers||eb97d6f0-71fa-4e68-a135-0e69ed486c6f||https://jobs.ashbyhq.com/whatnot/eb97d6f0-71fa-4e68-a135-0e69ed486c6f",
-    "title": "Staff Data Engineer, Payments",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Data & Marketplace Integrity",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/eb97d6f0-71fa-4e68-a135-0e69ed486c6f",
-    "external_id": "eb97d6f0-71fa-4e68-a135-0e69ed486c6f",
-    "matched_keywords": [
-      "data engineer",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||e3e7c019-4657-47a9-a9f3-123d2cd1a75e||https://jobs.ashbyhq.com/whatnot/e3e7c019-4657-47a9-a9f3-123d2cd1a75e",
-    "title": "Machine Learning Engineer, Growth",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Engineering",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/e3e7c019-4657-47a9-a9f3-123d2cd1a75e",
-    "external_id": "e3e7c019-4657-47a9-a9f3-123d2cd1a75e",
-    "matched_keywords": [
-      "machine learning"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||cee7e839-d88d-4782-8e55-82de2e9ad87e||https://jobs.ashbyhq.com/whatnot/cee7e839-d88d-4782-8e55-82de2e9ad87e",
-    "title": "Machine Learning Infrastructure Engineer",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Engineering",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/cee7e839-d88d-4782-8e55-82de2e9ad87e",
-    "external_id": "cee7e839-d88d-4782-8e55-82de2e9ad87e",
-    "matched_keywords": [
-      "machine learning"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||11162b1e-e7c9-432d-8ef6-6e89d28b3078||https://jobs.ashbyhq.com/whatnot/11162b1e-e7c9-432d-8ef6-6e89d28b3078",
-    "title": "Machine Learning Platform Engineer",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Engineering",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/11162b1e-e7c9-432d-8ef6-6e89d28b3078",
-    "external_id": "11162b1e-e7c9-432d-8ef6-6e89d28b3078",
-    "matched_keywords": [
-      "machine learning"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||5bd6bfa2-28f3-42d2-acb1-0c5c8fb9d65c||https://jobs.ashbyhq.com/whatnot/5bd6bfa2-28f3-42d2-acb1-0c5c8fb9d65c",
-    "title": "Payroll Analyst",
-    "company": "Whatnot Careers",
-    "location": "New York, NY",
-    "department": "Accounting",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/5bd6bfa2-28f3-42d2-acb1-0c5c8fb9d65c",
-    "external_id": "5bd6bfa2-28f3-42d2-acb1-0c5c8fb9d65c",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||517db0ec-ca8d-4d5e-bd84-4f9e8f1579c8||https://jobs.ashbyhq.com/whatnot/517db0ec-ca8d-4d5e-bd84-4f9e8f1579c8",
-    "title": "Software Engineer, Data Developer Platform",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Data & Marketplace Integrity",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/517db0ec-ca8d-4d5e-bd84-4f9e8f1579c8",
-    "external_id": "517db0ec-ca8d-4d5e-bd84-4f9e8f1579c8",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||a906c895-a49e-4961-9b11-7cc23517204a||https://jobs.ashbyhq.com/whatnot/a906c895-a49e-4961-9b11-7cc23517204a",
-    "title": "Software Engineer, Data Platform",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Data & Marketplace Integrity",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/a906c895-a49e-4961-9b11-7cc23517204a",
-    "external_id": "a906c895-a49e-4961-9b11-7cc23517204a",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "phenom_embedded||Skechers Data Search||JR128337||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Data-Security-Engineer_JR128337",
-    "title": "Data Security Engineer",
-    "company": "Skechers Data Search",
-    "location": "Manhattan Beach, California, United States of America",
-    "department": "Corporate",
-    "source_name": "Skechers Data Search",
-    "source_type": "phenom_embedded",
-    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Data-Security-Engineer_JR128337",
-    "external_id": "JR128337",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "phenom_embedded||Skechers Data Search||JR125838||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Digital-Data-Architect_JR125838-1",
-    "title": "Salesforce Data Cloud Architect",
-    "company": "Skechers Data Search",
-    "location": "Manhattan Beach, California, United States of America",
-    "department": "Corporate",
-    "source_name": "Skechers Data Search",
-    "source_type": "phenom_embedded",
-    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Digital-Data-Architect_JR125838-1",
-    "external_id": "JR125838",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "phenom_embedded||Skechers Data Search||JR127715||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Operations-Data---Financial-Analyst_JR127715",
-    "title": "Operations Data & Financial Analyst",
-    "company": "Skechers Data Search",
-    "location": "Rancho Belago, California, United States of America",
-    "department": "Distribution Center",
-    "source_name": "Skechers Data Search",
-    "source_type": "phenom_embedded",
-    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Operations-Data---Financial-Analyst_JR127715",
-    "external_id": "JR127715",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "phenom_embedded||Skechers Data Search||JR127946||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Milmort-Belgium/Business-Analyst_JR127946",
-    "title": "Business Analyst",
-    "company": "Skechers Data Search",
-    "location": "Milmort, Belgium",
-    "department": "Distribution Center",
-    "source_name": "Skechers Data Search",
-    "source_type": "phenom_embedded",
-    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Milmort-Belgium/Business-Analyst_JR127946",
-    "external_id": "JR127946",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "phenom_embedded||Skechers Data Search||JR131555||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Data-Entry-Clerk_JR131555",
-    "title": "Data Entry Clerk",
-    "company": "Skechers Data Search",
-    "location": "Rancho Belago, California, United States of America",
-    "department": "Distribution Center",
-    "source_name": "Skechers Data Search",
-    "source_type": "phenom_embedded",
-    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Rancho-Belago-CA/Data-Entry-Clerk_JR131555",
-    "external_id": "JR131555",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-11T23:09:27Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "phenom_embedded||Skechers Data Search||JR131647||https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Data-Scientist_JR131647",
-    "title": "Data Scientist",
-    "company": "Skechers Data Search",
-    "location": "Manhattan Beach, California, United States of America",
-    "department": "Corporate",
-    "source_name": "Skechers Data Search",
-    "source_type": "phenom_embedded",
-    "url": "https://skechers.wd5.myworkdayjobs.com/One-career-site/job/Manhattan-Beach-CA/Data-Scientist_JR131647",
-    "external_id": "JR131647",
-    "matched_keywords": [
-      "data scientist",
-      "data"
-    ],
-    "first_seen": "2026-08-13T20:58:32Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "adp||Advantest Careers||5001218244000||https://myjobs.adp.com/advantestcareers/cx/job-details?reqId=5001218244000",
-    "title": "GSEC Process, Tooling & Data Analytics Specialist (m/f/d)",
-    "company": "Advantest Careers",
-    "location": "Boeblingen, Germany",
-    "department": "",
-    "source_name": "Advantest Careers",
-    "source_type": "adp",
-    "url": "https://myjobs.adp.com/advantestcareers/cx/job-details?reqId=5001218244000",
-    "external_id": "5001218244000",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-25T07:23:34Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||66bf8d28-dad6-4510-ad87-c346fb38e9fd||https://jobs.ashbyhq.com/whatnot/66bf8d28-dad6-4510-ad87-c346fb38e9fd",
-    "title": "Staff Data Engineer, Data Developer Platform",
-    "company": "Whatnot Careers",
-    "location": "San Francisco, CA",
-    "department": "Data & Marketplace Integrity",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/66bf8d28-dad6-4510-ad87-c346fb38e9fd",
-    "external_id": "66bf8d28-dad6-4510-ad87-c346fb38e9fd",
-    "matched_keywords": [
-      "data engineer",
-      "data"
-    ],
-    "first_seen": "2026-08-28T16:54:13Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||7e4e4752-e482-4411-a87b-9c138b0acf5a||https://jobs.ashbyhq.com/whatnot/7e4e4752-e482-4411-a87b-9c138b0acf5a",
-    "title": "Staff Machine Learning Engineer, Ads",
-    "company": "Whatnot Careers",
-    "location": "New York, NY",
-    "department": "Buyer Engineering",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/7e4e4752-e482-4411-a87b-9c138b0acf5a",
-    "external_id": "7e4e4752-e482-4411-a87b-9c138b0acf5a",
-    "matched_keywords": [
-      "machine learning"
-    ],
-    "first_seen": "2026-09-01T16:57:12Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "greenhouse||Doximity Careers||8024477||https://job-boards.greenhouse.io/doximity/jobs/8024477",
-    "title": "Staff Applied AI Engineer",
-    "company": "Doximity Careers",
-    "location": "San Francisco, CA or Remote (U.S.)",
-    "department": "",
-    "source_name": "Doximity Careers",
-    "source_type": "greenhouse",
-    "url": "https://job-boards.greenhouse.io/doximity/jobs/8024477",
-    "external_id": "8024477",
-    "matched_keywords": [
-      "ai engineer"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "adp||Advantest Careers||5001183128906||https://myjobs.adp.com/advantestcareers/cx/job-details?reqId=5001183128906",
-    "title": "Applied AI Engineer",
-    "company": "Advantest Careers",
-    "location": "San Jose, California, United States",
-    "department": "",
-    "source_name": "Advantest Careers",
-    "source_type": "adp",
-    "url": "https://myjobs.adp.com/advantestcareers/cx/job-details?reqId=5001183128906",
-    "external_id": "5001183128906",
-    "matched_keywords": [
-      "ai engineer"
-    ],
-    "first_seen": "2026-09-07T18:22:04Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "ashby||Whatnot Careers||1ef7144a-265d-4abf-a1d1-a3e2efe8e80d||https://jobs.ashbyhq.com/whatnot/1ef7144a-265d-4abf-a1d1-a3e2efe8e80d",
-    "title": "Machine Learning Engineer, Discovery",
-    "company": "Whatnot Careers",
-    "location": "New York, NY",
-    "department": "Engineering",
-    "source_name": "Whatnot Careers",
-    "source_type": "ashby",
-    "url": "https://jobs.ashbyhq.com/whatnot/1ef7144a-265d-4abf-a1d1-a3e2efe8e80d",
-    "external_id": "1ef7144a-265d-4abf-a1d1-a3e2efe8e80d",
-    "matched_keywords": [
-      "machine learning"
-    ],
-    "first_seen": "2026-09-08T21:22:44Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5449886||https://www.governmentjobs.com/jobs/5449886-0/data-analyst",
-    "title": "Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "UCMO - Warrensburg, MO",
-    "department": "University of Central Missouri (UCM)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5449886-0/data-analyst",
-    "external_id": "5449886",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-14T22:01:03Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5465491||https://www.governmentjobs.com/jobs/5465491-0/data-analyst",
-    "title": "Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Main Campus, NC",
-    "department": "Pitt Community College",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5465491-0/data-analyst",
-    "external_id": "5465491",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-29T00:48:07Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5475594||https://www.governmentjobs.com/jobs/5475594-0/departmental-analyst-9-p11-application-data-analyst-dds",
-    "title": "Departmental Analyst 9-P11 - Application Data Analyst (DDS)",
-    "company": "GovernmentJobs US",
-    "location": "Lansing, MI",
-    "department": "State of Michigan",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5475594-0/departmental-analyst-9-p11-application-data-analyst-dds",
-    "external_id": "5475594",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-09T15:08:13Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5475003||https://www.governmentjobs.com/jobs/5475003-0/data-analyst",
-    "title": "Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "45 High Street, Boston",
-    "department": "Massachusetts Bay Transportation Authority",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5475003-0/data-analyst",
-    "external_id": "5475003",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-10T22:29:15Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||149543||https://www.governmentjobs.com/jobs/149543-1/data-analyst",
-    "title": "Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "La Palma, CA",
-    "department": "California Joint Powers Insurance Authority (CJPIA)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/149543-1/data-analyst",
-    "external_id": "149543",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-11T00:21:59Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Accenture Careers Alt||London||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Global-S-C-ATIOS-Strategy-Consultant_R00333207",
-    "title": "AI Engineer - Global Strategy Consultant",
-    "company": "Accenture Careers Alt",
-    "location": "R00333207 | London",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Global-S-C-ATIOS-Strategy-Consultant_R00333207",
-    "external_id": "London",
-    "matched_keywords": [
-      "ai engineer"
-    ],
-    "first_seen": "2026-09-07T18:22:04Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
-    "title": "Consultor(a) SAP Data Migration",
-    "company": "Accenture Careers Alt",
-    "location": "R00253076 | Location Negotiable",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pernambuco---Recife/Analistas-e-Consultores-Data-migration_R00253076",
-    "external_id": "Location Negotiable",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T12:05:25Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req0860022||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Boadilla-del-Monte/I-SGTO-Software-engineering-Coe-Data_Req0860022",
-    "title": "I_SGTO_Software engineering Coe Data",
-    "company": "Santander Careers",
-    "location": "Boadilla del Monte",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Boadilla-del-Monte/I-SGTO-Software-engineering-Coe-Data_Req0860022",
-    "external_id": "Req0860022",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req0904505||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Boadilla-del-Monte/I-T-OCC-Data-Analyst-Information-Centre_Req0904505",
-    "title": "I_T&OCC_Data Analyst Information Centre",
-    "company": "Santander Careers",
-    "location": "Boadilla del Monte",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Boadilla-del-Monte/I-T-OCC-Data-Analyst-Information-Centre_Req0904505",
-    "external_id": "Req0904505",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1596032||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madrid/AI-Transformation-Analyst---WM-I_Req1596032-1",
-    "title": "AI Transformation Analyst - WM&I",
-    "company": "Santander Careers",
-    "location": "Madrid",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Madrid/AI-Transformation-Analyst---WM-I_Req1596032-1",
-    "external_id": "Req1596032",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-10T13:51:37Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1542407||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SANTA-BARBARA-1-PLANTA-SEGUNDA/Applied-AI-Engineer_Req1542407",
-    "title": "Frontier Agentic AI Engineer — Santander AI Lab",
-    "company": "Santander Careers",
-    "location": "SANTA BARBARA 1-PLANTA SEGUNDA",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SANTA-BARBARA-1-PLANTA-SEGUNDA/Applied-AI-Engineer_Req1542407",
-    "external_id": "Req1542407",
-    "matched_keywords": [
-      "ai engineer"
-    ],
-    "first_seen": "2026-09-07T18:22:04Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Intel Careers||JR0286800||https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Database-Administrator-PL-SQL-Developer_JR0286800",
-    "title": "Database Administrator PL/SQL Developer",
-    "company": "Intel Careers",
-    "location": "2 Locations",
-    "department": "",
-    "source_name": "Intel Careers",
-    "source_type": "workday",
-    "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-Arizona-Phoenix/Database-Administrator-PL-SQL-Developer_JR0286800",
-    "external_id": "JR0286800",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-09-07T18:22:04Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1582968||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SANTIAGO/XMLNAME----Oportunidad-laboral--Analista-I---Real-Estate-Intelligence---Data---Plazo-fijo-Santiago_Req1582968",
-    "title": "📣 Oportunidad laboral: Analista I | Real Estate Intelligence & Data | Plazo fijo Santiago",
-    "company": "Santander Careers",
-    "location": "SANTIAGO",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SANTIAGO/XMLNAME----Oportunidad-laboral--Analista-I---Real-Estate-Intelligence---Data---Plazo-fijo-Santiago_Req1582968",
-    "external_id": "Req1582968",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-09-08T21:22:44Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1601398||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/GARAY-151-PISO-4/ARG-SSR-Data-Oversight-Analyst_Req1601398-1",
-    "title": "ARG SSR Data Oversight Analyst",
-    "company": "Santander Careers",
-    "location": "GARAY 151 PISO 4",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/GARAY-151-PISO-4/ARG-SSR-Data-Oversight-Analyst_Req1601398-1",
-    "external_id": "Req1601398",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-10T22:29:15Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
     "key": "workday||Thomson Reuters Careers||JREQ202416||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/Mexico-Mexico-City/Business-Quality---Process-Analyst---Semi-Sr_JREQ202416",
     "title": "Jr. Business Intelligence Analyst",
     "company": "Thomson Reuters Careers",
@@ -659,271 +1275,6 @@
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||5474670||https://www.governmentjobs.com/jobs/5474670-0/database-analyst-3",
-    "title": "Database Analyst 3",
-    "company": "GovernmentJobs US",
-    "location": "Atlanta, GA",
-    "department": "Georgia Department of Public Health (GA)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5474670-0/database-analyst-3",
-    "external_id": "5474670",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-11T21:54:01Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5466455||https://www.governmentjobs.com/jobs/5466455-0/analyst-iii-988-data-administrator",
-    "title": "Analyst III - 988 Data Administrator",
-    "company": "GovernmentJobs US",
-    "location": "Denver, CO",
-    "department": "State of Colorado",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5466455-0/analyst-iii-988-data-administrator",
-    "external_id": "5466455",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-11T21:54:01Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5457207||https://www.governmentjobs.com/jobs/5457207-0/data-and-statistical-analyst",
-    "title": "Data and Statistical Analyst",
-    "company": "GovernmentJobs US",
-    "location": "300 L Street; Antioch, CA",
-    "department": "City of Antioch",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5457207-0/data-and-statistical-analyst",
-    "external_id": "5457207",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-21T19:42:21Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5469745||https://www.governmentjobs.com/jobs/5469745-0/research-data-analyst-ii",
-    "title": "Research/Data Analyst II",
-    "company": "GovernmentJobs US",
-    "location": "25 - HINDS COUNTY, MS",
-    "department": "State of Mississippi",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5469745-0/research-data-analyst-ii",
-    "external_id": "5469745",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-02T21:59:45Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5473711||https://www.governmentjobs.com/jobs/5473711-0/business-and-community-data-analyst",
-    "title": "Business and Community Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Council Bluffs, IA",
-    "department": "Iowa Western Community College (IA)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5473711-0/business-and-community-data-analyst",
-    "external_id": "5473711",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-04T21:50:57Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5414766||https://www.governmentjobs.com/jobs/5414766-0/gis-data-analyst-fire",
-    "title": "GIS Data Analyst - Fire",
-    "company": "GovernmentJobs US",
-    "location": "Boise, ID",
-    "department": "City of Boise",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5414766-0/gis-data-analyst-fire",
-    "external_id": "5414766",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-08T23:29:11Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "kpmg||KPMG US Careers||121509609167823558||https://www.kpmguscareers.com/jobdetail/?jobId=134667",
-    "title": "Associate, Federal Data Analyst",
-    "company": "KPMG US Careers",
-    "location": "St Louis, MO",
-    "department": "Advisory",
-    "source_name": "KPMG US Careers",
-    "source_type": "kpmg",
-    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=134667",
-    "external_id": "121509609167823558",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-20T17:16:45Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "kpmg||KPMG US Careers||112063737522725574||https://www.kpmguscareers.com/jobdetail/?jobId=135884",
-    "title": "Analyst, IT Svc Management",
-    "company": "KPMG US Careers",
-    "location": "Montvale, NJ",
-    "department": "Tax",
-    "source_name": "KPMG US Careers",
-    "source_type": "kpmg",
-    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=135884",
-    "external_id": "112063737522725574",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-20T17:16:45Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "kpmg||KPMG US Careers||138311084216853190||https://www.kpmguscareers.com/jobdetail/?jobId=135757",
-    "title": "Associate Data Programmer, Global Trade Analytics",
-    "company": "KPMG US Careers",
-    "location": "Atlanta, GA; Boston, MA; Charlotte, NC; Dallas, TX; Denver, CO; Detroit, MI; Los Angeles, CA; McLean, VA; Morristown, NJ; New York, NY; Orlando, FL; Philadelphia, PA; Phoenix, AZ; Salt Lake City, UT; San Diego, CA; San Francisco, CA",
-    "department": "Tax",
-    "source_name": "KPMG US Careers",
-    "source_type": "kpmg",
-    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=135757",
-    "external_id": "138311084216853190",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-20T17:16:45Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "kpmg||KPMG US Careers||129189535752823494||https://www.kpmguscareers.com/jobdetail/?jobId=135758",
-    "title": "Experienced Associate - Global Trade - Data Analytics",
-    "company": "KPMG US Careers",
-    "location": "Atlanta, GA; Boston, MA; Chicago, IL; Dallas, TX; Denver, CO; Detroit, MI; Houston, TX; Los Angeles, CA; McLean, VA; Miami, FL; Morristown, NJ; New York, NY; Orlando, FL; Philadelphia, PA; Salt Lake City, UT; San Francisco, CA",
-    "department": "Tax",
-    "source_name": "KPMG US Careers",
-    "source_type": "kpmg",
-    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=135758",
-    "external_id": "129189535752823494",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-20T17:16:45Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "kpmg||KPMG US Careers||123511264180609734||https://www.kpmguscareers.com/jobdetail/?jobId=136424",
-    "title": "Analyst I - Engagement Services",
-    "company": "KPMG US Careers",
-    "location": "Orlando, FL",
-    "department": "Advisory",
-    "source_name": "KPMG US Careers",
-    "source_type": "kpmg",
-    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=136424",
-    "external_id": "123511264180609734",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-24T21:21:12Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "kpmg||KPMG US Careers||99691270330294982||https://www.kpmguscareers.com/jobdetail/?jobId=137307",
-    "title": "Associate, FS Asset Management - Data & Analytics",
-    "company": "KPMG US Careers",
-    "location": "Irvine, CA; Los Angeles, CA",
-    "department": "Advisory",
-    "source_name": "KPMG US Careers",
-    "source_type": "kpmg",
-    "url": "https://www.kpmguscareers.com/jobdetail/?jobId=137307",
-    "external_id": "99691270330294982",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-09-03T18:41:38Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5481142||https://www.governmentjobs.com/jobs/5481142-0/research-data-analyst-i",
-    "title": "Research/Data Analyst I",
-    "company": "GovernmentJobs US",
-    "location": "45 - MADISON COUNTY, MS",
-    "department": "State of Mississippi",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5481142-0/research-data-analyst-i",
-    "external_id": "5481142",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-14T22:11:45Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5388193||https://www.governmentjobs.com/jobs/5388193-0/institutional-research-strategic-data-analyst",
-    "title": "Institutional Research Strategic Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Zanesville Campus, OH",
-    "department": "Zane State College",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5388193-0/institutional-research-strategic-data-analyst",
-    "external_id": "5388193",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5478011||https://www.governmentjobs.com/jobs/5478011-0/dshs-hcla-performance-outcomes-and-data-analyst",
-    "title": "DSHS HCLA Performance Outcomes and Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Thurston County – Lacey, WA",
-    "department": "State of Washington",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5478011-0/dshs-hcla-performance-outcomes-and-data-analyst",
-    "external_id": "5478011",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-10T17:46:59Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
     "key": "workday||Intel Careers||JR0286998||https://intel.wd1.myworkdayjobs.com/External/job/US-California-Santa-Clara/Software-Engineer---Datacenter_JR0286998",
     "title": "Software Engineer – Datacenter",
     "company": "Intel Careers",
@@ -935,23 +1286,6 @@
     "external_id": "JR0286998",
     "matched_keywords": [
       "data"
-    ],
-    "first_seen": "2026-09-15T00:39:26Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "greenhouse||Doximity Careers||8202870||https://job-boards.greenhouse.io/doximity/jobs/8202870",
-    "title": "Accounts Receivable Analyst, Order- to- Cash",
-    "company": "Doximity Careers",
-    "location": "Remote",
-    "department": "",
-    "source_name": "Doximity Careers",
-    "source_type": "greenhouse",
-    "url": "https://job-boards.greenhouse.io/doximity/jobs/8202870",
-    "external_id": "8202870",
-    "matched_keywords": [
-      "analyst"
     ],
     "first_seen": "2026-09-15T00:39:26Z",
     "last_seen": "2026-09-15T14:57:12Z",
@@ -1028,42 +1362,6 @@
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||4775405||https://www.governmentjobs.com/jobs/4775405-0/predictive-data-analyst-emergency-appointment-homelessness",
-    "title": "PREDICTIVE DATA ANALYST / EMERGENCY APPOINTMENT HOMELESSNESS",
-    "company": "GovernmentJobs US",
-    "location": "Los Angeles County, CA",
-    "department": "County of Los Angeles",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/4775405-0/predictive-data-analyst-emergency-appointment-homelessness",
-    "external_id": "4775405",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5195111||https://www.governmentjobs.com/jobs/5195111-0/data-analyst-medicaid-fraud-belleville-26-02",
-    "title": "Data Analyst, Medicaid Fraud, Belleville, 26-02",
-    "company": "GovernmentJobs US",
-    "location": "Belleville, IL",
-    "department": "Illinois Attorney General (IL)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5195111-0/data-analyst-medicaid-fraud-belleville-26-02",
-    "external_id": "5195111",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
     "key": "governmentjobs||GovernmentJobs US||5468934||https://www.governmentjobs.com/jobs/5468934-0/gis-data-analyst",
     "title": "GIS Data Analyst",
     "company": "GovernmentJobs US",
@@ -1078,77 +1376,6 @@
       "data"
     ],
     "first_seen": "2026-09-05T05:56:55Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Thomson Reuters Careers||JREQ203028||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/India-Hyderabad-Telangana/Integration-Analyst_JREQ203028-1",
-    "title": "Integration Analyst",
-    "company": "Thomson Reuters Careers",
-    "location": "Hyderabad | Telangana | JREQ203028",
-    "department": "",
-    "source_name": "Thomson Reuters Careers",
-    "source_type": "workday",
-    "url": "https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/India-Hyderabad-Telangana/Integration-Analyst_JREQ203028-1",
-    "external_id": "JREQ203028",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-09-15T10:08:52Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5422019||https://www.governmentjobs.com/jobs/5422019-0/data-reporting-query-analyst",
-    "title": "Data Reporting & Query Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Main Campus - Philadelphia, PA",
-    "department": "Community College of Philadelphia",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5422019-0/data-reporting-query-analyst",
-    "external_id": "5422019",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5467912||https://www.governmentjobs.com/jobs/5467912-0/travel-data-analyst-transportation-planning-technician-3",
-    "title": "Travel Data Analyst (Transportation Planning Technician 3)",
-    "company": "GovernmentJobs US",
-    "location": "Thurston County – Tumwater, WA",
-    "department": "State of Washington",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5467912-0/travel-data-analyst-transportation-planning-technician-3",
-    "external_id": "5467912",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-01T16:57:12Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||04010-0013459651-usen||https://www.roberthalf.com/us/en/job/dallas-tx/data-scientist/04010-0013459651-usen",
-    "title": "Data Scientist",
-    "company": "Robert Half",
-    "location": "Dallas, TX",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/dallas-tx/data-scientist/04010-0013459651-usen",
-    "external_id": "04010-0013459651-usen",
-    "matched_keywords": [
-      "data scientist",
-      "data"
-    ],
-    "first_seen": "2026-09-15T05:18:09Z",
     "last_seen": "2026-09-15T14:57:12Z",
     "is_new": false
   },
@@ -1206,93 +1433,6 @@
     "is_new": false
   },
   {
-    "key": "roberthalf||Robert Half||02310-0013504879-usen||https://www.roberthalf.com/us/en/job/shoreview-mn/data-engineer/02310-0013504879-usen",
-    "title": "Data Engineer",
-    "company": "Robert Half",
-    "location": "Shoreview, MN",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/shoreview-mn/data-engineer/02310-0013504879-usen",
-    "external_id": "02310-0013504879-usen",
-    "matched_keywords": [
-      "data engineer",
-      "data"
-    ],
-    "first_seen": "2026-09-12T14:02:15Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||03700-0013494024-usen||https://www.roberthalf.com/us/en/job/breinigsville-pa/logistics-analyst/03700-0013494024-usen",
-    "title": "Logistics Analyst",
-    "company": "Robert Half",
-    "location": "Breinigsville, PA",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/breinigsville-pa/logistics-analyst/03700-0013494024-usen",
-    "external_id": "03700-0013494024-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-25T15:54:17Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1612485||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SAO-PAULO/Data---Analytics-Spec-I--DBA-_Req1612485",
-    "title": "Data & Analytics Spec I (DBA)",
-    "company": "Santander Careers",
-    "location": "SAO PAULO",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/SAO-PAULO/Data---Analytics-Spec-I--DBA-_Req1612485",
-    "external_id": "Req1612485",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-09-15T14:57:12Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": true
-  },
-  {
-    "key": "workday||Accenture Careers Alt||London||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Customer-AI-Developer-Specialist_R00314667",
-    "title": "Customer AI Engineer",
-    "company": "Accenture Careers Alt",
-    "location": "R00314667 | London",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Customer-AI-Developer-Specialist_R00314667",
-    "external_id": "London",
-    "matched_keywords": [
-      "ai engineer"
-    ],
-    "first_seen": "2026-09-15T14:57:12Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": true
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||149725||https://www.governmentjobs.com/jobs/149725-1/data-analyst-department-of-fire-ems",
-    "title": "Data Analyst - Department of Fire & EMS",
-    "company": "GovernmentJobs US",
-    "location": "Westminster, MD",
-    "department": "Carroll County Government",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/149725-1/data-analyst-department-of-fire-ems",
-    "external_id": "149725",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-15T14:57:12Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": true
-  },
-  {
     "key": "governmentjobs||GovernmentJobs US||5481399||https://www.governmentjobs.com/jobs/5481399-0/arundelstat-performance-and-data-analyst",
     "title": "ArundelStat Performance and Data Analyst",
     "company": "GovernmentJobs US",
@@ -1305,23 +1445,6 @@
     "matched_keywords": [
       "analyst",
       "data"
-    ],
-    "first_seen": "2026-09-15T14:57:12Z",
-    "last_seen": "2026-09-15T14:57:12Z",
-    "is_new": true
-  },
-  {
-    "key": "roberthalf||Robert Half||04030-0013490205-usen||https://www.roberthalf.com/us/en/job/coppell-tx/ml-ops-ai-engineer-ii/04030-0013490205-usen",
-    "title": "ML OPS AI ENGINEER II",
-    "company": "Robert Half",
-    "location": "Coppell, TX",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/coppell-tx/ml-ops-ai-engineer-ii/04030-0013490205-usen",
-    "external_id": "04030-0013490205-usen",
-    "matched_keywords": [
-      "ai engineer"
     ],
     "first_seen": "2026-09-15T14:57:12Z",
     "last_seen": "2026-09-15T14:57:12Z",
@@ -1379,24 +1502,6 @@
     "is_new": false
   },
   {
-    "key": "governmentjobs||GovernmentJobs US||5374468||https://www.governmentjobs.com/jobs/5374468-0/fire-data-analyst",
-    "title": "Fire Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "624 South Chester, AR",
-    "department": "City of Little Rock",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5374468-0/fire-data-analyst",
-    "external_id": "5374468",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-07T07:33:17Z",
-    "last_seen": "2026-09-15T10:08:52Z",
-    "is_new": false
-  },
-  {
     "key": "workday||Intel Careers||JR0286993||https://intel.wd1.myworkdayjobs.com/External/job/US-Oregon-Hillsboro/FSMS-Systems-Analyst_JR0286993",
     "title": "FSMS Systems Analyst",
     "company": "Intel Careers",
@@ -1410,42 +1515,6 @@
       "analyst"
     ],
     "first_seen": "2026-09-15T00:39:26Z",
-    "last_seen": "2026-09-15T10:08:52Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5195206||https://www.governmentjobs.com/jobs/5195206-0/data-analyst-medicaid-fraud-oakbrook-26-01",
-    "title": "Data Analyst, Medicaid Fraud, Oakbrook, 26-01",
-    "company": "GovernmentJobs US",
-    "location": "Oakbrook, IL",
-    "department": "Illinois Attorney General (IL)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5195206-0/data-analyst-medicaid-fraud-oakbrook-26-01",
-    "external_id": "5195206",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-15T10:08:52Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5195097||https://www.governmentjobs.com/jobs/5195097-0/data-analyst-medicaid-fraud-springfield-26-03",
-    "title": "Data Analyst, Medicaid Fraud, Springfield, 26-03",
-    "company": "GovernmentJobs US",
-    "location": "Springfield, IL",
-    "department": "Illinois Attorney General (IL)",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5195097-0/data-analyst-medicaid-fraud-springfield-26-03",
-    "external_id": "5195097",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
     "last_seen": "2026-09-15T10:08:52Z",
     "is_new": false
   },
