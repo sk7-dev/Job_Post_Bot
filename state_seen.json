@@ -33,6 +33,7 @@
     "governmentjobs||GovernmentJobs US||148136||https://www.governmentjobs.com/jobs/148136-1/administrative-support-clerk-data-entry": "2026-09-04T09:58:21.797702+00:00",
     "governmentjobs||GovernmentJobs US||149312||https://www.governmentjobs.com/jobs/149312-1/benefits-data-analyst": "2026-09-05T01:20:50.245278+00:00",
     "governmentjobs||GovernmentJobs US||149543||https://www.governmentjobs.com/jobs/149543-1/data-analyst": "2026-09-11T00:21:59.061465+00:00",
+    "governmentjobs||GovernmentJobs US||149678||https://www.governmentjobs.com/jobs/149678-1/geographic-information-systems-gis-data-solutions-analyst-land-use-and-mobili": "2026-09-17T10:13:29.759544+00:00",
     "governmentjobs||GovernmentJobs US||149725||https://www.governmentjobs.com/jobs/149725-1/data-analyst-department-of-fire-ems": "2026-09-15T14:57:12.662573+00:00",
     "governmentjobs||GovernmentJobs US||38181||https://www.governmentjobs.com/jobs/38181-1/database-administrator": "2026-09-03T01:57:27.073232+00:00",
     "governmentjobs||GovernmentJobs US||4543639||https://www.governmentjobs.com/jobs/4543639-0/automated-metering-infrastructure-ami-data-analyst-i-class-code-3457": "2026-08-07T06:35:05.660877+00:00",
@@ -206,6 +207,8 @@
     "governmentjobs||GovernmentJobs US||5478582||https://www.governmentjobs.com/jobs/5478582-0/hris-data-analyst-human-resources": "2026-09-11T17:09:47.416853+00:00",
     "governmentjobs||GovernmentJobs US||5481142||https://www.governmentjobs.com/jobs/5481142-0/research-data-analyst-i": "2026-09-14T22:11:45.849572+00:00",
     "governmentjobs||GovernmentJobs US||5481399||https://www.governmentjobs.com/jobs/5481399-0/arundelstat-performance-and-data-analyst": "2026-09-15T14:57:12.662573+00:00",
+    "governmentjobs||GovernmentJobs US||5483621||https://www.governmentjobs.com/jobs/5483621-0/data-scientist-public-health-data-linkage-dsis-3-doh8990": "2026-09-17T10:13:29.759544+00:00",
+    "governmentjobs||GovernmentJobs US||5483702||https://www.governmentjobs.com/jobs/5483702-0/data-scientist-data-science-informatics-specialist-2": "2026-09-17T10:13:29.759544+00:00",
     "governmentjobs||GovernmentJobs US||55634||https://www.governmentjobs.com/jobs/55634-1/database-architect": "2026-08-07T21:06:08.973421+00:00",
     "greenhouse||Cascade Financial Services||7893999003||https://job-boards.greenhouse.io/cascadeloans/jobs/7893999003": "2026-08-18T17:46:26.500217+00:00",
     "greenhouse||Doximity Careers||7787892||https://job-boards.greenhouse.io/doximity/jobs/7787892": "2026-08-05T07:08:43.504044+00:00",
@@ -795,7 +798,6 @@
     "roberthalf||Robert Half||03730-0013477433-usen||https://www.roberthalf.com/us/en/job/export-pa/inventory-and-procurement-analyst/03730-0013477433-usen": "2026-08-06T13:21:03.770967+00:00",
     "roberthalf||Robert Half||03730-0013483396-usen||https://www.roberthalf.com/us/en/job/export-pa/accountant-financial-analyst/03730-0013483396-usen": "2026-08-05T15:35:04.319332+00:00",
     "roberthalf||Robert Half||03730-9504386790-usen||https://www.roberthalf.com/us/en/job/mckeesport-pa/hris-analyst/03730-9504386790-usen": "2026-08-29T07:27:16.082711+00:00",
-    "roberthalf||Robert Half||03740-0013457614-usen||https://www.roberthalf.com/us/en/job/wyomissing-pa/financial-analystdata-analyst/03740-0013457614-usen": "2026-06-19T06:51:42.575691+00:00",
     "roberthalf||Robert Half||03740-0013461593-usen||https://www.roberthalf.com/us/en/job/philadelphia-pa/financial-analyst/03740-0013461593-usen": "2026-07-31T12:13:47.317800+00:00",
     "roberthalf||Robert Half||03740-0013462733-usen||https://www.roberthalf.com/us/en/job/horsham-pa/financial-analyst/03740-0013462733-usen": "2026-06-29T22:17:28.148390+00:00",
     "roberthalf||Robert Half||03750-0013487954-usen||https://www.roberthalf.com/us/en/job/hampden-pa/fiscal-analyst/03750-0013487954-usen": "2026-08-13T02:39:32.007493+00:00",
@@ -905,7 +907,6 @@
     "roberthalf||Robert Half||04400-0013474891-usen||https://www.roberthalf.com/us/en/job/monroe-wa/it-analyst/04400-0013474891-usen": "2026-07-22T03:47:52.095015+00:00",
     "roberthalf||Robert Half||04400-0013491856-usen||https://www.roberthalf.com/us/en/job/spokane-wa/help-deskdesktop-support-analyst/04400-0013491856-usen": "2026-08-25T02:45:33.111470+00:00",
     "roberthalf||Robert Half||04400-0013496937-usen||https://www.roberthalf.com/us/en/job/seattle-wa/it-support-analyst-ii/04400-0013496937-usen": "2026-08-28T04:31:05.424290+00:00",
-    "roberthalf||Robert Half||04410-0013457657-usen||https://www.roberthalf.com/us/en/job/seattle-wa/functional-business-analyst/04410-0013457657-usen": "2026-06-19T06:51:42.575691+00:00",
     "roberthalf||Robert Half||04410-0013473048-usen||https://www.roberthalf.com/us/en/job/seattle-wa/hris-analyst/04410-0013473048-usen": "2026-07-18T03:22:48.090093+00:00",
     "roberthalf||Robert Half||04410-0013473052-usen||https://www.roberthalf.com/us/en/job/seattle-wa/hris-analyst/04410-0013473052-usen": "2026-07-18T03:22:48.090093+00:00",
     "roberthalf||Robert Half||04410-0013489271-usen||https://www.roberthalf.com/us/en/job/tacoma-wa/help-deskdesktop-support-analyst/04410-0013489271-usen": "2026-08-18T02:03:06.038739+00:00",
@@ -1040,6 +1041,7 @@
     "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Agentic-Data-Governance-Specialist--AI-Data-_R00337227": "2026-06-19T11:13:24.842911+00:00",
     "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Data---Analytics-Consultant--She-He-They-_R00344726": "2026-07-17T14:19:48.207713+00:00",
     "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Graph-Engineer--AI-Data-_R00345142": "2026-07-19T20:14:10.908165+00:00",
+    "workday||Accenture Careers Alt||Location Negotiable||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Warsaw/Investment-Support-Analyst_R00357664": "2026-09-17T10:13:29.759544+00:00",
     "workday||Accenture Careers Alt||London, 30 Fenchurch Street||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London-30-Fenchurch-Street/Digital-Workplace-Manager_R00288125": "2026-07-21T08:46:08.059312+00:00",
     "workday||Accenture Careers Alt||London||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Customer-AI-Developer-Specialist_R00314667": "2026-09-15T14:57:12.662573+00:00",
     "workday||Accenture Careers Alt||London||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/London/Global-S-C-ATIOS-Strategy-Consultant_R00333207": "2026-09-07T18:22:04.958017+00:00",
@@ -1109,6 +1111,7 @@
     "workday||Thomson Reuters Careers||JREQ202416||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/Mexico-Mexico-City/Business-Quality---Process-Analyst---Semi-Sr_JREQ202416": "2026-09-11T21:54:01.458706+00:00",
     "workday||Thomson Reuters Careers||JREQ203028||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/India-Hyderabad-Telangana/Integration-Analyst_JREQ203028-1": "2026-09-15T10:08:52.081083+00:00",
     "workday||Thomson Reuters Careers||JREQ203304||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/Philippines-Manila/Security-Operations-Analyst_JREQ203304": "2026-09-07T18:22:04.958017+00:00",
-    "workday||Thomson Reuters Careers||JREQ203348||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/Mexico-Mexico-City/Application-Support-Analyst-Intern_JREQ203348": "2026-09-08T18:33:51.701766+00:00"
+    "workday||Thomson Reuters Careers||JREQ203348||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/Mexico-Mexico-City/Application-Support-Analyst-Intern_JREQ203348": "2026-09-08T18:33:51.701766+00:00",
+    "workday||Thomson Reuters Careers||JREQ203673||https://thomsonreuters.wd5.myworkdayjobs.com/External_Career_Site/job/United-States-of-America-New-York-New-York/Data---Analytics-Business-Partner--Reuters_JREQ203673": "2026-09-17T10:13:29.759544+00:00"
   }
 }
