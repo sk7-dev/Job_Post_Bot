@@ -5,8 +5,8 @@
     "status": "healthy",
     "jobs_fetched": 7,
     "jobs_matched": 0,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 537,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 119,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 5,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 616,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 980,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 1044,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 1341,
     "error": null
   },
   {
@@ -35,19 +35,19 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 6,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 2824,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 3253,
     "error": null
   },
   {
     "name": "Entertime Careers",
     "type": "entertime",
-    "status": "failed",
-    "jobs_fetched": 0,
+    "status": "healthy",
+    "jobs_fetched": 17,
     "jobs_matched": 0,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 323,
-    "error": "403 Client Error: Forbidden for url: https://secure4.entertimeonline.com/ta/rest/ui/recruitment/companies/%7C6149039/job-requisitions?_=1789915319209&offset=0&size=20&lang=en-US&sort=desc"
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 199,
+    "error": null
   },
   {
     "name": "GumGum Careers",
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 13,
     "jobs_matched": 0,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 207,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 83,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 1699,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 1578,
     "error": null
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 2,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 1970,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 2271,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 4,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 2190,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 1758,
     "error": null
   },
   {
@@ -95,8 +95,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 6,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 4311,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 4811,
     "error": null
   },
   {
@@ -105,8 +105,8 @@
     "status": "healthy",
     "jobs_fetched": 17,
     "jobs_matched": 3,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 117,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 68,
     "error": null
   },
   {
@@ -115,8 +115,8 @@
     "status": "healthy",
     "jobs_fetched": 143,
     "jobs_matched": 12,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 551,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 568,
     "error": null
   },
   {
@@ -124,19 +124,19 @@
     "type": "governmentjobs",
     "status": "healthy",
     "jobs_fetched": 30,
-    "jobs_matched": 29,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 37854,
+    "jobs_matched": 30,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 36613,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 111,
+    "jobs_fetched": 118,
     "jobs_matched": 9,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 18067,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 18778,
     "error": null
   },
   {
@@ -145,18 +145,18 @@
     "status": "healthy",
     "jobs_fetched": 263,
     "jobs_matched": 2,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 3080,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 3301,
     "error": null
   },
   {
     "name": "KPMG US Careers",
     "type": "kpmg",
-    "status": "failed",
-    "jobs_fetched": 0,
-    "jobs_matched": 0,
-    "last_scan": "2026-09-20T14:42:39Z",
-    "duration_ms": 235,
-    "error": "Expecting value: line 1 column 1 (char 0)"
+    "status": "healthy",
+    "jobs_fetched": 180,
+    "jobs_matched": 7,
+    "last_scan": "2026-09-20T17:41:34Z",
+    "duration_ms": 13284,
+    "error": null
   }
 ]
