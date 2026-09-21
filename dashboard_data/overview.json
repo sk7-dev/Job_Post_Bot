@@ -1,9 +1,9 @@
 {
-  "last_scan": "2026-09-21T14:11:08Z",
+  "last_scan": "2026-09-21T16:14:03Z",
   "scan_status": "success",
-  "jobs_fetched_last_scan": 1031,
-  "jobs_matched_last_scan": 77,
-  "new_jobs_last_scan": 4,
+  "jobs_fetched_last_scan": 1023,
+  "jobs_matched_last_scan": 74,
+  "new_jobs_last_scan": 0,
   "jobs_today": 4,
   "jobs_last_7_days": 115,
   "total_sources": 16,
