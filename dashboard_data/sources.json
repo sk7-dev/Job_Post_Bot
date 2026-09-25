@@ -3,10 +3,10 @@
     "name": "Cascade Financial Services",
     "type": "greenhouse",
     "status": "healthy",
-    "jobs_fetched": 7,
+    "jobs_fetched": 6,
     "jobs_matched": 0,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 91,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 383,
     "error": null
   },
   {
@@ -15,8 +15,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 6,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 604,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 827,
     "error": null
   },
   {
@@ -25,8 +25,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 2,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 1233,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 1551,
     "error": null
   },
   {
@@ -35,8 +35,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 8,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 3171,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 3337,
     "error": null
   },
   {
@@ -45,8 +45,8 @@
     "status": "healthy",
     "jobs_fetched": 14,
     "jobs_matched": 0,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 201,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 313,
     "error": null
   },
   {
@@ -55,8 +55,8 @@
     "status": "healthy",
     "jobs_fetched": 10,
     "jobs_matched": 0,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 71,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 154,
     "error": null
   },
   {
@@ -65,8 +65,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 0,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 1702,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 1948,
     "error": null
   },
   {
@@ -75,8 +75,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 2,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 1823,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 2182,
     "error": null
   },
   {
@@ -85,8 +85,8 @@
     "status": "healthy",
     "jobs_fetched": 40,
     "jobs_matched": 1,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 2372,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 2366,
     "error": null
   },
   {
@@ -94,9 +94,9 @@
     "type": "workday",
     "status": "healthy",
     "jobs_fetched": 40,
-    "jobs_matched": 6,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 4731,
+    "jobs_matched": 5,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 4684,
     "error": null
   },
   {
@@ -105,38 +105,38 @@
     "status": "healthy",
     "jobs_fetched": 13,
     "jobs_matched": 1,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 70,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 300,
     "error": null
   },
   {
     "name": "Whatnot Careers",
     "type": "ashby",
     "status": "healthy",
-    "jobs_fetched": 143,
+    "jobs_fetched": 144,
     "jobs_matched": 12,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 443,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 554,
     "error": null
   },
   {
     "name": "GovernmentJobs US",
     "type": "governmentjobs",
     "status": "healthy",
-    "jobs_fetched": 50,
-    "jobs_matched": 44,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 11367,
+    "jobs_fetched": 40,
+    "jobs_matched": 36,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 40792,
     "error": null
   },
   {
     "name": "Robert Half",
     "type": "roberthalf",
     "status": "healthy",
-    "jobs_fetched": 116,
-    "jobs_matched": 7,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 18295,
+    "jobs_fetched": 109,
+    "jobs_matched": 5,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 20091,
     "error": null
   },
   {
@@ -145,8 +145,8 @@
     "status": "healthy",
     "jobs_fetched": 264,
     "jobs_matched": 2,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 2897,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 2667,
     "error": null
   },
   {
@@ -155,8 +155,8 @@
     "status": "healthy",
     "jobs_fetched": 180,
     "jobs_matched": 8,
-    "last_scan": "2026-09-25T17:13:20Z",
-    "duration_ms": 14248,
+    "last_scan": "2026-09-25T20:30:41Z",
+    "duration_ms": 19008,
     "error": null
   }
 ]
