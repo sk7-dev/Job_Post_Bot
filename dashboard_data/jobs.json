@@ -1,22 +1,5 @@
 [
   {
-    "key": "workday||SCAN Careers||JR2979||https://scanhealthplan.wd108.myworkdayjobs.com/scancareers/job/Long-Beach-CA/Actuarial-Analyst---Health-Plan_JR2979",
-    "title": "Actuarial Analyst - Health Plan",
-    "company": "SCAN Careers",
-    "location": "2 Locations",
-    "department": "",
-    "source_name": "SCAN Careers",
-    "source_type": "workday",
-    "url": "https://scanhealthplan.wd108.myworkdayjobs.com/scancareers/job/Long-Beach-CA/Actuarial-Analyst---Health-Plan_JR2979",
-    "external_id": "JR2979",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
     "key": "ashby||Whatnot Careers||eb97d6f0-71fa-4e68-a135-0e69ed486c6f||https://jobs.ashbyhq.com/whatnot/eb97d6f0-71fa-4e68-a135-0e69ed486c6f",
     "title": "Data Engineer, Payments",
     "company": "Whatnot Careers",
@@ -31,7 +14,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -48,7 +31,7 @@
       "machine learning"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -65,7 +48,7 @@
       "machine learning"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -82,7 +65,7 @@
       "machine learning"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -99,7 +82,7 @@
       "analyst"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -116,7 +99,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -133,7 +116,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -150,7 +133,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -167,7 +150,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -185,7 +168,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -203,7 +186,7 @@
       "data"
     ],
     "first_seen": "2026-08-13T20:58:32Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -220,7 +203,7 @@
       "data"
     ],
     "first_seen": "2026-08-25T07:23:34Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -237,7 +220,7 @@
       "machine learning"
     ],
     "first_seen": "2026-09-01T16:57:12Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -254,7 +237,7 @@
       "ai engineer"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -271,7 +254,7 @@
       "ai engineer"
     ],
     "first_seen": "2026-09-07T18:22:04Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -288,7 +271,7 @@
       "machine learning"
     ],
     "first_seen": "2026-09-08T21:22:44Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -306,7 +289,7 @@
       "data"
     ],
     "first_seen": "2026-08-14T22:01:03Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -324,7 +307,7 @@
       "data"
     ],
     "first_seen": "2026-09-11T00:21:59Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -341,7 +324,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -359,7 +342,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -377,7 +360,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -394,7 +377,7 @@
       "data"
     ],
     "first_seen": "2026-09-15T14:57:12Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -412,7 +395,7 @@
       "data"
     ],
     "first_seen": "2026-09-15T18:39:09Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -429,7 +412,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -446,7 +429,7 @@
       "data"
     ],
     "first_seen": "2026-09-07T18:22:04Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -464,7 +447,7 @@
       "data"
     ],
     "first_seen": "2026-08-27T20:44:26Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -481,7 +464,7 @@
       "machine learning"
     ],
     "first_seen": "2026-09-17T15:01:38Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -499,7 +482,7 @@
       "data"
     ],
     "first_seen": "2026-09-17T15:01:38Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -517,7 +500,7 @@
       "data"
     ],
     "first_seen": "2026-09-17T18:58:01Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -535,7 +518,7 @@
       "data"
     ],
     "first_seen": "2026-09-17T18:58:01Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -553,7 +536,7 @@
       "data"
     ],
     "first_seen": "2026-09-11T21:54:01Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -571,7 +554,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -588,7 +571,7 @@
       "data"
     ],
     "first_seen": "2026-09-21T14:11:08Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -605,7 +588,7 @@
       "analyst"
     ],
     "first_seen": "2026-09-22T01:12:37Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -623,7 +606,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -641,7 +624,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -658,7 +641,7 @@
       "data"
     ],
     "first_seen": "2026-09-22T15:43:54Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -676,7 +659,7 @@
       "data"
     ],
     "first_seen": "2026-09-22T15:43:54Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -693,7 +676,7 @@
       "analyst"
     ],
     "first_seen": "2026-09-22T22:10:48Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -711,7 +694,7 @@
       "data"
     ],
     "first_seen": "2026-09-11T21:54:01Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -729,7 +712,7 @@
       "data"
     ],
     "first_seen": "2026-09-22T15:43:54Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -747,7 +730,7 @@
       "data"
     ],
     "first_seen": "2026-08-21T19:42:21Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -764,7 +747,7 @@
       "ai engineer"
     ],
     "first_seen": "2026-09-23T14:27:36Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -782,7 +765,7 @@
       "data"
     ],
     "first_seen": "2026-09-21T22:43:17Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -800,7 +783,7 @@
       "data"
     ],
     "first_seen": "2026-09-04T21:50:57Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -818,7 +801,7 @@
       "data"
     ],
     "first_seen": "2026-09-24T07:44:31Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -836,7 +819,7 @@
       "data"
     ],
     "first_seen": "2026-09-05T01:20:50Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -854,7 +837,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -872,7 +855,7 @@
       "data"
     ],
     "first_seen": "2026-09-22T22:10:48Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -889,7 +872,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T12:05:25Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -906,7 +889,7 @@
       "data"
     ],
     "first_seen": "2026-09-24T20:45:25Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -923,7 +906,7 @@
       "data"
     ],
     "first_seen": "2026-09-24T20:45:25Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -941,7 +924,7 @@
       "data"
     ],
     "first_seen": "2026-08-20T17:16:45Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -958,7 +941,7 @@
       "data"
     ],
     "first_seen": "2026-08-20T17:16:45Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -975,7 +958,7 @@
       "data"
     ],
     "first_seen": "2026-08-20T17:16:45Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -993,7 +976,7 @@
       "data"
     ],
     "first_seen": "2026-08-20T17:16:45Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1010,7 +993,7 @@
       "analyst"
     ],
     "first_seen": "2026-09-18T21:08:05Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1028,7 +1011,7 @@
       "data"
     ],
     "first_seen": "2026-09-22T15:43:54Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1046,7 +1029,7 @@
       "data"
     ],
     "first_seen": "2026-09-22T15:43:54Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1064,7 +1047,7 @@
       "data"
     ],
     "first_seen": "2026-09-22T19:15:03Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1081,7 +1064,7 @@
       "analyst"
     ],
     "first_seen": "2026-09-25T06:40:13Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1098,7 +1081,7 @@
       "ai engineer"
     ],
     "first_seen": "2026-09-25T06:40:13Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1115,7 +1098,7 @@
       "data"
     ],
     "first_seen": "2026-09-25T06:40:13Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1133,7 +1116,7 @@
       "data"
     ],
     "first_seen": "2026-09-23T14:27:36Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1151,7 +1134,7 @@
       "data"
     ],
     "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
     "is_new": false
   },
   {
@@ -1169,6 +1152,300 @@
       "data"
     ],
     "first_seen": "2026-08-19T13:52:10Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Intel Careers||JR0285691||https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Payroll-Business-Analyst---Intel-Contract-Employee_JR0285691",
+    "title": "Payroll Business Analyst - Intel Contract Employee",
+    "company": "Intel Careers",
+    "location": "2 Locations",
+    "department": "",
+    "source_name": "Intel Careers",
+    "source_type": "workday",
+    "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Payroll-Business-Analyst---Intel-Contract-Employee_JR0285691",
+    "external_id": "JR0285691",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-09T18:31:48Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Santander Careers||Req1614542||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Redhill/SCUK-Risk-Analyst_Req1614542-1",
+    "title": "SCUK Risk Analyst",
+    "company": "Santander Careers",
+    "location": "Redhill",
+    "department": "",
+    "source_name": "Santander Careers",
+    "source_type": "workday",
+    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Redhill/SCUK-Risk-Analyst_Req1614542-1",
+    "external_id": "Req1614542",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-25T17:13:20Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Pune, Pdc2C||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune-PDC2C/S-C-Global-Network---AI---Hi-Tech---Data-Science-Consultant_R00218611",
+    "title": "S&C Global Network - AI - Hi Tech - Data Science Consultant",
+    "company": "Accenture Careers Alt",
+    "location": "R00218611 | Pune, Pdc2C",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune-PDC2C/S-C-Global-Network---AI---Hi-Tech---Data-Science-Consultant_R00218611",
+    "external_id": "Pune, Pdc2C",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-09-25T17:13:20Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00100-0013514074-usen||https://www.roberthalf.com/us/en/job/huntsville-alabama/treasury-analyst/00100-0013514074-usen",
+    "title": "Treasury Analyst",
+    "company": "Robert Half",
+    "location": "Huntsville Alabama",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/huntsville-alabama/treasury-analyst/00100-0013514074-usen",
+    "external_id": "00100-0013514074-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-25T17:13:20Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||149869||https://www.governmentjobs.com/jobs/149869-1/fire-data-analyst-and-technology-specialist",
+    "title": "Fire Data Analyst and Technology Specialist",
+    "company": "GovernmentJobs US",
+    "location": "St. Cloud, MN",
+    "department": "City of St. Cloud",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/149869-1/fire-data-analyst-and-technology-specialist",
+    "external_id": "149869",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-17T15:01:38Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5388193||https://www.governmentjobs.com/jobs/5388193-0/institutional-research-strategic-data-analyst",
+    "title": "Institutional Research Strategic Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Zanesville Campus, OH",
+    "department": "Zane State College",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5388193-0/institutional-research-strategic-data-analyst",
+    "external_id": "5388193",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5487210||https://www.governmentjobs.com/jobs/5487210-0/public-defense-research-and-data-analyst",
+    "title": "Public Defense Research and Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Seattle, WA",
+    "department": "King County",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5487210-0/public-defense-research-and-data-analyst",
+    "external_id": "5487210",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-18T01:34:53Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5374468||https://www.governmentjobs.com/jobs/5374468-0/fire-data-analyst",
+    "title": "Fire Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "624 South Chester, AR",
+    "department": "City of Little Rock",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5374468-0/fire-data-analyst",
+    "external_id": "5374468",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-07T07:33:17Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "governmentjobs||GovernmentJobs US||5495469||https://www.governmentjobs.com/jobs/5495469-0/data-analyst",
+    "title": "Data Analyst",
+    "company": "GovernmentJobs US",
+    "location": "Houston, TX",
+    "department": "Harris County",
+    "source_name": "GovernmentJobs US",
+    "source_type": "governmentjobs",
+    "url": "https://www.governmentjobs.com/jobs/5495469-0/data-analyst",
+    "external_id": "5495469",
+    "matched_keywords": [
+      "analyst",
+      "data"
+    ],
+    "first_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||01360-0013514345-usen||https://www.roberthalf.com/us/en/job/bensenville-illinois/accounts-payable-analyst/01360-0013514345-usen",
+    "title": "Accounts Payable Analyst",
+    "company": "Robert Half",
+    "location": "Bensenville Illinois",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/bensenville-illinois/accounts-payable-analyst/01360-0013514345-usen",
+    "external_id": "01360-0013514345-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00340-9504401716-usen||https://www.roberthalf.com/us/en/job/oakland-california/data-entry-specialist/00340-9504401716-usen",
+    "title": "Data Entry Specialist",
+    "company": "Robert Half",
+    "location": "Oakland California",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/oakland-california/data-entry-specialist/00340-9504401716-usen",
+    "external_id": "00340-9504401716-usen",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-09-25T20:30:41Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||Accenture Careers Alt||Helsinki||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Helsinki/Banking-data-consultant_R00309693",
+    "title": "Banking Data Consultant",
+    "company": "Accenture Careers Alt",
+    "location": "R00309693 | Helsinki",
+    "department": "",
+    "source_name": "Accenture Careers Alt",
+    "source_type": "workday",
+    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Helsinki/Banking-data-consultant_R00309693",
+    "external_id": "Helsinki",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-08-10T10:38:21Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00700-0013508873-usen||https://www.roberthalf.com/us/en/job/lee-massachusetts/help-desk-analyst-ii/00700-0013508873-usen",
+    "title": "Help Desk Analyst II",
+    "company": "Robert Half",
+    "location": "Lee Massachusetts",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/lee-massachusetts/help-desk-analyst-ii/00700-0013508873-usen",
+    "external_id": "00700-0013508873-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-22T15:43:54Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||00290-0013509019-usen||https://www.roberthalf.com/us/en/job/burbank-california/database-developer/00290-0013509019-usen",
+    "title": "Database Developer",
+    "company": "Robert Half",
+    "location": "Burbank California",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/burbank-california/database-developer/00290-0013509019-usen",
+    "external_id": "00290-0013509019-usen",
+    "matched_keywords": [
+      "data"
+    ],
+    "first_seen": "2026-09-23T18:30:23Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||02720-0013391240-usen||https://www.roberthalf.com/us/en/job/staten-island-new-york/help-deskdesktop-support-analyst/02720-0013391240-usen",
+    "title": "Help Desk/Desktop Support Analyst",
+    "company": "Robert Half",
+    "location": "Staten Island New York",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/staten-island-new-york/help-deskdesktop-support-analyst/02720-0013391240-usen",
+    "external_id": "02720-0013391240-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-25T17:13:20Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "roberthalf||Robert Half||03930-0013511123-usen||https://www.roberthalf.com/us/en/job/brentwood-illinois/supply-chain-analyst/03930-0013511123-usen",
+    "title": "Supply Chain Analyst",
+    "company": "Robert Half",
+    "location": "Brentwood Illinois",
+    "department": "",
+    "source_name": "Robert Half",
+    "source_type": "roberthalf",
+    "url": "https://www.roberthalf.com/us/en/job/brentwood-illinois/supply-chain-analyst/03930-0013511123-usen",
+    "external_id": "03930-0013511123-usen",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-09-23T23:57:01Z",
+    "last_seen": "2026-09-25T23:25:30Z",
+    "is_new": false
+  },
+  {
+    "key": "workday||SCAN Careers||JR2979||https://scanhealthplan.wd108.myworkdayjobs.com/scancareers/job/Long-Beach-CA/Actuarial-Analyst---Health-Plan_JR2979",
+    "title": "Actuarial Analyst - Health Plan",
+    "company": "SCAN Careers",
+    "location": "2 Locations",
+    "department": "",
+    "source_name": "SCAN Careers",
+    "source_type": "workday",
+    "url": "https://scanhealthplan.wd108.myworkdayjobs.com/scancareers/job/Long-Beach-CA/Actuarial-Analyst---Health-Plan_JR2979",
+    "external_id": "JR2979",
+    "matched_keywords": [
+      "analyst"
+    ],
+    "first_seen": "2026-08-07T01:13:02Z",
     "last_seen": "2026-09-25T20:30:41Z",
     "is_new": false
   },
@@ -1331,57 +1608,6 @@
     "is_new": false
   },
   {
-    "key": "workday||Intel Careers||JR0285691||https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Payroll-Business-Analyst---Intel-Contract-Employee_JR0285691",
-    "title": "Payroll Business Analyst - Intel Contract Employee",
-    "company": "Intel Careers",
-    "location": "2 Locations",
-    "department": "",
-    "source_name": "Intel Careers",
-    "source_type": "workday",
-    "url": "https://intel.wd1.myworkdayjobs.com/External/job/US-California-Folsom/Payroll-Business-Analyst---Intel-Contract-Employee_JR0285691",
-    "external_id": "JR0285691",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-09-09T18:31:48Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Santander Careers||Req1614542||https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Redhill/SCUK-Risk-Analyst_Req1614542-1",
-    "title": "SCUK Risk Analyst",
-    "company": "Santander Careers",
-    "location": "Redhill",
-    "department": "",
-    "source_name": "Santander Careers",
-    "source_type": "workday",
-    "url": "https://santander.wd3.myworkdayjobs.com/SantanderCareers/job/Redhill/SCUK-Risk-Analyst_Req1614542-1",
-    "external_id": "Req1614542",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-09-25T17:13:20Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
-    "key": "workday||Accenture Careers Alt||Pune, Pdc2C||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune-PDC2C/S-C-Global-Network---AI---Hi-Tech---Data-Science-Consultant_R00218611",
-    "title": "S&C Global Network - AI - Hi Tech - Data Science Consultant",
-    "company": "Accenture Careers Alt",
-    "location": "R00218611 | Pune, Pdc2C",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Pune-PDC2C/S-C-Global-Network---AI---Hi-Tech---Data-Science-Consultant_R00218611",
-    "external_id": "Pune, Pdc2C",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-09-25T17:13:20Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
     "key": "governmentjobs||GovernmentJobs US||5492538||https://www.governmentjobs.com/jobs/5492538-0/data-engineer",
     "title": "Data Engineer",
     "company": "GovernmentJobs US",
@@ -1397,198 +1623,6 @@
     ],
     "first_seen": "2026-09-25T17:13:20Z",
     "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||00100-0013514074-usen||https://www.roberthalf.com/us/en/job/huntsville-alabama/treasury-analyst/00100-0013514074-usen",
-    "title": "Treasury Analyst",
-    "company": "Robert Half",
-    "location": "Huntsville Alabama",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/huntsville-alabama/treasury-analyst/00100-0013514074-usen",
-    "external_id": "00100-0013514074-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-09-25T17:13:20Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||149869||https://www.governmentjobs.com/jobs/149869-1/fire-data-analyst-and-technology-specialist",
-    "title": "Fire Data Analyst and Technology Specialist",
-    "company": "GovernmentJobs US",
-    "location": "St. Cloud, MN",
-    "department": "City of St. Cloud",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/149869-1/fire-data-analyst-and-technology-specialist",
-    "external_id": "149869",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-17T15:01:38Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5388193||https://www.governmentjobs.com/jobs/5388193-0/institutional-research-strategic-data-analyst",
-    "title": "Institutional Research Strategic Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Zanesville Campus, OH",
-    "department": "Zane State College",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5388193-0/institutional-research-strategic-data-analyst",
-    "external_id": "5388193",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-08-07T01:13:02Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5487210||https://www.governmentjobs.com/jobs/5487210-0/public-defense-research-and-data-analyst",
-    "title": "Public Defense Research and Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Seattle, WA",
-    "department": "King County",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5487210-0/public-defense-research-and-data-analyst",
-    "external_id": "5487210",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-18T01:34:53Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5374468||https://www.governmentjobs.com/jobs/5374468-0/fire-data-analyst",
-    "title": "Fire Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "624 South Chester, AR",
-    "department": "City of Little Rock",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5374468-0/fire-data-analyst",
-    "external_id": "5374468",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-07T07:33:17Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": false
-  },
-  {
-    "key": "governmentjobs||GovernmentJobs US||5495469||https://www.governmentjobs.com/jobs/5495469-0/data-analyst",
-    "title": "Data Analyst",
-    "company": "GovernmentJobs US",
-    "location": "Houston, TX",
-    "department": "Harris County",
-    "source_name": "GovernmentJobs US",
-    "source_type": "governmentjobs",
-    "url": "https://www.governmentjobs.com/jobs/5495469-0/data-analyst",
-    "external_id": "5495469",
-    "matched_keywords": [
-      "analyst",
-      "data"
-    ],
-    "first_seen": "2026-09-25T20:30:41Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": true
-  },
-  {
-    "key": "roberthalf||Robert Half||01360-0013514345-usen||https://www.roberthalf.com/us/en/job/bensenville-illinois/accounts-payable-analyst/01360-0013514345-usen",
-    "title": "Accounts Payable Analyst",
-    "company": "Robert Half",
-    "location": "Bensenville Illinois",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/bensenville-illinois/accounts-payable-analyst/01360-0013514345-usen",
-    "external_id": "01360-0013514345-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-09-25T20:30:41Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": true
-  },
-  {
-    "key": "roberthalf||Robert Half||00340-9504401716-usen||https://www.roberthalf.com/us/en/job/oakland-california/data-entry-specialist/00340-9504401716-usen",
-    "title": "Data Entry Specialist",
-    "company": "Robert Half",
-    "location": "Oakland California",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/oakland-california/data-entry-specialist/00340-9504401716-usen",
-    "external_id": "00340-9504401716-usen",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-09-25T20:30:41Z",
-    "last_seen": "2026-09-25T20:30:41Z",
-    "is_new": true
-  },
-  {
-    "key": "workday||Accenture Careers Alt||Helsinki||https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Helsinki/Banking-data-consultant_R00309693",
-    "title": "Banking Data Consultant",
-    "company": "Accenture Careers Alt",
-    "location": "R00309693 | Helsinki",
-    "department": "",
-    "source_name": "Accenture Careers Alt",
-    "source_type": "workday",
-    "url": "https://accenture.wd103.myworkdayjobs.com/AccentureCareers/job/Helsinki/Banking-data-consultant_R00309693",
-    "external_id": "Helsinki",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-08-10T10:38:21Z",
-    "last_seen": "2026-09-25T17:13:20Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||00700-0013508873-usen||https://www.roberthalf.com/us/en/job/lee-massachusetts/help-desk-analyst-ii/00700-0013508873-usen",
-    "title": "Help Desk Analyst II",
-    "company": "Robert Half",
-    "location": "Lee Massachusetts",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/lee-massachusetts/help-desk-analyst-ii/00700-0013508873-usen",
-    "external_id": "00700-0013508873-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-09-22T15:43:54Z",
-    "last_seen": "2026-09-25T17:13:20Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||00290-0013509019-usen||https://www.roberthalf.com/us/en/job/burbank-california/database-developer/00290-0013509019-usen",
-    "title": "Database Developer",
-    "company": "Robert Half",
-    "location": "Burbank California",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/burbank-california/database-developer/00290-0013509019-usen",
-    "external_id": "00290-0013509019-usen",
-    "matched_keywords": [
-      "data"
-    ],
-    "first_seen": "2026-09-23T18:30:23Z",
-    "last_seen": "2026-09-25T17:13:20Z",
     "is_new": false
   },
   {
@@ -1738,23 +1772,6 @@
     "source_type": "roberthalf",
     "url": "https://www.roberthalf.com/us/en/job/kingsport-tennessee/financial-analyst/03920-0013503870-usen",
     "external_id": "03920-0013503870-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-09-25T17:13:20Z",
-    "last_seen": "2026-09-25T17:13:20Z",
-    "is_new": true
-  },
-  {
-    "key": "roberthalf||Robert Half||02720-0013391240-usen||https://www.roberthalf.com/us/en/job/staten-island-new-york/help-deskdesktop-support-analyst/02720-0013391240-usen",
-    "title": "Help Desk/Desktop Support Analyst",
-    "company": "Robert Half",
-    "location": "Staten Island New York",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/staten-island-new-york/help-deskdesktop-support-analyst/02720-0013391240-usen",
-    "external_id": "02720-0013391240-usen",
     "matched_keywords": [
       "analyst"
     ],
@@ -2033,23 +2050,6 @@
       "analyst"
     ],
     "first_seen": "2026-09-24T20:45:25Z",
-    "last_seen": "2026-09-25T01:44:45Z",
-    "is_new": false
-  },
-  {
-    "key": "roberthalf||Robert Half||03930-0013511123-usen||https://www.roberthalf.com/us/en/job/brentwood-illinois/supply-chain-analyst/03930-0013511123-usen",
-    "title": "Supply Chain Analyst",
-    "company": "Robert Half",
-    "location": "Brentwood Illinois",
-    "department": "",
-    "source_name": "Robert Half",
-    "source_type": "roberthalf",
-    "url": "https://www.roberthalf.com/us/en/job/brentwood-illinois/supply-chain-analyst/03930-0013511123-usen",
-    "external_id": "03930-0013511123-usen",
-    "matched_keywords": [
-      "analyst"
-    ],
-    "first_seen": "2026-09-23T23:57:01Z",
     "last_seen": "2026-09-25T01:44:45Z",
     "is_new": false
   },
